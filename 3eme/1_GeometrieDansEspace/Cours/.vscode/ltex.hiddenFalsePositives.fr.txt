@@ -1,0 +1,4 @@
+{"rule":"FR_SPELLING_RULE","sentence":"^\\QUnités : m2, cm2, km2 …\\E$"}
+{"rule":"FR_SPELLING_RULE","sentence":"^\\QUnités : m3, cm3, L …\\E$"}
+{"rule":"FR_SPELLING_RULE","sentence":"^\\QPyramide Pour une pyramide, le volume se calcule avec la formule : \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\QAire de la base\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"FR_SPELLING_RULE","sentence":"^\\QPrisme Pour un prisme, le volume se calcule avec la formule : Aire de la base\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}

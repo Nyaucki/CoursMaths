@@ -1,0 +1,121 @@
+\dfnt{Symétrie axiale}
+{Deux figures sont symétriques par rapport à une droite si elles se supperposent en pliant par rapport à une droite (appelé \textbf{l'axe de symétrie}).\\
+Dit autrement, l'axe de symétrie est la médiatrice du segment formé par un point et son image.}
+
+\rmq{On rappelle que la médiatrice d'un segment le coupe en son milieu en formant un angle droit.}
+
+\exmpl{
+    \begin{figure} [H]
+        \centering
+        \begin{tikzpicture}
+            \draw (0,0)--(4,4) node [right]{$(d)$};
+            \draw [dotted] (0,3) node [above] {A} -- (3,0) node [right] {A'};
+            \draw (1.1,1.5)--(1.3,1.3);
+            \draw (1.3,1.7)--(1.1,1.5) ;
+            \draw (0,3) -- (0,2) --(-1,2) -- (2,5)--(1.5,2.5)--(0,3);
+            \draw [dashed] (3,0) -- (2,0) --(2,-1) -- (5,2)--(2.5,1.5)--(3,0);
+        \end{tikzpicture}
+    \end{figure}
+}
+
+\dfnt{Symétrie centrale}
+{Deux figures sont symétriques par rapport à un point si elles se supperposent en faisant un demi tour autour de ce point (appelé \textbf{centre de symétrie}).
+}
+
+\rmq{Si $A'$ est l'image de $A$ et $O$ le centre de symétrie, alors $OA=OA'$ et $O,~A$ et $A'$ sont alignés.}
+
+\exmpl{
+    \begin{figure} [H]
+        \centering
+        \begin{tikzpicture}
+            \draw (-1.5,1.5) -- (-1.5,0.5) --(-2.5,0.5) -- (0.5,3.5)--(0,1)--(-1.5,1.5);
+            \draw [dashed,rotate=180] (-1.5,1.5) --(-1.5,0.5) --(-2.5,0.5) -- (0.5,3.5)--(0,1)--(-1.5,1.5);
+            \node (0,0) [right]{O};
+            \draw [dotted] (-1.5,1.5) -- (0,0) ;
+            \draw [dotted,rotate=180] (-1.5,1.5) -- (0,0) ;
+        \end{tikzpicture}
+    \end{figure}
+}
+
+\dfnt{Translation}
+{Un déplacement par translation est un déplacement où l'ont fait glisser la figure, sans la faire pivoter.
+}
+
+
+\exmpl{
+    \begin{figure} [H]
+        \centering
+        \begin{tikzpicture}
+            \draw (-1.5,1.5) -- (-1.5,0.5) --(-2.5,0.5) -- (0.5,3.5)--(0,1)--(-1.5,1.5);
+            \draw [dashed,shift={(5,3)}] (-1.5,1.5) --(-1.5,0.5) --(-2.5,0.5) -- (0.5,3.5)--(0,1)--(-1.5,1.5);
+        \end{tikzpicture}
+    \end{figure}
+}
+
+\dfnt{Rotation}
+{Un déplacement par rotation est un déplacement où l'ont fait tourner la figure autour d'un point \textbf{appelé centre de la rotation}.\\
+Un point, le centre de la rotation et son image forment un angle appelé \textbf{angle de la rotation.}
+}
+
+\rmq{L'angle de la rotation est le même pour tous les points de la figure.}
+
+\exmpl{
+    \begin{figure} [H]
+        \centering
+        \begin{tikzpicture}
+            \draw (-1.5,1.5) -- (-1.5,0.5) --(-2.5,0.5) -- (0.5,3.5)--(0,1)--(-1.5,1.5);
+            \draw [dashed,rotate=143] (-1.5,1.5) --(-1.5,0.5) --(-2.5,0.5) -- (0.5,3.5)--(0,1)--(-1.5,1.5);
+            \node (0,0) [right]{O};
+            \draw [dotted] (-1.5,1.5) -- (0,0) ;
+            \draw [dotted,rotate=143] (-1.5,1.5) -- (0,0) ;
+        \end{tikzpicture}
+    \end{figure}
+}
+
+\dfnt{Homotétie}
+{Un homotétie de centre $O$ et de rapport $k$ transforme tous les points $M$ de la figure en $M'$ de sorte que :
+\begin{itemize}
+    \item $O,~M$ et $M'$ soient alignés.
+    \item $OM'=k\times OM$
+\end{itemize}
+}
+
+\rmq{Si $k$ est négatif, alors la figure est retournée, comme pour une symétrie centrale}
+
+\rmq{Une symétrie centrale, une roation d'angle 180° et une homotétie de rapport -1 sont équivalentes.}
+
+\exmpl{
+    \begin{minipage}[t]{0.45\textwidth}
+        \begin{figure} [H]
+            \centering
+            \begin{tikzpicture}
+                \tikzset{
+                    homothety at/.style args={#1 scaled by #2}{shift={($(#1)!#2!(0,0)$)},scale=#2},}
+                \def\mypath{(-1.5,1.5) -- (-1.5,0.5) --(-2.5,0.5) -- (0.5,3.5)--(0,1)--(-1.5,1.5)};
+                \draw\mypath ;
+                \fill (0,0) coordinate (c) circle(2pt) node [above] {$O$};
+                \begin{scope}[homothety at=c scaled by 2]
+                    \draw[dashed] \mypath;
+                \end{scope}
+            \end{tikzpicture}
+            \caption*{Homotétie de rapport $2$}
+        \end{figure}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.45\textwidth}
+        \begin{figure} [H]
+            \centering
+            \begin{tikzpicture}
+                \tikzset{
+                    homothety at/.style args={#1 scaled by #2}{shift={($(#1)!#2!(0,0)$)},scale=#2},}
+                \def\mypath{(-1.5,1.5) -- (-1.5,0.5) --(-2.5,0.5) -- (0.5,3.5)--(0,1)--(-1.5,1.5)};
+                \draw\mypath ;
+                \fill (0,0) coordinate (c) circle(2pt) node [above] {$O$};
+                \begin{scope}[homothety at=c scaled by -0.6]
+                    \draw[dashed] \mypath;
+                \end{scope}
+            \end{tikzpicture}
+            \caption*{Homotétie de rapport -0,6}
+        \end{figure}
+    \end{minipage}
+}
