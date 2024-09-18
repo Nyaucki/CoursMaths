@@ -1,0 +1,42 @@
+------------------- Ajout d'élèves -------------------
+
+En début d'année, mettre la liste des élèves d'une classe dans Liste_Eleves.csv, puis utiliser AjouteurAutoEleves.py pour les rentrer dans la base de donnée.
+
+------------------- Ajout de DS -------------------
+
+Lors de la création d'un DS, remplir (avec open office calc) Questions.ods. Puis enregistrer au format csv sous le nom Liste_Questions.csv. 
+Pour les éléments en gris, ne remplir que la première ligne.
+
+Après quoi, utiliser AjouteurAutoQuestions.py pour l'ajouter à la base de donnée. Attention, cela créera automatiquement le fichier Liste_Questions_pure.csv qui sera utiliser dans la correction.
+
+------------------- Correction d'un DS -------------------
+
+Utiliser le script CreerCSVCorrection.py utilisera le fichier Liste_Questions_pure.csv pour créer le csv Liste_Reponses.csv qui doit être rempli durant la correction (en laissant la colonne "Note" vide).
+
+Après quoi, utiliser Correction.py pour rentrer les réponses dans la base de donnée
+
+
+------------------- Vider une table -------------------
+
+Pour vider une table (ici Questions), il faut utiliser le code sql
+DELETE FROM "Questions"
+Rajouter la commande WHERE pour supprimer uniquement selon une condition (https://www.sqlitetutorial.net/sqlite-delete/)
+
+
+------------------- Rajouter une colonne à la table Questions -------------------
+
+Si on rajoute une colonne à la table question, il faut corriger les points suivants :
+
+La colonne correspondante doit être ajouté dans Questions.ods
+
+Dans le code AjouteurAutoQuestions.py, il faut aussi ajouter la colonne correspondante ainsi que le ? À la ligne 15, avant "annee" pour que ça marche encore.
+
+Effectuer les éventuelles modifications dans Corrections.py
+
+------------------- Rajouter une colonne à la table Reponses -------------------
+
+Si on rajoute une colonne à la table question, il faut corriger les points suivants :
+
+Dans le code Correction.py, il faut ajouter la colonne correspondante ainsi que le ? À la ligne 5.
+
+Il convient de modifier le calcul de note correspondant.
