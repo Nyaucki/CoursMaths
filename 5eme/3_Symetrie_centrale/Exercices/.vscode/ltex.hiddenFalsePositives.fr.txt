@@ -1,0 +1,1 @@
+{"rule":"FR_SPELLING_RULE","sentence":"^\\QChercher Exceptions1 Si \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q est une droite et \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q son image par une symétrie axiale, à quelle condition est-ce que \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q et \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q sont parallèles ?\\E$"}
