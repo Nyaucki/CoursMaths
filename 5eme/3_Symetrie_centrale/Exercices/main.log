@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.6)  17 SEP 2024 07:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.6)  19 SEP 2024 07:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/nyaucki/Documents/Prof/DocumentsDeCours/5eme/3_Symetrie_centrale/Exercices/main.tex
-(/home/nyaucki/Documents/Prof/DocumentsDeCours/5eme/3_Symetrie_centrale/Exercices/main.tex
+**/home/nyaucki/Documents/Prof/CoursMaths/5eme/3_Symetrie_centrale/Exercices/main.tex
+(/home/nyaucki/Documents/Prof/CoursMaths/5eme/3_Symetrie_centrale/Exercices/main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -816,7 +816,7 @@ Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is usel
 \c@excntr=\count366
 \c@excntrb=\count367
 \c@exrcntr=\count368
-(./main.aux (./Mode_Impression/Corrections.aux))
+(./main.aux (./Mode_Impression/Eleves.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
@@ -907,42 +907,47 @@ Package grfext Info: Graphics extension search list:
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) (./Switches.tex
-\openout2 = `Mode_Impression/Corrections.aux'.
+\openout2 = `Mode_Impression/Eleves.aux'.
 
- (./Mode_Impression/Corrections.tex (./Representer/Corr_TracerQuadrillage.tex
-LaTeX Font Info:    Trying to load font information for U+esvect on input line 11.
+ (./Mode_Impression/Eleves.tex (./PlanDeTravail.tex
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 20.
  (/usr/share/texlive/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 32--65
+[][]  [] 
+ []
+
+
+Underfull \hbox (badness 7012) in paragraph at lines 106--107
+[]\T1/cmr/bx/n/12 A \T1/cmr/m/it/12 (Au se-cours !) \T1/cmr/m/n/12 J'ai be-soin que
+ []
+
 ) [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./Representer/Corr_TracerSansQuadrillage.tex [2] [3]
-Overfull \hbox (26.00893pt too wide) in paragraph at lines 195--196
- [][] 
- []
-
-) (./Raisonner/Corr_ChercheCentre.tex [4] [5]) (./Plus_dur/Corr_Dur.tex)) [6]) (./main.aux (./Mode_Impression/Corrections.aux)) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Representer/Exo_TracerQuadrillage.tex [2]) (./Representer/Exo_TracerSansQuadrillage.tex [3] [4]) (./Raisonner/Exo_ChercheCentre.tex [5] [6]) (./Plus_dur/Exo_Dur.tex [7])) [8]) (./main.aux (./Mode_Impression/Eleves.aux)) ) 
 Here is how much of TeX's memory you used:
- 27108 strings out of 478287
- 574946 string characters out of 5849290
- 977745 words of memory out of 5000000
- 44653 multiletter control sequences out of 15000+600000
- 476383 words of font info for 52 fonts, out of 8000000 for 9000
+ 27147 strings out of 478287
+ 575425 string characters out of 5849290
+ 999763 words of memory out of 5000000
+ 44687 multiletter control sequences out of 15000+600000
+ 477928 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,104p,599b,830s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (6 pages, 77244 bytes).
+ 99i,13n,104p,593b,1073s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on main.pdf (8 pages, 141224 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
