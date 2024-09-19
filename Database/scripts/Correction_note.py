@@ -39,9 +39,7 @@ if __name__ == '__main__':
     devoir = input("Quelle est le numero du devoir :")
     add_column(devoir)
     add_notes(classe,devoir)
+    conn.commit()#commit the change
     extract_notes(classe,devoir)
 
-    
-    #Commit the change
-    conn.commit()
     conn.close()

@@ -2,11 +2,11 @@ import csv
 import sqlite3
 
 conn = sqlite3.connect('/home/nyaucki/Documents/Prof/CoursMaths/Database/my.db')
-cursor = conn.cursor()
+read = conn.cursor()
 
 def extract_notes(classe,devoir):
     col_devoir='Devoir_'+devoir
-    notes=cursor.execute('''SELECT nom , prenom , (%s) FROM Eleve  WHERE classe = (?) '''%(col_devoir), (classe,))
+    notes=read.execute('''SELECT nom , prenom , (%s) FROM Eleve  WHERE classe = (?) '''%(col_devoir), (classe,))
     with open('/home/nyaucki/Documents/Prof/CoursMaths/Database/ressources/Liste_Notes.csv', 'w') as csvFile:
         writer = csv.writer(csvFile)
         for eleves in notes :
