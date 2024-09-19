@@ -2,8 +2,10 @@ import sqlite3
 from datetime import datetime
 import csv
 
+#A faire  
+
 def add_reponse(conn, reponse):#fonction qui ajoute des réponses
-    sql = ''' INSERT INTO Reponses(devoir,exercice,question,niveau,nom,prenom,classe,annee,non_fait,hors_sujet,innatention,cours_non_su,fraction,pas_une_preuve,signes,priorite,calcul,pas_de_detail,note)
+    sql = ''' INSERT OR IGNORE INTO Reponses(devoir,exercice,question,niveau,nom,prenom,classe,annee,non_fait,hors_sujet,innatention,cours_non_su,fraction,pas_une_preuve,signes,priorite,calcul,pas_de_detail,note)
               VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) '''
     cur = conn.cursor()
     cur.execute(sql, reponse)

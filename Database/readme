@@ -13,7 +13,11 @@ Après quoi, utiliser AjouteurAutoQuestions.py pour l'ajouter à la base de donn
 
 Utiliser le script CreerCSVCorrection.py utilisera le fichier Liste_Questions_pure.csv pour créer le csv Liste_Reponses.csv qui doit être rempli durant la correction (en laissant la colonne "Note" vide).
 
-Après quoi, utiliser Correction.py pour rentrer les réponses dans la base de donnée
+Après quoi, utiliser Correction_insert.py pour rentrer les réponses dans la base de donnée.
+
+Correction_note.py permet de calculer la note du devoir et de la rentrer dans la base de donnée. 
+
+Extraire_note.py permet d'obtenir le csv avec les notes à copier-coller directement dans pronote.
 
 
 ------------------- Vider une table -------------------

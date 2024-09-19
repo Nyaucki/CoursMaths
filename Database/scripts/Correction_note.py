@@ -1,4 +1,6 @@
 import sqlite3
+import csv
+from Extraire_note import *
 
 conn = sqlite3.connect('/home/nyaucki/Documents/Prof/CoursMaths/Database/my.db')
 cursor = conn.cursor()
@@ -37,6 +39,8 @@ if __name__ == '__main__':
     devoir = input("Quelle est le numero du devoir :")
     add_column(devoir)
     add_notes(classe,devoir)
+    extract_notes(classe,devoir)
+
     
     #Commit the change
     conn.commit()
