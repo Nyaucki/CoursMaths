@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.6)  2 SEP 2024 13:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.6)  19 SEP 2024 14:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/nyaucki/Documents/Prof/DocumentsDeCours/3eme/0_Transformations_du_plan/Activite/TranslationInky/main.tex
-(/home/nyaucki/Documents/Prof/DocumentsDeCours/3eme/0_Transformations_du_plan/Activite/TranslationInky/main.tex
+**/home/nyaucki/Documents/Prof/CoursMaths/5eme/3_Symetrie_centrale/Activite/Symetrie_Axiale/main.tex
+(/home/nyaucki/Documents/Prof/CoursMaths/5eme/3_Symetrie_centrale/Activite/Symetrie_Axiale/main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -895,114 +895,35 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) (./Switches.tex
 \c@repetition=\count376
 ) (./Texte.tex
-<Images/TRnaslations.png, id=4, 736.25063pt x 648.17157pt>
-File: Images/TRnaslations.png Graphic file (type png)
-<use Images/TRnaslations.png>
-Package pdftex.def Info: Images/TRnaslations.png  used on input line 6.
-(pdftex.def)             Requested size: 358.50317pt x 315.6189pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
-[]\T1/cmr/m/n/12 Inky le fan-tôme ne
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
-\T1/cmr/m/n/12 se dé-place que par
- []
-
-
-Underfull \hbox (badness 4120) in paragraph at lines 16--18
-\T1/cmr/m/n/12 d'Inky après qu'il ait
- []
-
-
-Underfull \hbox (badness 2970) in paragraph at lines 16--18
-\T1/cmr/m/n/12 ef-fec-tuer la trans-la-tion
- []
-
-
-Underfull \hbox (badness 4120) in paragraph at lines 20--22
-\T1/cmr/m/n/12 d'Inky après qu'il ait
- []
-
-
-Underfull \hbox (badness 2970) in paragraph at lines 20--22
-\T1/cmr/m/n/12 ef-fec-tuer la trans-la-tion
- []
-
-
-Underfull \hbox (badness 4120) in paragraph at lines 23--24
-\T1/cmr/m/n/12 d'Inky après qu'il ait
- []
-
-
-Underfull \hbox (badness 2970) in paragraph at lines 23--24
-\T1/cmr/m/n/12 ef-fec-tuer la trans-la-tion
- []
-
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 3.
+ (/usr/share/texlive/texmf-dist/tex/latex/esvect/uesvect.fd
+File: uesvect.fd 
 )
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \c@int=\count377
- (./Texte.tex
-File: Images/TRnaslations.png Graphic file (type png)
-<use Images/TRnaslations.png>
-Package pdftex.def Info: Images/TRnaslations.png  used on input line 6.
-(pdftex.def)             Requested size: 358.50317pt x 315.6189pt.
+ [1
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
-[]\T1/cmr/m/n/12 Inky le fan-tôme ne
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
-\T1/cmr/m/n/12 se dé-place que par
- []
-
-
-Underfull \hbox (badness 4120) in paragraph at lines 16--18
-\T1/cmr/m/n/12 d'Inky après qu'il ait
- []
-
-
-Underfull \hbox (badness 2970) in paragraph at lines 16--18
-\T1/cmr/m/n/12 ef-fec-tuer la trans-la-tion
- []
-
-
-Underfull \hbox (badness 4120) in paragraph at lines 20--22
-\T1/cmr/m/n/12 d'Inky après qu'il ait
- []
-
-
-Underfull \hbox (badness 2970) in paragraph at lines 20--22
-\T1/cmr/m/n/12 ef-fec-tuer la trans-la-tion
- []
-
-
-Underfull \hbox (badness 4120) in paragraph at lines 23--24
-\T1/cmr/m/n/12 d'Inky après qu'il ait
- []
-
-
-Underfull \hbox (badness 2970) in paragraph at lines 23--24
-\T1/cmr/m/n/12 ef-fec-tuer la trans-la-tion
- []
-
-) [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/TRnaslations.png>] (./main.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 27193 strings out of 478287
- 577644 string characters out of 5849290
- 993343 words of memory out of 5000000
- 44768 multiletter control sequences out of 15000+600000
- 471866 words of font info for 32 fonts, out of 8000000 for 9000
+ 27294 strings out of 478287
+ 579745 string characters out of 5849290
+ 996343 words of memory out of 5000000
+ 44849 multiletter control sequences out of 15000+600000
+ 476468 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,104p,620b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (1 page, 51089 bytes).
+ 99i,11n,104p,608b,748s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (1 page, 49903 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
- 15 compressed objects within 1 object stream
+ 32 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
