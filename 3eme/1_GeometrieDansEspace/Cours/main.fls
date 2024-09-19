@@ -1,9 +1,9 @@
-PWD /home/nyaucki/Documents/Prof/DocumentsDeCours/3eme/1_GeometrieDansEspace/Cours
+PWD /home/nyaucki/Documents/Prof/CoursMaths/3eme/1_GeometrieDansEspace/Cours
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/nyaucki/Documents/Prof/DocumentsDeCours/3eme/1_GeometrieDansEspace/Cours/main.tex
+INPUT /home/nyaucki/Documents/Prof/CoursMaths/3eme/1_GeometrieDansEspace/Cours/main.tex
 OUTPUT main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
