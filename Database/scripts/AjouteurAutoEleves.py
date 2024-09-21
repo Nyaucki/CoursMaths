@@ -30,6 +30,8 @@ def main(classe):
             for i in range(len(noms)):
                 eleve = (prenoms[i], noms[i], classe, datetime.now().year)
                 add_eleve(conn, eleve)
+        conn.commit()#commit the change
+
 
     except sqlite3.Error as e:
         print(e)
@@ -37,3 +39,4 @@ def main(classe):
 if __name__ == '__main__':
     classe = input("Quelle est la classe :")
     main(classe)
+    
