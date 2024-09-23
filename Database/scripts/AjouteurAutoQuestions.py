@@ -12,8 +12,8 @@ with open("/home/nyaucki/Documents/Prof/CoursMaths/Database/ressources/Liste_Que
 in_file.close()
 
 def add_question(conn, question):
-    sql = ''' INSERT INTO Questions(devoir,exercice,question,niveau,chapitre,tag,competence,modalite,bareme,erreur_calcul,erreur_cours,erreur_preuve,erreur_innatention,annee)
-              VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?) '''
+    sql = ''' INSERT INTO Questions(devoir,exercice,question,niveau,chapitre,tag,competence,modalite,bareme,erreur_calcul,erreur_cours,erreur_preuve,erreur_innatention,hors_bareme,annee)
+              VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) '''
     cur = conn.cursor()
     cur.execute(sql, question)
     conn.commit()
