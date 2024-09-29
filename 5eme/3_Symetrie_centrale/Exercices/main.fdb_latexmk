@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1726723034 "/home/nyaucki/Documents/Prof/CoursMaths/5eme/3_Symetrie_centrale/Exercices/main.tex" "main.pdf" "main" 1726723035
+["pdflatex"] 1727326259 "/home/nyaucki/Documents/Prof/CoursMaths/5eme/3_Symetrie_centrale/Exercices/main.tex" "main.pdf" "main" 1727326261
   "/etc/texmf/web2c/texmf.cnf" 1681925843 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/nyaucki/Documents/Prof/CoursMaths/5eme/3_Symetrie_centrale/Exercices/main.tex" 1726563066 3985 bb692ef9f82c13f5aa15ce6694ab3365 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -252,15 +252,15 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1681925856 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1712429166 2799733 e26c35945e155d954075af232bf5001b ""
-  "Mode_Impression/Eleves.aux" 1726723035 2536 00edf4ddcbeac8a3601a7c61ed8a1c3d "pdflatex"
-  "Mode_Impression/Eleves.tex" 1726563634 463 a41639f055fb9994adf41fe30a180ee3 ""
-  "PlanDeTravail.tex" 1726563001 3707 be25eb9ebe3ef696d32186485156636a ""
+  "Mode_Impression/Eleves.aux" 1727326261 2536 00edf4ddcbeac8a3601a7c61ed8a1c3d "pdflatex"
+  "Mode_Impression/Eleves.tex" 1727326259 463 650d77238cae5830745e56d5d84c7e7b ""
+  "PlanDeTravail.tex" 1727326195 3707 d31bc9d34895c231d8c8b96ad0d1df1a ""
   "Plus_dur/Exo_Dur.tex" 1726563132 875 3d94105f68993127633a1089cbc3aec5 ""
   "Raisonner/Exo_ChercheCentre.tex" 1726563114 7882 6e5aa22e4d8d5faf8d3f6cf0f3e4b2ae ""
-  "Representer/Exo_TracerQuadrillage.tex" 1726549211 8054 7bfb837ce689528f2c26d85e24e42570 ""
+  "Representer/Exo_TracerQuadrillage.tex" 1727326127 8054 a4f34391b6cd3546022ef55af49fa4cb ""
   "Representer/Exo_TracerSansQuadrillage.tex" 1726563094 7871 a661f1a606be8ba252f7f0f2c3a2cf4c ""
   "Switches.tex" 1726723033 310 e9fb7fa2a958fa821f692fff26f60000 ""
-  "main.aux" 1726723035 227 71c6e59db521dec7019e4044c0c5e56e "pdflatex"
+  "main.aux" 1727326261 227 71c6e59db521dec7019e4044c0c5e56e "pdflatex"
   "main.tex" 1726563066 3985 bb692ef9f82c13f5aa15ce6694ab3365 ""
   (generated)
   "Mode_Impression/Eleves.aux"

@@ -1,0 +1,241 @@
+\begin{pycode}
+from random import *
+from sympy import *
+
+
+x = Symbol('x')
+n = Symbol('n')
+
+#FONCTIONS AFFINES
+def randex(a,b,sign=True):
+    '''
+    Renvoie un entier aléatoire n tel que |n| soit compris entre a et b
+    '''
+    r = randint(a,b)
+    if sign :		
+        r = (-1)**randint(1,2)*r
+    return r
+
+a1=randint(2,7)
+b1=randint(2,6)
+if a1==b1:
+    c1=(a1+randint(1,2))%6
+    cc1=(c1+1)
+else :
+    c1=1
+    cc1=a1
+
+e1=randint(2,5)
+
+a2=randint(0,3)
+b2=(a2+randint(1,2))%4
+c2=(b2+randint(1,2))%4
+d2=(c2+randint(1,2))%4
+e2=(d2+randint(1,2))%4
+f2=(e2+randint(1,2))%4
+g2=(f2+randint(1,2))%4
+
+a3=randint(2,7)
+b3=randint(2,6)
+if a3==b3:
+    c3=(a3+randint(1,2))%6
+    cc3=(c3+1)
+else :
+    c3=1
+    cc3=a3
+
+e3=randint(2,5)
+
+a4=randint(0,3)
+b4=(a4+randint(1,2))%4
+c4=(b4+randint(1,2))%4
+d4=(c4+randint(1,2))%4
+e4=(d4+randint(1,2))%4
+f4=(e4+randint(1,2))%4
+g4=(f4+randint(1,2))%4
+
+\end{pycode}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hrulefill
+\begin{figure}[H]
+\centering
+\begin{tabularx}{0.9\textwidth}{p{2cm}p{8cm}X}
+5A & \textbf{Devoir Maison 4 - Pour le 04/10/2024} & Nom : \nom
+\end{tabularx}
+\end{figure}
+\vspace{-1em}
+\hrulefill
+
+\begin{center}
+    Si vous voulez aider \prenom , merci de ne pas juste lui donner la solution. 
+
+    En prenant le temps de lui expliquer, vous l'aiderez beaucoup plus.
+\end{center}
+
+
+\medskip
+
+%a1=\py{a1} b1=\py{b1} c1=\py{c1} cc1=\py{cc1} e1=\py{e1}
+
+
+
+
+\begin{minipage}[t]{0.45\textwidth}
+    Tracer le symétrique par rapport à la droite $(d)$
+    
+    \begin{figure}[H]
+        \centering
+        \begin{pysub} % Necessaire pour python dans tikz
+            
+            \begin{tikzpicture}[scale=0.85]
+                \def\mypath{(!{a1},!{a1})--(!{b1},1)--(!{cc1},!{c1})--(7,!{e1})}
+                \draw [thick]\mypath ;
+                \draw (0,0)--(8,8) node [right]{$(d)$} ;
+                % \draw [cm={0,1,1,0,(0,0)}] \mypath;%Matrice de transformation inverse X et Y
+                \draw [dotted](0,0) grid (8,8);
+            \end{tikzpicture}
+        \end{pysub}
+    \end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+    Tracer le symétrique par rapport à la droite $(d)$
+    
+    \begin{figure}[H]
+        \centering
+        \begin{pysub} % Necessaire pour python dans tikz
+            
+            \begin{tikzpicture}[scale=0.85]
+                \def\mypath{(1,!{a2})--(2,!{b2})--(3,!{c2})--(4,!{d2})--(5,!{e2})--(6,!{f2})--(7,!{g2})}
+                \draw [thick]\mypath ;
+                \draw (0,0)--(8,0) node [above]{$(d)$} ;
+                % \draw [cm={0,1,0,-1,(0,0)}] \mypath;%Matrice de transformation 
+                \draw [dotted](0,-4) grid (8,4);
+            \end{tikzpicture}
+        \end{pysub}
+    \end{figure}
+\end{minipage}
+
+\begin{minipage}[t]{0.45\textwidth}
+    Tracer le symétrique par rapport à la droite $(d)$
+    
+    \begin{figure}[H]
+        \centering
+        \begin{pysub} % Necessaire pour python dans tikz
+            
+            \begin{tikzpicture}[scale=0.85]
+                \def\mypath{(!{a3},!{a3})--(!{b3},1)--(!{cc3},!{c3})--(7,!{e3})}
+                \draw [white](0,0) grid (8,8);
+                \draw [thick]\mypath ;
+                \draw (0,0)--(8,8) node [right]{$(d)$} ;
+                % \draw [cm={0,1,1,0,(0,0)}] \mypath;%Matrice de transformation inverse X et Y
+            \end{tikzpicture}
+        \end{pysub}
+    \end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+    Tracer le symétrique par rapport à la droite $(d)$
+    
+    \begin{figure}[H]
+        \centering
+        \begin{pysub} % Necessaire pour python dans tikz
+            
+            \begin{tikzpicture}[scale=0.85]
+                \def\mypath{(1,!{a4})--(2,!{b4})--(3,!{c4})--(4,!{d4})--(5,!{e4})--(6,!{f4})--(7,!{g4})}
+                \draw [white](0,-4) grid (8,4);
+                \draw [thick]\mypath ;
+                \draw (0,0)--(8,0) node [above]{$(d)$} ;
+                % \draw [cm={0,1,0,-1,(0,0)}] \mypath;%Matrice de transformation 
+            \end{tikzpicture}
+        \end{pysub}
+    \end{figure}
+\end{minipage}
+
+\newpage
+
+\hrulefill
+\begin{figure}[H]
+\centering
+\begin{tabularx}{0.9\textwidth}{p{2cm}p{8cm}X}
+5A & \textbf{Devoir Maison 4 - Correction} & Nom : \nom
+\end{tabularx}
+\end{figure}
+\vspace{-1em}
+\hrulefill
+
+
+
+\begin{minipage}[t]{0.45\textwidth}
+    Tracer le symétrique par rapport à la droite $(d)$
+    
+    \begin{figure}[H]
+        \centering
+        \begin{pysub} % Necessaire pour python dans tikz
+            
+            \begin{tikzpicture}[scale=0.85]
+                \def\mypath{(!{a1},!{a1})--(!{b1},1)--(!{cc1},!{c1})--(7,!{e1})}
+                \draw [thick]\mypath ;
+                \draw (0,0)--(8,8) node [right]{$(d)$} ;
+                \draw [cm={0,1,1,0,(0,0)}] \mypath;%Matrice de transformation inverse X et Y
+                \draw [dotted](0,0) grid (8,8);
+            \end{tikzpicture}
+        \end{pysub}
+    \end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+    Tracer le symétrique par rapport à la droite $(d)$
+    
+    \begin{figure}[H]
+        \centering
+        \begin{pysub} % Necessaire pour python dans tikz
+            
+            \begin{tikzpicture}[scale=0.85]
+                \def\mypath{(1,!{a2})--(2,!{b2})--(3,!{c2})--(4,!{d2})--(5,!{e2})--(6,!{f2})--(7,!{g2})}
+                \draw [thick]\mypath ;
+                \draw (0,0)--(8,0) node [above]{$(d)$} ;
+                \draw [cm={1,0,0,-1,(0,0)}] \mypath;%Matrice de transformation 
+                \draw [dotted](0,-4) grid (8,4);
+            \end{tikzpicture}
+        \end{pysub}
+    \end{figure}
+\end{minipage}
+
+\begin{minipage}[t]{0.45\textwidth}
+    Tracer le symétrique par rapport à la droite $(d)$
+    
+    \begin{figure}[H]
+        \centering
+        \begin{pysub} % Necessaire pour python dans tikz
+            
+            \begin{tikzpicture}[scale=0.85]
+                \def\mypath{(!{a3},!{a3})--(!{b3},1)--(!{cc3},!{c3})--(7,!{e3})}
+                \draw [white](0,0) grid (8,8);
+                \draw [thick]\mypath ;
+                \draw (0,0)--(8,8) node [right]{$(d)$} ;
+                \draw [cm={0,1,1,0,(0,0)}] \mypath;%Matrice de transformation inverse X et Y
+            \end{tikzpicture}
+        \end{pysub}
+    \end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+    Tracer le symétrique par rapport à la droite $(d)$
+    
+    \begin{figure}[H]
+        \centering
+        \begin{pysub} % Necessaire pour python dans tikz
+            
+            \begin{tikzpicture}[scale=0.85]
+                \def\mypath{(1,!{a4})--(2,!{b4})--(3,!{c4})--(4,!{d4})--(5,!{e4})--(6,!{f4})--(7,!{g4})}
+                \draw [white](0,-4) grid (8,4);
+                \draw [thick]\mypath ;
+                \draw (0,0)--(8,0) node [above]{$(d)$} ;
+                \draw [cm={1,0,0,-1,(0,0)}] \mypath;%Matrice de transformation 
+            \end{tikzpicture}
+        \end{pysub}
+    \end{figure}
+\end{minipage}
