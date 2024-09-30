@@ -1,0 +1,107 @@
+\documentclass[12pt,a4paper,french]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{babel}
+\usepackage[T1]{fontenc}
+\usepackage{dsfont}
+\usepackage{amsmath}
+\usepackage[top=2cm,bottom=2cm,left=1.5cm, right=1.5cm]{geometry}
+\usepackage{tcolorbox}
+\usepackage{parskip}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{tikz,tkz-tab}
+\usepackage{appendix}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{rotating}
+\usepackage{esvect}
+\usepackage{cancel}
+\usetikzlibrary{positioning}
+\usepackage{pgfpages}
+\usepackage{multicol}
+\usepackage{tkz-euclide}
+\usepackage{esvect}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+\usepackage{amssymb}
+\usepackage{diagbox}
+\usepackage[nomessages]{fp}
+
+%\pgfpagesuselayout{2 on 1}[a4paper,landscape]\pgfpageslogicalpageoptions{1}{border code=\pgfusepath{stroke}}\pgfpageslogicalpageoptions{2}{border code=\pgfusepath{stroke}} %2 en 1
+
+\AtBeginDocument{\renewcommand\labelitemi{$\bullet$}}%Itemize avec des bullet !
+
+
+\advance\year by -1
+\ifnum \the\month > 7 \advance\year by 1 \fi %pour la bonne année en bas à droite 
+
+\newcommand\nextyear
+{\advance\year by 1 \the\year\advance\year by -1}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[LO,RE]{M. Loizon}
+\fancyfoot[RO,LE]{\the\year /\nextyear}
+\fancypagestyle{plain}{
+  \fancyfoot[C]{\thepage}% you can add edits that won't affect "fancy" but only "plain"
+}
+
+
+\graphicspath{ {./Images/} }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    AIDE    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\refstepcounter{propcntr}\label{chgtdnmntr}\addtocounter{propcntr}{-1} %Ref to counter
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newcommand*{\zz}{\mathds{Z}}
+
+\newcommand*{\nn}{\mathds{N}}
+
+\newcommand*{\qq}{\mathds{Q}}
+
+\newcommand*{\rr}{\mathds{R}}
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\newcounter{propcntr}%PROPRIETE
+    \newtcolorbox{propriete}[1]{colback=white,colframe=gray,fonttitle=\bfseries,title=\stepcounter{propcntr} Propriété~\arabic{propcntr}~: \MakeUppercase#1}%Boite propriétés
+
+\newcounter{defcntr}%Définition
+    \newtcolorbox{definition}[1]{colback=white,colframe=lightgray,fonttitle=\bfseries,title=\stepcounter{propcntr} Définition~\arabic{propcntr}~: \MakeUppercase#1}%Boite definition
+
+\newif\ifshowcours%Pour cacher le cours
+    \showcoursfalse
+    \newcommand{\cours}[1]{\ifshowcours #1 \fi}
+\showcourstrue%Montre le cours
+
+\newcounter{exmplcntr}%Exemple
+    \newcommand*{\exmpl}[1]{\stepcounter{exmplcntr}{\cours{\textbf{Exemple~\arabic{exmplcntr}~:~} #1}
+    \medskip}}%sans liste
+
+\newcommand{\rmq}[1]{\cours{\textbf{Remarque~:~}#1}}%Remarque
+
+\newcommand*{\prop}[2]{
+        \begin{propriete}{#1}
+            #2
+        \end{propriete}
+        }
+   
+\newcommand*{\dfnt}[2]{
+    \begin{definition}{#1}
+        #2
+    \end{definition}
+    }
+
+\begin{document}
+
+\input{Switches}
+
+\include{Texte}
+
+\end{document}

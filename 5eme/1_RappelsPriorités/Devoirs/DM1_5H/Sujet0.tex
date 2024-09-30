@@ -1,0 +1,123 @@
+\begin{pycode}
+from random import *
+from sympy import *
+
+
+x = Symbol('x')
+n = Symbol('n')
+
+#FONCTIONS AFFINES
+def randex(a,b,sign=True):
+	'''
+	Renvoie un entier aléatoire n tel que |n| soit compris entre a et b
+	'''
+	r = randint(a,b)
+	if sign :		
+		r = (-1)**randint(1,2)*r
+	return r
+
+a1=randint(11,21)
+b1=randint(2,5)
+c1=randint(6,10)
+
+a2=randint(30,40)
+b2=randint(1,5)
+c2=randint(2,5)
+d2=randint(1,5)
+
+
+a3=randint(1,5)
+b3=randint(1,5)
+c3=randint(2,5)
+d3=randint(1,4)
+
+
+a4=randint(1,10)
+b4=randint(1,2)
+c4=randint(1,4)
+d4=randint(10,20)
+e4=d4-randint(1,2)
+
+
+\end{pycode}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hrulefill
+\begin{figure}[H]
+\centering
+\begin{tabularx}{0.9\textwidth}{p{2cm}p{8cm}X}
+5eme H & \textbf{Devoir Maison 1 - Pour le 17/09/2024} & Nom : \nom
+\end{tabularx}
+\end{figure}
+\vspace{-1em}
+\hrulefill
+
+\begin{center}
+	Si vous voulez aider \prenom , merci de ne pas juste lui donner la solution. 
+
+	En prenant le temps de lui expliquer, vous l'aiderez beaucoup plus.
+\end{center}
+
+
+\medskip
+
+Effectuer les calculs suivants en détaillant les étapes de calcul.
+
+\begin{multicols}{2}
+\begin{enumerate}[label=\Alph*.]
+	\item  $\py{a1}+\py{b1}\times\py{c1}$
+	\item  $\py{a2}-\py{b2}+\py{c2}\times\py{d2}$
+	\item  $(\py{a3}+\py{b3})\times\py{c3}-\py{d3}$
+	\item  $\py{a4}\times  (\py{b4}+\py{c4}\times (\py{d4}-\py{e4}))$
+\end{enumerate}
+\end{multicols}
+
+\vfill
+
+\hrulefill
+\begin{figure}[H]
+\centering
+\begin{tabularx}{0.9\textwidth}{p{2cm}p{8cm}X}
+5eme H & \textbf{Devoir Maison 1 - Correction} & Nom : \nom
+\end{tabularx}
+\end{figure}
+\vspace{-1em}
+\hrulefill
+
+\begin{enumerate}[label=\Alph*.]
+	\begin{multicols}{2}
+		\item 
+		\begin{align*}
+			&\py{a1}+\py{b1}\times\py{c1}\\
+			=&\py{a1}+\py{b1*c1}\\
+			=&\py{a1+b1*c1}\\
+		\end{align*}
+
+		\item 
+		\begin{align*}
+			&\py{a2}-\py{b2}+\py{c2}\times\py{d2}\\
+			=&\py{a2}-\py{b2}+\py{c2*d2}\\
+			=&\py{a2-b2}+\py{c2*d2}\\
+			=&\py{a2-b2+c2*d2}\\
+		\end{align*}
+	\end{multicols}
+	\begin{multicols}{2}
+		\item 
+		\begin{align*}
+			&(\py{a3}+\py{b3})\times\py{c3}-\py{d3}\\
+			=&\py{a3+b3}\times\py{c3}-\py{d3}\\
+			=&\py{(a3+b3)*c3}-\py{d3}\\
+			=&\py{(a3+b3)*c3-d3}\\
+		\end{align*}
+
+		\item 
+		\begin{align*}
+			&\py{a4}\times  (\py{b4}+\py{c4}\times (\py{d4}-\py{e4}))\\
+			=&\py{a4}\times  (\py{b4}+\py{c4}\times \py{d4-e4})\\
+			=&\py{a4}\times  (\py{b4}+\py{c4*(d4-e4)})\\		
+			=&\py{a4}\times  \py{b4+c4*(d4-e4)}\\		
+			=&\py{a4*(b4+c4*(d4-e4))}\\		
+		\end{align*}
+	\end{multicols}
+\end{enumerate}

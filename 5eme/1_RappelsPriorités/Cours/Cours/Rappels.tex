@@ -1,0 +1,45 @@
+\section{Sans paranthèses}
+
+\prop{Ordre des priorités}{Dans un calcul avec plusieurs opération, elles doivent être effectuer dans l'ordre suivant : 
+\begin{enumerate}
+    \item Les multiplications et les divisions
+    \item Les additions et les soustractions
+\end{enumerate}
+S'il y a plusieurs opérations du même niveau de priorité, celles-ci doivent être effectuées de gauche à droite.}
+
+\exmpl {
+\begin{align*}
+    &3+4\times 2 -1 +8 :4 & \text{Il y a deux opérations de priorité 1 : $4\times 2$ et $8:4$} \\
+    =&3+8 -1 +8 :4 & \text{Comme il y a deux opérations de priorité 1, on commence par celle de gauche} \\
+    =&3+8 -1 +2 & \text{On continue avec celle de droite} \\
+    =&3+8 -1 +2 & \text{Il ne reste plus que des opérations de priorité 2} \\
+    =&11 -1 +2 & \text{On les traite donc, de gauche à droite} \\
+    =&10 +2 & \text{Jusqu'à arriver au bout} \\
+    =&12 & \text{Le calcul est terminé quand il n'y a plus d'opération} \\
+\end{align*}}
+
+\section{Avec paranthèses}
+
+\prop{Ordre des priorités}{Dans un calcul avec plusieurs opération, elles doivent être effectuer dans l'ordre suivant : 
+\begin{enumerate}
+    \item Les opérations entre paranthèses
+    \item Les multiplications et les divisions
+    \item Les additions et les soustractions
+\end{enumerate}
+S'il y a plusieurs opérations entre deux paranthèses, on les traites avec le même ordre de priorité. multiplications et divisions d'abord, le reste ensuite.\\
+S'il y a des paranthèses dans des paranthèses, on commence par celles le plus à l'intérieur.}
+
+\exmpl {
+\begin{align*}
+    &(3+4)\times (2 -1) +8 :4 & \text{Il y a deux parenthèses} \\
+    =&7\times (2 -1) +8 :4 & \text{On commence par celle de gauche} \\
+    =&7\times 1+8 :4  & \text{On continue avec celle de droite} \\
+    =&7\times 1+8 :4 & \text{Il y a deux opérations de priorité 2} \\
+    =&7+8:4 & \text{On les traite donc, de gauche à droite} \\
+    =&7+2& \text{PAreil avec celles de priorité 3} \\
+    =&9 & \text{Le calcul est terminé quand il n'y a plus d'opération} \\
+\end{align*}}
+
+\rmq{Notation
+    S'il n'y a pas de symbole entre un  nombre et une paranthèse, cela signifie qu'il s'agit d'une multiplication. 
+    $3\times (2+1)$ se note $3(2+1)$ }
