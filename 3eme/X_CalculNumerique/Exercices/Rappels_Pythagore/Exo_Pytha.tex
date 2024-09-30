@@ -1,0 +1,102 @@
+%%%%%%%%%%%% Exercice 1+12 %%%%%%%%%%%
+\vspace{-1em}
+\begin{minipage}[t]{0.45\textwidth}
+    \exo{cours}{Pythagore1} 
+
+    Calculer $AB$ \vspace{-1em}
+    \begin{figure}[H]
+        \centering
+        \begin{tikzpicture}[scale=2]
+            \node (A) at (0,0) {}; %positions A
+            \node (B) at (2,0) {}; %positions B
+            \node (C) at (2,1.5) {}; %positions C
+            \node [left=0.005cm of A] (A_label) {$A$}; %label A
+            \node [right=0.01cm of B] (B_label) {$B$}; %label B
+            \node [above=0.01cm of C] (C_label) {$C$}; %label C
+            \draw (1.8,0) -- (1.8,0.2) ;
+            \draw (2,0.2) -- (1.8,0.2) ;
+            \draw (A.base) -- (B.base);%12
+            \draw (A.base) -- (C.base) node [midway,above] {13};
+            \draw (B.base) -- (C.base) node [midway,right] {5};
+            \draw [fill=black] (A) circle (0.05em) ;
+            \draw [fill=black] (B) circle (0.05em) ;
+            \draw [fill=black] (C) circle (0.05em) ;
+        \end{tikzpicture}
+    \end{figure} 
+\end{minipage}
+\hfill
+%%%%%%%%%%%% Exercice 2+12 %%%%%%%%%%%
+\begin{minipage}[t]{0.45\textwidth}
+    \exo{cours}{Pythagore2} 
+
+    Calculer $AC$ \vspace{-1em}
+    \begin{figure}[H]
+        \centering
+        \begin{tikzpicture}[scale=2]
+            \node (A) at (-5,1) {}; %positions A
+            \node (B) at (-3.5,0) {}; %positions B
+            \node (C) at (-6,-0.5) {}; %positions C
+            \node [above=0.005cm of A] (A_label) {$A$}; %label A
+            \node [right=0.01cm of B] (B_label) {$B$}; %label B
+            \node [left=0.01cm of C] (C_label) {$C$}; %label C
+            \draw (A.base) -- (B.base)node [midway,above right] {6};
+            \draw (A.base) -- (C.base) ;
+            \draw (B.base) -- (C.base) node [midway,below] {10};
+            \draw (-5.11,0.83) -- (-4.95,0.72) ;
+            \draw (-4.83,0.89) -- (-4.95,0.72) ;
+            \draw [fill=black] (A) circle (0.05em) ;
+            \draw [fill=black] (B) circle (0.05em) ;
+            \draw [fill=black] (C) circle (0.05em) ;
+        \end{tikzpicture}
+    \end{figure}  
+\end{minipage}
+
+
+%%%%%%%%%%%% Exercice 3+12 %%%%%%%%%%%
+
+\begin{minipage}[t]{0.45\textwidth}
+    \exo{cours}{Pythagore3} 
+
+    Le triangle $ABC$ est-il rectangle ?
+    \begin{figure}[H]
+        \centering
+        \begin{tikzpicture}[scale=2]
+            \node (A) at (0,0) {}; %positions A
+            \node (B) at (2,0) {}; %positions B
+            \node (C) at (2,1.5) {}; %positions C
+            \node [left=0.005cm of A] (A_label) {$A$}; %label A
+            \node [right=0.01cm of B] (B_label) {$B$}; %label B
+            \node [above=0.01cm of C] (C_label) {$C$}; %label C
+            \draw (A.base) -- (B.base) node [midway,above] {5};%12
+            \draw (A.base) -- (C.base) node [midway,above] {7};
+            \draw (B.base) -- (C.base) node [midway,right] {5};
+            \draw [fill=black] (A) circle (0.05em) ;
+            \draw [fill=black] (B) circle (0.05em) ;
+            \draw [fill=black] (C) circle (0.05em) ;
+        \end{tikzpicture}
+    \end{figure} 
+\end{minipage}
+\hfill
+%%%%%%%%%%%% Exercice 4+12 %%%%%%%%%%%
+\begin{minipage}[t]{0.45\textwidth}
+    \exo{cours}{Pythagore4} 
+
+    Le triangle $ABC$ est-il rectangle ? 
+    \begin{figure}[H]
+        \centering
+        \begin{tikzpicture}[scale=2]
+            \node (A) at (-5,1) {}; %positions A
+            \node (B) at (-3.5,0) {}; %positions B
+            \node (C) at (-6,-0.5) {}; %positions C
+            \node [above=0.005cm of A] (A_label) {$A$}; %label A
+            \node [right=0.01cm of B] (B_label) {$B$}; %label B
+            \node [left=0.01cm of C] (C_label) {$C$}; %label C
+            \draw (A.base) -- (B.base)node [midway,right] {15};
+            \draw (A.base) -- (C.base) node [midway,left] {8};
+            \draw (B.base) -- (C.base) node [midway,below] {17};
+            \draw [fill=black] (A) circle (0.05em) ;
+            \draw [fill=black] (B) circle (0.05em) ;
+            \draw [fill=black] (C) circle (0.05em) ;
+        \end{tikzpicture}
+    \end{figure}  
+\end{minipage}
