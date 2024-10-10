@@ -1,0 +1,42 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+
+%%%%% Settings %%%%%
+
+
+\graphicspath{ {./Images/} }
+
+\hyphenpenalty 10000
+\exhyphenpenalty 10000 %Pas de coupure de mots
+
+\usetheme{Szeged}
+
+%%%%% Footer %%%%%
+
+\advance\year by -1
+\ifnum \the\month > 7 \advance\year by 1 \fi %pour la bonne année en bas à droite 
+
+\newcommand\nextyear
+{\advance\year by 1 \the\year\advance\year by -1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    AIDE    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\refstepcounter{propcntr}\label{chgtdnmntr}\addtocounter{propcntr}{-1} %Ref to counter
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newcommand*{\zz}{\mathds{Z}}
+
+\newcommand*{\nn}{\mathds{N}}
+
+\newcommand*{\qq}{\mathds{Q}}
+
+\newcommand*{\rr}{\mathds{R}}
+
+
+\begin{document}
+
+\include{Texte}
+
+\end{document}
