@@ -17,7 +17,6 @@
 \RequirePackage{tabularx}
 \RequirePackage{amsmath}
 \RequirePackage{rotating}
-\RequirePackage{esvect}
 \RequirePackage{cancel}
 \usetikzlibrary{positioning}
 \RequirePackage{pgfpages}
@@ -31,6 +30,12 @@
 \RequirePackage{diagbox}
 \RequirePackage{mathtools}
 \RequirePackage[nomessages]{fp}
+\RequirePackage{refcount}
+\RequirePackage{fourier}
+
+\usetikzlibrary{positioning}
+\usetikzlibrary{math}%Pour définir variables dans Tikz
+\usetikzlibrary{arrows.meta}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -61,6 +66,10 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\makeatletter
+\newcommand{\makeAlph}[1]{\@Alph{#1}}
+\makeatother%Transforme nombre en lettre
+
 \newcommand{\separe}{\hrule \vspace{-0.5em}}
 
 \newcommand*{\zz}{\mathds{Z}}
@@ -75,7 +84,7 @@
 
 \newcommand{\markerbox}{\raisebox{-1pt}{\tikz{\node[minimum height=0.8em,minimum width=2em,draw](){};}}}%Pour noter résultat
 
-\newcommand*{\exref}[1]{\textbf{Exercice~\ref{#1}~\markerbox} }
+\newcommand*{\exref}[1]{\textbf{Exercice~\ifnum\getrefnumber{#1}<10 0\fi \ref{#1}~\markerbox} } %Pour mettre deux chiffres
 
 \newcounter{propcntr}%PROPRIETE
     \newtcolorbox{propriete}[1]{colback=white,colframe=gray,fonttitle=\bfseries,title= Propriété~: \MakeUppercase#1}%Boite propriétés

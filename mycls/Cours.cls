@@ -34,7 +34,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\author{M. Loizon}
+\author{}
 
 \AtBeginDocument{\renewcommand\labelitemi{$\bullet$}}%Itemize avec des bullet !
 
