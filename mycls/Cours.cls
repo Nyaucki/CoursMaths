@@ -1,37 +1,42 @@
-\documentclass[12pt,a4paper,french]{article}
-\usepackage[utf8]{inputenc}
-\usepackage{babel}
-\usepackage[T1]{fontenc}
-\usepackage{dsfont}
-\usepackage{amsmath}
-\usepackage[top=2cm,bottom=2cm,left=1.5cm, right=1.5cm]{geometry}
-\usepackage{tcolorbox}
-\usepackage{parskip}
-\usepackage{graphicx}
-\usepackage{float}
-\usepackage{tikz,tkz-tab}
-\usepackage{appendix}
-\usepackage{tabularx}
-\usepackage{amsmath}
-\usepackage{rotating}
-\usepackage{esvect}
-\usepackage{cancel}
-\usetikzlibrary{positioning}
-\usepackage{pgfpages}
-\usepackage{multicol}
-\usepackage{tkz-euclide}
-\usepackage{esvect}
-\usepackage{enumerate}
-\usepackage{fancyhdr}
-\usepackage{lipsum}
-\usepackage{amssymb}
-\usepackage{diagbox}
-\usepackage[nomessages]{fp}
+\ProvidesClass{/home/nyaucki/Documents/Prof/CoursMaths/mycls/Cours}
 
-%\pgfpagesuselayout{2 on 1}[a4paper,landscape]\pgfpageslogicalpageoptions{1}{border code=\pgfusepath{stroke}}\pgfpageslogicalpageoptions{2}{border code=\pgfusepath{stroke}} %2 en 1
+\LoadClass[a4paper,12pt]{article}
+
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{babel}[french]
+\RequirePackage[T1]{fontenc}
+\RequirePackage{dsfont}
+\RequirePackage{amsmath}
+\RequirePackage[top=1cm,bottom=2cm,left=1.5cm, right=1.5cm]{geometry}
+\RequirePackage{tcolorbox}
+\RequirePackage{parskip}
+\RequirePackage{graphicx}
+\RequirePackage{float}
+\RequirePackage{tikz,tkz-tab}
+\RequirePackage{appendix}
+\RequirePackage{tabularx}
+\RequirePackage{amsmath}
+\RequirePackage{rotating}
+\RequirePackage{esvect}
+\RequirePackage{cancel}
+\usetikzlibrary{positioning}
+\RequirePackage{pgfpages}
+\RequirePackage{multicol}
+\RequirePackage{tkz-euclide}
+\RequirePackage{esvect}
+\RequirePackage{enumerate}
+\RequirePackage{fancyhdr}
+\RequirePackage{lipsum}
+\RequirePackage{amssymb}
+\RequirePackage{diagbox}
+\RequirePackage{mathtools}
+\RequirePackage[nomessages]{fp}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\author{M. Loizon}
 
 \AtBeginDocument{\renewcommand\labelitemi{$\bullet$}}%Itemize avec des bullet !
-
 
 \advance\year by -1
 \ifnum \the\month > 7 \advance\year by 1 \fi %pour la bonne année en bas à droite 
@@ -42,17 +47,14 @@
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
-\fancyfoot[LO,RE]{M. Loizon}
-\fancyfoot[RO,LE]{\the\year /\nextyear}
+\fancyfoot[LO]{M. Loizon}
+\fancyfoot[RO]{\the\year /\nextyear}
 \fancypagestyle{plain}{
   \fancyfoot[C]{\thepage}% you can add edits that won't affect "fancy" but only "plain"
 }
 
 
 \graphicspath{ {./Images/} }
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    AIDE    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\refstepcounter{propcntr}\label{chgtdnmntr}\addtocounter{propcntr}{-1} %Ref to counter
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -96,11 +98,3 @@
         #2
     \end{definition}
     }
-
-\begin{document}
-
-\input{Switches}
-
-\include{Texte}
-
-\end{document}
