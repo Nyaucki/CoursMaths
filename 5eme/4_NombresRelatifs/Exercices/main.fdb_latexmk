@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1728967998.71947 "/home/nyaucki/Documents/Prof/CoursMaths/5eme/4_NombresRelatifs/Exercices/main.tex" "main.pdf" "main" 1728968000.00883 0
+["pdflatex"] 1728969327.41137 "/home/nyaucki/Documents/Prof/CoursMaths/5eme/4_NombresRelatifs/Exercices/main.tex" "main.pdf" "main" 1728969328.80159 0
   "/etc/texmf/web2c/texmf.cnf" 1728278577.13922 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/nyaucki/Documents/Prof/CoursMaths/5eme/4_NombresRelatifs/Exercices/main.tex" 1728568231.76 153 05382f6b710e5263be65939d3210f2c0 ""
   "/home/nyaucki/Documents/Prof/CoursMaths/mycls/Exercices.cls" 1728967327.20401 4050 c991432167a74ae120a892b6c870958d ""
@@ -277,14 +277,14 @@
   "Ex_Calculer/Exo_Comparer.tex" 1728967543.57401 596 54f1ee2825b6df363c8c7b8d463aeb4e ""
   "Ex_Calculer/Exo_Opposer.tex" 1728621410.64702 496 958c65876a190f2bc8e1f155781a990f ""
   "Ex_Chercher/Exo_CarreMagiques.tex" 1728623843.24808 1125 0bf5a54e5058b81686f2d09617358afc ""
-  "Ex_Raisonner/Exo_OrdonnerLliste.tex" 1728967998.44603 567 d4642bfd1931b477789f40e829385f08 ""
+  "Ex_Raisonner/Exo_OrdonnerLliste.tex" 1728968318.47803 658 68ee8580d9c04f8b64ee950cb037df8f ""
   "Ex_Representer/Exo_LireDroiteGradue.tex" 1728568540.32001 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "Ex_Representer/Exo_PlacerDroiteGradue.tex" 1728568523.59701 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "Mode_Impression/Texte.aux" 1728967999.86803 2116 f8e4924bb44457474c725f4ed6c89a5f "pdflatex"
+  "Ex_Representer/Exo_PlacerDroiteGradue.tex" 1728969327.13006 7260 4e08bfaedd597b1ddc01c9603a55d5ac ""
+  "Mode_Impression/Texte.aux" 1728969328.66306 2436 d55315739f67dc36fd3f11dc938e6ba0 "pdflatex"
   "Mode_Impression/Texte.tex" 1728622781.53905 367 1cfe822e203aa8307ba8bfdbed4177b6 ""
   "PlanDeTravail.tex" 1728622781.44905 4694 049c7e0ef72b7241c0aa189fa9a098b0 ""
   "Switches.tex" 1728622781.53905 362 0165f51b5479862efa787c73a6196d58 ""
-  "main.aux" 1728967999.86903 226 ad44f413b4ffb3e85f26e96e93b20656 "pdflatex"
+  "main.aux" 1728969328.66306 226 4d1da244a3fe1b0ab5faa242e1f25d90 "pdflatex"
   "main.tex" 1728568231.76 153 05382f6b710e5263be65939d3210f2c0 ""
   (generated)
   "Mode_Impression/Texte.aux"
