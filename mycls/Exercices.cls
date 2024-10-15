@@ -66,9 +66,9 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\makeatletter
-\newcommand{\makeAlph}[1]{\@Alph{#1}}
-\makeatother%Transforme nombre en lettre
+\newcommand{\makeAlph}[1]{\@Alph{#1}}%Transforme nombre en lettre
+
+\newcommand{\fillin}[1][2cm]{\makebox[#1]{\dotfill}}
 
 \newcommand{\separe}{\hrule \vspace{-0.5em}}
 
