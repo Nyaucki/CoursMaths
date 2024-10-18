@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  15 OCT 2024 07:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  15 OCT 2024 11:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1091,197 +1091,7 @@ LaTeX Font Info:    Redeclaring math accent \widetilde on input line 4.
  (./Switches.tex
 \openout2 = `Mode_Impression/Texte.aux'.
 
- (./Mode_Impression/Texte.tex (./PlanDeTravail.tex
-LaTeX Font Info:    Trying to load font information for FML+futmi on input line 39.
- (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutmi.fd
-File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
-)
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 39.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 39.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 39.
-LaTeX Font Info:    Trying to load font information for U+esvect on input line 39.
- (/usr/share/texlive/texmf-dist/tex/latex/esvect/uesvect.fd
-File: uesvect.fd 
-)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 39.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 39.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 39.
-
-
-LaTeX Warning: Reference `Pythagore1' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Reference `Pythagore2' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Reference `Pythagore3' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Reference `Pythagore4' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Reference `ProduitX1' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Reference `ProduitX2' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Reference `ProduitX3' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Reference `ProduitX4' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Reference `Heures1' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Reference `Heures2' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Reference `Heures3' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Reference `Heures4' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Reference `Vitesse1' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Reference `Vitesse2' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Reference `Vitesse3' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Reference `Vitesse4' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Reference `Direct1' on page 1 undefined on input line 65.
-
-
-LaTeX Warning: Reference `Direct2' on page 1 undefined on input line 65.
-
-
-LaTeX Warning: Reference `Direct3' on page 1 undefined on input line 65.
-
-
-LaTeX Warning: Reference `Direct4' on page 1 undefined on input line 65.
-
-
-LaTeX Warning: Reference `Direct5' on page 1 undefined on input line 65.
-
-
-LaTeX Warning: Reference `Direct6' on page 1 undefined on input line 65.
-
-
-LaTeX Warning: Reference `Reciproque1' on page 1 undefined on input line 81.
-
-
-LaTeX Warning: Reference `Reciproque2' on page 1 undefined on input line 81.
-
-
-LaTeX Warning: Reference `Reciproque3' on page 1 undefined on input line 81.
-
-
-LaTeX Warning: Reference `Reciproque4' on page 1 undefined on input line 81.
-
-
-LaTeX Warning: Reference `Reciproque5' on page 1 undefined on input line 81.
-
-
-LaTeX Warning: Reference `Reciproque6' on page 1 undefined on input line 81.
-
-
-Overfull \hbox (1.884pt too wide) in paragraph at lines 52--83
-[][]  [] 
- []
-
-
-LaTeX Warning: Reference `Calcul1' on page 1 undefined on input line 98.
-
-
-LaTeX Warning: Reference `Calcul2' on page 1 undefined on input line 98.
-
-
-LaTeX Warning: Reference `Calcul3' on page 1 undefined on input line 98.
-
-
-LaTeX Warning: Reference `Calcul4' on page 1 undefined on input line 98.
-
-
-LaTeX Warning: Reference `Calcul5' on page 1 undefined on input line 98.
-
-
-LaTeX Warning: Reference `Calcul6' on page 1 undefined on input line 98.
-
-
-LaTeX Warning: Reference `Calcul7' on page 1 undefined on input line 98.
-
-
-LaTeX Warning: Reference `Calcul8' on page 1 undefined on input line 98.
-
-
-LaTeX Warning: Reference `Concret1' on page 1 undefined on input line 110.
-
-
-LaTeX Warning: Reference `Concret2' on page 1 undefined on input line 110.
-
-
-LaTeX Warning: Reference `Concret3' on page 1 undefined on input line 110.
-
-
-LaTeX Warning: Reference `Brevet1' on page 1 undefined on input line 124.
-
-
-LaTeX Warning: Reference `Brevet2' on page 1 undefined on input line 124.
-
-
-LaTeX Warning: Reference `Brevet3' on page 1 undefined on input line 124.
-
-
-LaTeX Warning: Reference `Brevet4' on page 1 undefined on input line 124.
-
-
-Overfull \hbox (1.884pt too wide) in paragraph at lines 100--126
-[][]  [] 
- []
-
-
-LaTeX Warning: Reference `Dur1' on page 1 undefined on input line 140.
-
-
-LaTeX Warning: Reference `Dur2' on page 1 undefined on input line 140.
-
-
-LaTeX Warning: Reference `Dur3' on page 1 undefined on input line 140.
-
-
-LaTeX Warning: Reference `Dur4' on page 1 undefined on input line 140.
-
-
-LaTeX Warning: Reference `Dur5' on page 1 undefined on input line 140.
-
-
-LaTeX Warning: Reference `Dur6' on page 1 undefined on input line 140.
-
-) [1
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./Ex_Chercher/Exo_CarreMagiques.tex) (./Ex_Calculer/Exo_Opposer.tex) (./Ex_Calculer/Exo_Comparer.tex) (./Ex_Raisonner/Exo_OrdonnerLliste.tex
+ (./Mode_Impression/Texte.tex (./Ex_Chercher/Exo_CarreMagiques.tex (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutmi.fd) (/usr/share/texlive/texmf-dist/tex/latex/esvect/uesvect.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)) (./Ex_Calculer/Exo_Opposer.tex) (./Ex_Calculer/Exo_Comparer.tex) (./Ex_Raisonner/Exo_OrdonnerLliste.tex
 Overfull \hbox (2.96829pt too wide) in paragraph at lines 4--6
 []\T1/futs/b/n/12 Exercice 21 :  \T1/futs/m/it/12 (Rai-son-ner)[]
  []
@@ -1321,29 +1131,68 @@ Overfull \hbox (2.96829pt too wide) in paragraph at lines 27--29
 []\T1/futs/b/n/12 Exercice 28 :  \T1/futs/m/it/12 (Rai-son-ner)[]
  []
 
-) (./Ex_Representer/Exo_LireDroiteGradue.tex) (./Ex_Representer/Exo_PlacerDroiteGradue.tex [2]) [3])) (./main.aux (./Mode_Impression/Texte.aux))
+) (./Ex_Representer/Exo_LireDroiteGradue.tex
+Overfull \hbox (4.6498pt too wide) in paragraph at lines 22--23
+ [][] 
+ []
+
+
+Overfull \hbox (4.4398pt too wide) in paragraph at lines 45--46
+ [][] 
+ []
+
+
+Overfull \hbox (4.43611pt too wide) in paragraph at lines 69--70
+ [][] 
+ []
+
+
+Overfull \hbox (4.64641pt too wide) in paragraph at lines 92--93
+ [][] 
+ []
+
+
+Overfull \hbox (18.22148pt too wide) in paragraph at lines 116--117
+ [][] 
+ []
+
+
+Overfull \hbox (4.61116pt too wide) in paragraph at lines 139--140
+ [][] 
+ []
+
+[1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+Overfull \hbox (4.29692pt too wide) in paragraph at lines 162--163
+ [][] 
+ []
+
+
+Overfull \hbox (4.29845pt too wide) in paragraph at lines 185--186
+ [][] 
+ []
+
+) (./Ex_Representer/Exo_PlacerDroiteGradue.tex) [2])) (./main.aux (./Mode_Impression/Texte.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 28568 strings out of 474222
- 600636 string characters out of 5748733
- 1976975 words of memory out of 5000000
- 50093 multiletter control sequences out of 15000+600000
+ 28594 strings out of 474222
+ 601463 string characters out of 5748733
+ 1961975 words of memory out of 5000000
+ 50122 multiletter control sequences out of 15000+600000
  601435 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,13n,121p,1248b,1110s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,12n,121p,1248b,915s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on main.pdf (3 pages, 63763 bytes).
+Output written on main.pdf (2 pages, 56150 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

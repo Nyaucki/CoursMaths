@@ -31,6 +31,9 @@
 \RequirePackage{diagbox}
 \RequirePackage{mathtools}
 \RequirePackage[nomessages]{fp}
+\RequirePackage{listings}
+\RequirePackage{enumitem}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -62,6 +65,9 @@
 \graphicspath{ {./Images/} }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\fillin}[1][2cm]{\makebox[#1]{\dotfill}}
+
 
 \newcommand{\compeval}
 {\begin{tikzpicture}

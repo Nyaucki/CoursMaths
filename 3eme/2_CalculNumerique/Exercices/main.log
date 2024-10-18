@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  14 OCT 2024 12:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  16 OCT 2024 06:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -981,6 +981,9 @@ LaTeX Font Info:    Redeclaring math accent \mathring on input line 269.
 \c@exrcntr=\count371
 ) (./main.aux (./Mode_Impression/Texte.aux
 
+LaTeX Warning: Label `fraction26' multiply defined.
+
+
 LaTeX Warning: Label `Relatifs1' multiply defined.
 
 
@@ -1015,6 +1018,231 @@ LaTeX Warning: Label `Relatifs11' multiply defined.
 
 
 LaTeX Warning: Label `Relatifs12' multiply defined.
+
+
+LaTeX Warning: Label `fraction1' multiply defined.
+
+
+LaTeX Warning: Label `fraction2' multiply defined.
+
+
+LaTeX Warning: Label `fraction3' multiply defined.
+
+
+LaTeX Warning: Label `fraction4' multiply defined.
+
+
+LaTeX Warning: Label `fraction5' multiply defined.
+
+
+LaTeX Warning: Label `fraction6' multiply defined.
+
+
+LaTeX Warning: Label `fraction7' multiply defined.
+
+
+LaTeX Warning: Label `fraction8' multiply defined.
+
+
+LaTeX Warning: Label `fraction9' multiply defined.
+
+
+LaTeX Warning: Label `fraction10' multiply defined.
+
+
+LaTeX Warning: Label `fraction11' multiply defined.
+
+
+LaTeX Warning: Label `fraction12' multiply defined.
+
+
+LaTeX Warning: Label `fraction13' multiply defined.
+
+
+LaTeX Warning: Label `fraction14' multiply defined.
+
+
+LaTeX Warning: Label `fraction15' multiply defined.
+
+
+LaTeX Warning: Label `fraction16' multiply defined.
+
+
+LaTeX Warning: Label `fraction17' multiply defined.
+
+
+LaTeX Warning: Label `fraction18' multiply defined.
+
+
+LaTeX Warning: Label `fraction19' multiply defined.
+
+
+LaTeX Warning: Label `fraction20' multiply defined.
+
+
+LaTeX Warning: Label `fraction21' multiply defined.
+
+
+LaTeX Warning: Label `fraction22' multiply defined.
+
+
+LaTeX Warning: Label `fraction23' multiply defined.
+
+
+LaTeX Warning: Label `fraction24' multiply defined.
+
+
+LaTeX Warning: Label `fraction25' multiply defined.
+
+
+LaTeX Warning: Label `fraction26' multiply defined.
+
+
+LaTeX Warning: Label `fraction28' multiply defined.
+
+
+LaTeX Warning: Label `fraction29' multiply defined.
+
+
+LaTeX Warning: Label `fraction30' multiply defined.
+
+
+LaTeX Warning: Label `fraction31' multiply defined.
+
+
+LaTeX Warning: Label `fraction32' multiply defined.
+
+
+LaTeX Warning: Label `fraction33' multiply defined.
+
+
+LaTeX Warning: Label `fraction34' multiply defined.
+
+
+LaTeX Warning: Label `fraction35' multiply defined.
+
+
+LaTeX Warning: Label `fraction36' multiply defined.
+
+
+LaTeX Warning: Label `fraction37' multiply defined.
+
+
+LaTeX Warning: Label `fraction38' multiply defined.
+
+
+LaTeX Warning: Label `fraction39' multiply defined.
+
+
+LaTeX Warning: Label `fraction40' multiply defined.
+
+
+LaTeX Warning: Label `fraction41' multiply defined.
+
+
+LaTeX Warning: Label `fraction42' multiply defined.
+
+
+LaTeX Warning: Label `fraction43' multiply defined.
+
+
+LaTeX Warning: Label `fraction44' multiply defined.
+
+
+LaTeX Warning: Label `fraction45' multiply defined.
+
+
+LaTeX Warning: Label `fraction46' multiply defined.
+
+
+LaTeX Warning: Label `fraction47' multiply defined.
+
+
+LaTeX Warning: Label `fraction48' multiply defined.
+
+
+LaTeX Warning: Label `Simplification1' multiply defined.
+
+
+LaTeX Warning: Label `Simplification2' multiply defined.
+
+
+LaTeX Warning: Label `Simplification3' multiply defined.
+
+
+LaTeX Warning: Label `Simplification4' multiply defined.
+
+
+LaTeX Warning: Label `Simplification5' multiply defined.
+
+
+LaTeX Warning: Label `Simplification6' multiply defined.
+
+
+LaTeX Warning: Label `Simplification7' multiply defined.
+
+
+LaTeX Warning: Label `Simplification8' multiply defined.
+
+
+LaTeX Warning: Label `Sans()1' multiply defined.
+
+
+LaTeX Warning: Label `Sans()2' multiply defined.
+
+
+LaTeX Warning: Label `Sans()3' multiply defined.
+
+
+LaTeX Warning: Label `Sans()4' multiply defined.
+
+
+LaTeX Warning: Label `Sans()5' multiply defined.
+
+
+LaTeX Warning: Label `Sans()6' multiply defined.
+
+
+LaTeX Warning: Label `Sans()7' multiply defined.
+
+
+LaTeX Warning: Label `Sans()8' multiply defined.
+
+
+LaTeX Warning: Label `Sans()9' multiply defined.
+
+
+LaTeX Warning: Label `Sans()10' multiply defined.
+
+
+LaTeX Warning: Label `Avec()1' multiply defined.
+
+
+LaTeX Warning: Label `Avec()2' multiply defined.
+
+
+LaTeX Warning: Label `Avec()3' multiply defined.
+
+
+LaTeX Warning: Label `Avec()4' multiply defined.
+
+
+LaTeX Warning: Label `Avec()5' multiply defined.
+
+
+LaTeX Warning: Label `Avec()6' multiply defined.
+
+
+LaTeX Warning: Label `Avec()7' multiply defined.
+
+
+LaTeX Warning: Label `Avec()8' multiply defined.
+
+
+LaTeX Warning: Label `Avec()9' multiply defined.
+
+
+LaTeX Warning: Label `Avec()10' multiply defined.
 
 
 LaTeX Warning: Label `Priorite1' multiply defined.
@@ -1363,7 +1591,87 @@ LaTeX Warning: Reference `Dur6' on page 1 undefined on input line 140.
 ) [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./Ex_Calculer/Exo_Relatifs.tex) (./Ex_Calculer/Exo_Priorite.tex) [2] (./Ex_Calculer/Corr_Relatifs.tex) (./Ex_Calculer/Corr_Priorite.tex)) [3]) (./main.aux (./Mode_Impression/Texte.aux))
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./Ex_Calculer/Exo_Relatifs.tex) (./Ex_Calculer/Exo_Fraction.tex [2]
+Overfull \hbox (7.04825pt too wide) in paragraph at lines 177--178
+[]\T1/futs/b/n/12 Exercice 61 :  \T1/futs/m/it/12 (re-pre-sen-ter)[] 
+ []
+
+
+Overfull \hbox (7.04825pt too wide) in paragraph at lines 180--181
+[]\T1/futs/b/n/12 Exercice 62 :  \T1/futs/m/it/12 (re-pre-sen-ter)[] 
+ []
+
+
+Overfull \hbox (7.04825pt too wide) in paragraph at lines 183--184
+[]\T1/futs/b/n/12 Exercice 63 :  \T1/futs/m/it/12 (re-pre-sen-ter)[] 
+ []
+
+
+Overfull \hbox (7.04825pt too wide) in paragraph at lines 186--187
+[]\T1/futs/b/n/12 Exercice 64 :  \T1/futs/m/it/12 (re-pre-sen-ter)[] 
+ []
+
+
+Overfull \hbox (7.04825pt too wide) in paragraph at lines 191--192
+[]\T1/futs/b/n/12 Exercice 65 :  \T1/futs/m/it/12 (re-pre-sen-ter)[] 
+ []
+
+
+Overfull \hbox (7.04825pt too wide) in paragraph at lines 194--195
+[]\T1/futs/b/n/12 Exercice 66 :  \T1/futs/m/it/12 (re-pre-sen-ter)[] 
+ []
+
+
+Overfull \hbox (7.04825pt too wide) in paragraph at lines 197--198
+[]\T1/futs/b/n/12 Exercice 67 :  \T1/futs/m/it/12 (re-pre-sen-ter)[] 
+ []
+
+
+Overfull \hbox (7.04825pt too wide) in paragraph at lines 200--201
+[]\T1/futs/b/n/12 Exercice 68 :  \T1/futs/m/it/12 (re-pre-sen-ter)[] 
+ []
+
+) (./Ex_Calculer/Exo_Priorite.tex [3]) [4] (./Ex_Calculer/Corr_Relatifs.tex) (./Ex_Calculer/Corr_Fraction.tex [5]
+Overfull \hbox (7.04825pt too wide) in paragraph at lines 173--174
+[]\T1/futs/b/n/12 Exercice 61 :  \T1/futs/m/it/12 (re-pre-sen-ter)[] 
+ []
+
+
+Overfull \hbox (7.04825pt too wide) in paragraph at lines 176--177
+[]\T1/futs/b/n/12 Exercice 62 :  \T1/futs/m/it/12 (re-pre-sen-ter)[] 
+ []
+
+
+Overfull \hbox (7.04825pt too wide) in paragraph at lines 179--180
+[]\T1/futs/b/n/12 Exercice 63 :  \T1/futs/m/it/12 (re-pre-sen-ter)[] 
+ []
+
+
+Overfull \hbox (7.04825pt too wide) in paragraph at lines 182--183
+[]\T1/futs/b/n/12 Exercice 64 :  \T1/futs/m/it/12 (re-pre-sen-ter)[] 
+ []
+
+
+Overfull \hbox (7.04825pt too wide) in paragraph at lines 187--188
+[]\T1/futs/b/n/12 Exercice 65 :  \T1/futs/m/it/12 (re-pre-sen-ter)[] 
+ []
+
+
+Overfull \hbox (7.04825pt too wide) in paragraph at lines 190--191
+[]\T1/futs/b/n/12 Exercice 66 :  \T1/futs/m/it/12 (re-pre-sen-ter)[] 
+ []
+
+
+Overfull \hbox (7.04825pt too wide) in paragraph at lines 193--194
+[]\T1/futs/b/n/12 Exercice 67 :  \T1/futs/m/it/12 (re-pre-sen-ter)[] 
+ []
+
+
+Overfull \hbox (7.04825pt too wide) in paragraph at lines 196--197
+[]\T1/futs/b/n/12 Exercice 68 :  \T1/futs/m/it/12 (re-pre-sen-ter)[] 
+ []
+
+) (./Ex_Calculer/Corr_Priorite.tex [6] [7]))) (./main.aux (./Mode_Impression/Texte.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1377,18 +1685,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 28372 strings out of 474222
- 596647 string characters out of 5748733
+ 28464 strings out of 474222
+ 597965 string characters out of 5748733
  1975975 words of memory out of 5000000
- 49906 multiletter control sequences out of 15000+600000
+ 49992 multiletter control sequences out of 15000+600000
  601435 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,13n,121p,1248b,1110s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on main.pdf (3 pages, 60996 bytes).
+Output written on main.pdf (7 pages, 70686 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
