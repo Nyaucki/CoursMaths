@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1729228937.81984 "/home/nyaucki/Documents/Prof/CoursMaths/3eme/1_GeometrieDansEspace/Devoirs/DS6/main.tex" "main.pdf" "main" 1729228939.062 0
+["pdflatex"] 1729774125.59756 "/home/nyaucki/Documents/Prof/CoursMaths/3eme/1_GeometrieDansEspace/Devoirs/DS6/main.tex" "main.pdf" "main" 1729774126.85949 0
   "/etc/texmf/web2c/texmf.cnf" 1728278577.13922 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/nyaucki/Documents/Prof/CoursMaths/3eme/1_GeometrieDansEspace/Devoirs/DS6/main.tex" 1727200691.34211 166 769afeb14705ec2f3923ff78bea56730 ""
   "/home/nyaucki/Documents/Prof/CoursMaths/mycls/interro.cls" 1729226476.08002 3046 19dbab7e007d2b73d9747f59c45e6d79 ""
@@ -258,12 +258,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1728289027.05577 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1728289158 8212900 37025dc55bcf1f60124279e197ee8503 ""
-  "Sujet1.tex" 1729228936.29309 4385 da0741e43cfaaea297580b5c3d1f6dd8 ""
+  "Sujet1.tex" 1729774125.31625 4667 d02b13e14798df42a06092f2e48c6b08 ""
   "Switches.tex" 1729228868.88508 402 75e6d4c9957073bbb01b06ce9f518a5d ""
-  "Texte.aux" 1729228938.93509 1138 afc89b47c4978f41be3343bca6b3bbd9 "pdflatex"
+  "Texte.aux" 1729774126.75024 1138 afc89b47c4978f41be3343bca6b3bbd9 "pdflatex"
   "Texte.tex" 1727325047.15605 197 1142b327c2d1bbf5dd18905950392fd9 ""
-  "entete.tex" 1729228705.21708 520 dd1b2b461f5ac1058d5de4665335e347 ""
-  "main.aux" 1729228938.93609 210 1c459362110cef85eeda581d00fec955 "pdflatex"
+  "entete.tex" 1729768906.27126 522 3bc0634ab12df9471542ff2dfea31acb ""
+  "main.aux" 1729774126.75124 210 1c459362110cef85eeda581d00fec955 "pdflatex"
   "main.tex" 1727200691.34211 166 769afeb14705ec2f3923ff78bea56730 ""
   (generated)
   "Texte.aux"

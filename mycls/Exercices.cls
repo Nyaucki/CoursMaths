@@ -122,11 +122,16 @@
     \end{definition}
     }
 
+\ExplSyntaxOn
+\newcommand\testcompetence[1]
+    { \tl_if_empty:nTF {#1} {} {\textit{(#1)}} }
+\ExplSyntaxOff %Une solution si remplie, rien sinon
+
 \newcounter{excntr}%(a)
     \newcommand*{\cnt}{\stepcounter{excntr}{(\alph{excntr})~~}}
 \newcounter{excntrb}%(1)
     \newcommand*{\cntb}{\stepcounter{excntrb}{(\arabic{excntrb})~~}\setcounter{excntr}{0}}
 \newcounter{exrcntr}%counter d'exo
-    \newcommand*{\exo}[2]{\bigskip \refstepcounter{exrcntr}{\vspace{0.5em}\textbf{Exercice~\arabic{exrcntr}~:~} \textit{(#1)}}\setcounter{excntr}{0}\setcounter{excntrb}{0}\label{#2}}%Rajouter un if pas correction
+    \newcommand*{\exo}[2]{\bigskip \refstepcounter{exrcntr}{\vspace{0.5em}\textbf{Exercice~\arabic{exrcntr}~:~} \testcompetence{#1}}\setcounter{excntr}{0}\setcounter{excntrb}{0}\label{#2}}%Rajouter un if pas correction
 
 \hyphenpenalty=10000 %Pas couper les mots
