@@ -64,6 +64,9 @@
 
 \graphicspath{ {./Images/} }
 
+\setlength{\columnseprule}{0.5pt}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\fillin}[1][2cm]{\makebox[#1]{\dotfill}}

@@ -35,6 +35,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \author{}
+\date{ }
 
 \AtBeginDocument{\renewcommand\labelitemi{$\bullet$}}%Itemize avec des bullet !
 
@@ -55,6 +56,9 @@
 
 
 \graphicspath{ {./Images/} }
+
+
+\renewcommand{\arraystretch}{2.5}%Place dans un tableau
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
