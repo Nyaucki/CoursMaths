@@ -6,7 +6,7 @@ Dir=Chemin[len(Chemin)-1]
 
 classe=Dir.split("_")[0]
 
-chpnum="Chp" + Dir.split("_")[1]
+chpnum=Dir.split("_")[1]
 
 base=classe + "_" + chpnum
 

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  1 NOV 2024 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  4 NOV 2024 07:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/nyaucki/Documents/Prof/CoursMaths/Chapitre_template/Devoirs/Classe_DSX/main.tex
-(/home/nyaucki/Documents/Prof/CoursMaths/Chapitre_template/Devoirs/Classe_DSX/main.tex
+**/home/nyaucki/Documents/Prof/CoursMaths/X_ChpY_Chapitre_template/Devoirs/DS_X/Y_X.tex
+(/home/nyaucki/Documents/Prof/CoursMaths/X_ChpY_Chapitre_template/Devoirs/DS_X/Y_X.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/home/nyaucki/Documents/Prof/CoursMaths/mycls/interro.cls
@@ -870,8 +870,8 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \c@excntr=\count378
 \c@excntrb=\count379
 \c@exrcntr=\count380
-) (./main.aux (./Texte.aux))
-\openout1 = `main.aux'.
+) (./Y_X.aux (./Texte.aux))
+\openout1 = `Y_X.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -956,7 +956,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
  (./Texte.tex (./entete.tex (/usr/share/texlive/texmf-dist/tex/latex/esvect/uesvect.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd) (./comp.tex)) (./Sujet1.tex) [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}]) (./main.aux (./Texte.aux))
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}]) (./Y_X.aux (./Texte.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -964,14 +964,14 @@ L3 programming layer <2020/03/25>
  ) 
 Here is how much of TeX's memory you used:
  29325 strings out of 474222
- 608724 string characters out of 5748733
+ 608715 string characters out of 5748733
  1932975 words of memory out of 5000000
  50910 multiletter control sequences out of 15000+600000
  565193 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,12n,121p,1252b,602s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (1 page, 64435 bytes).
+Output written on Y_X.pdf (1 page, 64437 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
