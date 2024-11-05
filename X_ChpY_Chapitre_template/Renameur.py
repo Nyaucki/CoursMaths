@@ -1,6 +1,8 @@
 import os
 
-Chemin=os.path.dirname(os.path.realpath(__file__)).split("/")
+Chemin_brut=os.path.dirname(os.path.realpath(__file__))
+
+Chemin=Chemin_brut.split("/")
 
 Dir=Chemin[len(Chemin)-1] 
 
@@ -20,7 +22,7 @@ code_a_remplacer = open("Devoirs/DM_X/CreationTest.py").read()
 
 code_a_remplacer=code_a_remplacer.replace("/X","/" + classe)
 
-code_a_remplacer=code_a_remplacer.replace("chemin","/" + Chemin)
+code_a_remplacer=code_a_remplacer.replace("chemin","/" + Chemin_brut)
 
 with open("Devoirs/DM_X/CreationTest.py","w") as fichier :
     fichier.write(code_a_remplacer)
