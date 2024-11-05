@@ -3,7 +3,7 @@ import os
 from random import *
 
 def Creation(classe,seed_numb):
-    path="/home/nyaucki/Documents/Prof/CoursMaths/Xeme/X_ressources/ListeEleve" + classe + ".csv"
+    path="/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_ressources/ListeEleve" + classe + ".csv"
 
     liste = open(path,"r")
     listeNoms = liste.read()
@@ -23,7 +23,7 @@ def Creation(classe,seed_numb):
     seed(seed_numb)
 
     with open(classe+"/SujetEntier" + classe +".tex","w") as fichier :
-        fichier.write("\\documentclass{/home/nyaucki/Documents/Prof/CoursMaths/mycls/DevoirMaison}\n\\usepackage{tabularx}\n\\usepackage{pythontex}\n\\renewcommand{\\arraystretch}{1.5}\n\\begin{document}\n\\input{chemin/Devoirs/DM_X/Switch.tex}\n\\renewcommand{\classe}{"+classe+"}\n")
+        fichier.write("\\documentclass{/home/nyaucki/Documents/Prof/CoursMaths/mycls/DevoirMaison}\n\\usepackage{tabularx}\n\\usepackage{pythontex}\n\\renewcommand{\\arraystretch}{1.5}\n\\begin{document}\n\\input{/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Switch.tex}\n\\renewcommand{\classe}{"+classe+"}\n")
         for i in range(len(noms)):
             code_sujet = code_a_remplacer.replace('\\nom}{}','\\nom}{' + noms[i] + ' ' + prenoms[i] +'}') #Remplace les noms
             code_sujet = code_sujet.replace('\\prenom}{}','\\prenom}{' + prenoms[i] + '}')
@@ -54,4 +54,4 @@ def Creation(classe,seed_numb):
     os.system('make')
 
 if __name__ == '__main__':
-    Creation('3C',666)
+    Creation('5E',666)

@@ -15,3 +15,12 @@ os.rename("Activite/X_ChpY_Act_Truc","Activite/"+ base +"_Act_Truc") #Rename dos
 os.rename("Cours/X_ChpY_cours.tex","Cours/"+ base + "_cours.tex")#Rename cours./main
 
 os.rename("Exercices/X_ChpY_exo.tex","Exercices/"+ base + "_exo.tex")#Rename exo./main
+
+code_a_remplacer = open("Devoirs/DM_X/CreationTest.py").read()
+
+code_a_remplacer=code_a_remplacer.replace("/X","/" + classe)
+
+code_a_remplacer=code_a_remplacer.replace("chemin","/" + Chemin)
+
+with open("Devoirs/DM_X/CreationTest.py","w") as fichier :
+    fichier.write(code_a_remplacer)

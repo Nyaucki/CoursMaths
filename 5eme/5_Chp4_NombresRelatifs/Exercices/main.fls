@@ -1,9 +1,9 @@
-PWD /home/nyaucki/Documents/Prof/CoursMaths/5eme/4_NombresRelatifs/Exercices
+PWD /home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp4_NombresRelatifs/Exercices
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/nyaucki/Documents/Prof/CoursMaths/5eme/4_NombresRelatifs/Exercices/main.tex
+INPUT /home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp4_NombresRelatifs/Exercices/main.tex
 OUTPUT main.log
 INPUT /home/nyaucki/Documents/Prof/CoursMaths/mycls/Exercices.cls
 INPUT /home/nyaucki/Documents/Prof/CoursMaths/mycls/Exercices.cls
@@ -580,6 +580,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-ml.tfm
 INPUT ./Ex_Representer/Exo_PlacerDroiteGradue.tex
 INPUT ./Ex_Representer/Exo_PlacerDroiteGradue.tex
 INPUT Ex_Representer/Exo_PlacerDroiteGradue.tex
+INPUT ./EX_Durs/Ex_CarreMagique55.tex
+INPUT ./EX_Durs/Ex_CarreMagique55.tex
+INPUT EX_Durs/Ex_CarreMagique55.tex
 INPUT main.aux
 INPUT ./Mode_Impression/Texte.aux
 INPUT ./Mode_Impression/Texte.aux

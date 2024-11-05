@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  15 OCT 2024 11:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  4 NOV 2024 09:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/nyaucki/Documents/Prof/CoursMaths/5eme/4_NombresRelatifs/Exercices/main.tex
-(/home/nyaucki/Documents/Prof/CoursMaths/5eme/4_NombresRelatifs/Exercices/main.tex
+**/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp4_NombresRelatifs/Exercices/main.tex
+(/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp4_NombresRelatifs/Exercices/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/home/nyaucki/Documents/Prof/CoursMaths/mycls/Exercices.cls
@@ -1174,22 +1174,22 @@ Overfull \hbox (4.29845pt too wide) in paragraph at lines 185--186
  [][] 
  []
 
-) (./Ex_Representer/Exo_PlacerDroiteGradue.tex) [2])) (./main.aux (./Mode_Impression/Texte.aux))
+) (./Ex_Representer/Exo_PlacerDroiteGradue.tex) (./EX_Durs/Ex_CarreMagique55.tex) [2])) (./main.aux (./Mode_Impression/Texte.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 28594 strings out of 474222
- 601463 string characters out of 5748733
- 1961975 words of memory out of 5000000
- 50122 multiletter control sequences out of 15000+600000
+ 28604 strings out of 474222
+ 601701 string characters out of 5748733
+ 1967975 words of memory out of 5000000
+ 50128 multiletter control sequences out of 15000+600000
  601435 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,12n,121p,1248b,915s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,12n,121p,1253b,915s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on main.pdf (2 pages, 56150 bytes).
+Output written on main.pdf (2 pages, 56987 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream

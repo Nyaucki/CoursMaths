@@ -1,0 +1,82 @@
+\documentclass{/home/nyaucki/Documents/Prof/CoursMaths/mycls/DevoirMaison}
+\begin{document}
+
+\renewcommand{\nom}{} 
+
+\renewcommand{\prenom}{}
+
+\input{/home/nyaucki/Documents/Prof/CoursMaths/mycls/Entete.tex}
+
+Effectuer les symétries centrales par rapport à $O$ pour chacune des figures suivantes.
+
+
+\begin{minipage}[t]{0.45\textwidth}
+    \begin{figure}[H]
+        \centering            
+		\begin{tikzpicture}
+			\tikzset{
+                homothety at/.style args={#1 scaled by #2}{shift={($(#1)!#2!(0,0)$)},scale=#2},}
+			\def\mypath{(\a1,0)--(\a2,1)--(\a3,\a3)--(7,\a4)}
+			\draw [thick]\mypath ;
+			\fill (4,4) coordinate (c) circle(2pt) node [above] {$O$};
+            \begin{scope}[homothety at=c scaled by -1]
+                \draw [dashed]\mypath;
+            \end{scope}
+			\draw [dotted](0,0) grid (8,8);
+		\end{tikzpicture}
+    \end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+    \begin{figure}[H]
+        \centering
+		\begin{tikzpicture}
+            \tikzset{
+                homothety at/.style args={#1 scaled by #2}{shift={($(#1)!#2!(0,0)$)},scale=#2},}
+			\def\mypath{(1,2)--(3,3)--(3,5)--(1,4)--cycle}
+			\draw [thick]\mypath ;
+			\fill (\b1,\b2) coordinate (c) circle(2pt) node [above] {$O$};
+            \begin{scope}[homothety at=c scaled by -1]
+                \draw [dashed]\mypath;
+            \end{scope}
+			\draw [dotted](0,0) grid (8,8);
+		\end{tikzpicture}
+    \end{figure}
+\end{minipage}
+\vfill
+
+\begin{minipage}[t]{0.45\textwidth}
+    \begin{figure}[H]
+        \centering
+		\begin{tikzpicture}[scale=0.85]
+            \tikzset{
+                homothety at/.style args={#1 scaled by #2}{shift={($(#1)!#2!(0,0)$)},scale=#2},}
+			\def\mypath{(1,4)--(0,3)--(4,1)--cycle}
+			\draw [white](0,0) grid (8,8);
+			\draw [thick]\mypath ;
+			\fill (\c1,\c2) coordinate (c) circle(2pt) node [above] {$O$};
+            \begin{scope}[homothety at=c scaled by -1]
+                \draw [dashed]\mypath;
+            \end{scope}
+		\end{tikzpicture}
+    \end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+    \begin{figure}[H]
+        \centering
+		\begin{tikzpicture}[scale=0.85]
+            \tikzset{
+                homothety at/.style args={#1 scaled by #2}{shift={($(#1)!#2!(0,0)$)},scale=#2},}
+			\def\mypath{(8,8)--(5,7)--(7,7)--(8,3)--cycle}
+			\draw [white](0,0) grid (8,8);
+			\draw [thick]\mypath ;
+			\fill (\d1,\d2) coordinate (c) circle(2pt) node [above] {$O$};
+            \begin{scope}[homothety at=c scaled by -1]
+                \draw [dashed]\mypath;
+            \end{scope}
+		\end{tikzpicture}
+    \end{figure}
+\end{minipage}
+
+\end{document}
