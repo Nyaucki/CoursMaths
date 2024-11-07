@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  4 NOV 2024 16:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  7 NOV 2024 06:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex
-(/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex
+**/home/nyaucki/Documents/Prof/CoursMaths/3eme/3_Chp2_CalculNumerique/Devoirs/DM_7/Sujet0.tex
+(/home/nyaucki/Documents/Prof/CoursMaths/3eme/3_Chp2_CalculNumerique/Devoirs/DM_7/Sujet0.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/home/nyaucki/Documents/Prof/CoursMaths/mycls/DevoirMaison.cls
@@ -1276,295 +1276,135 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 )
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:20: Undefined control sequence.
-\GenericError  ...                                
-                                                    #4  \errhelp \@err@     ...
-l.20 			\draw [thick]\mypath
-                             ;
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:20: Undefined control sequence.
-\GenericError  ...                                
-                                                  \let \@err@               ...
-l.20 			\draw [thick]\mypath
-                             ;
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:20: Undefined control sequence.
-\GenericError  ...                                
-                                                  \@empty \def \MessageBreak...
-l.20 			\draw [thick]\mypath
-                             ;
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:20: Undefined control sequence.
-\GenericError  ...                                
-                                                     \endgroup 
-l.20 			\draw [thick]\mypath
-                             ;
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:20: Missing control sequence inserted.
-<inserted text> 
-                \inaccessible 
-l.20 			\draw [thick]\mypath
-                             ;
-Please don't say `\def cs{...}', say `\def\cs{...}'.
-I've inserted an inaccessible control sequence so that your
-definition will be completed without mixing me up too badly.
-You can recover graciously from this error, if you're
-careful; see exercise 27.2 in The TeXbook.
-
-Runaway argument?
-\pgfmath@stack@push@operand \expandafter {\pgfmathresult }\let \pgfmath@parse@next \ETC.
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:47: Paragraph ended before \pgfmath@dimen@@ was complete.
-<to be read again> 
-                   \par 
-l.47 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:57: Missing number, treated as zero.
-<to be read again> 
-                   =
-l.57 			\fill (\c1,\c2)
-                        coordinate (c) circle(2pt) node [above] {$O$};
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:57: Undefined control sequence.
-\pgfmath@dimen@ ...men@@ #1=0.0pt\relax \pgfmath@ 
-                                                  
-l.57 			\fill (\c1,\c2)
-                        coordinate (c) circle(2pt) node [above] {$O$};
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:57: Missing number, treated as zero.
-<to be read again> 
-                   \unhbox 
-l.57 			\fill (\c1,\c2)
-                        coordinate (c) circle(2pt) node [above] {$O$};
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-Runaway argument?
-\expandafter \def \expandafter \pgfmath@number \expandafter {\the \pgfmath@count \ETC.
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:81: Paragraph ended before \pgfmath@dimen@@ was complete.
-<to be read again> 
-                   \par 
-l.81 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:82: Improper \prevdepth.
-\newpage ...everypar {}\fi \par \ifdim \prevdepth 
-                                                  >\z@ \vskip -\ifdim \prevd...
-l.82 \end{document}
-                   
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:82: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \end{document}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:82: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \end{document}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:82: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \end{document}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:82: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \end{document}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:82: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \end{document}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:82: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \end{document}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:82: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \end{document}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:82: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \end{document}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:82: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \end{document}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:82: Missing } inserted.
-<inserted text> 
-                }
-l.82 \end{document}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+LaTeX Warning: Command \1 invalid in math mode on input line 16.
 
 
-Overfull \hbox (35.25029pt too wide) detected at line 82
-[]                                        [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] [][]   [][][][][][][] []\T1/lmr/m/n/12 =0.0pt
- []
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:82: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \end{document}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:82: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \end{document}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:82: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.82 \end{document}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:82: Missing } inserted.
-<inserted text> 
-                }
-l.82 \end{document}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:82: LaTeX Error: \begin{tikzpicture} on input line 51 ended by \end{document}.
+/home/nyaucki/Documents/Prof/CoursMaths/3eme/3_Chp2_CalculNumerique/Devoirs/DM_7/Sujet0.tex:16: LaTeX Error: Command \1 unavailable in encoding T1.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.82 \end{document}
-                   
+l.16 		\item $$-\a1
+                    \times (-\a2) -\a3 \times \a4$$
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-(./Sujet0.aux)
+
+LaTeX Warning: Command \2 invalid in math mode on input line 16.
+
+
+/home/nyaucki/Documents/Prof/CoursMaths/3eme/3_Chp2_CalculNumerique/Devoirs/DM_7/Sujet0.tex:16: LaTeX Error: Command \2 unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 		\item $$-\a1 \times (-\a2
+                                ) -\a3 \times \a4$$
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \3 invalid in math mode on input line 16.
+
+
+/home/nyaucki/Documents/Prof/CoursMaths/3eme/3_Chp2_CalculNumerique/Devoirs/DM_7/Sujet0.tex:16: LaTeX Error: Command \3 unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 		\item $$-\a1 \times (-\a2) -\a3
+                                       \times \a4$$
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \4 invalid in math mode on input line 16.
+
+
+/home/nyaucki/Documents/Prof/CoursMaths/3eme/3_Chp2_CalculNumerique/Devoirs/DM_7/Sujet0.tex:16: LaTeX Error: Command \4 unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 		\item $$-\a1 \times (-\a2) -\a3 \times \a4
+                                                 $$
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 20.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 20.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 20.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 20.
+
+
+LaTeX Warning: Command \b invalid in math mode on input line 20.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 24.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 24.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 24.
+
+
+LaTeX Warning: Command \c invalid in math mode on input line 24.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 28.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 28.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 28.
+
+[1
+Non-PDF special ignored!
+<special> header=pstricks.pro
+Non-PDF special ignored!
+<special> header=pst-algparser.pro
+Non-PDF special ignored!
+<special> header=pst-tools.pro
+Non-PDF special ignored!
+<special> header=pst-dots.pro
+Non-PDF special ignored!
+<special> header=pst-node.pro
+Non-PDF special ignored!
+<special> header=pst-3d.pro
+Non-PDF special ignored!
+<special> header=pst-math.pro
+Non-PDF special ignored!
+<special> header=pstricks-add.pro
+Non-PDF special ignored!
+<special> header=pst-grad.pro
+
+Non-PDF special ignored!
+<special> ps: /pssetRGBcolor /setrgbcolor load def /pssetCMYKcolor /setcmyk...
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}] (./Sujet0.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1578,42 +1418,20 @@ Package rerunfilecheck Warning: File `Sujet0.out' has changed.
 Package rerunfilecheck Info: Checksums for `Sujet0.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:82: You can't use `\end' in internal vertical mode.
-\enddocument ...cument/end}\deadcycles \z@ \@@end 
-                                                  
-l.82 \end{document}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex:82: LaTeX Error: \begin{tikzpicture} on input line 51 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.82 \end{document}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-)
-! Emergency stop.
-<*> ...p3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex
-                                                  
-*** (job aborted, no legal \end found)
-
- 
+ ) 
 Here is how much of TeX's memory you used:
- 39455 strings out of 474222
- 806087 string characters out of 5748733
- 1925975 words of memory out of 5000000
- 60969 multiletter control sequences out of 15000+600000
+ 39451 strings out of 474222
+ 805627 string characters out of 5748733
+ 1935975 words of memory out of 5000000
+ 60955 multiletter control sequences out of 15000+600000
  577314 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 133i,12n,136p,882b,1095s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 133i,12n,136p,881b,914s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
+Output written on Sujet0.pdf (1 page, 56507 bytes).
+PDF statistics:
+ 41 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+

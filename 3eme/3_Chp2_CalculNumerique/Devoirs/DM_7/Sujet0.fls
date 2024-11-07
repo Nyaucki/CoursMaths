@@ -1,9 +1,9 @@
-PWD /home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7
+PWD /home/nyaucki/Documents/Prof/CoursMaths/3eme/3_Chp2_CalculNumerique/Devoirs/DM_7
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp3_Symetrie_centrale/Devoirs/DM7/Sujet0.tex
+INPUT /home/nyaucki/Documents/Prof/CoursMaths/3eme/3_Chp2_CalculNumerique/Devoirs/DM_7/Sujet0.tex
 OUTPUT Sujet0.log
 INPUT /home/nyaucki/Documents/Prof/CoursMaths/mycls/DevoirMaison.cls
 INPUT /home/nyaucki/Documents/Prof/CoursMaths/mycls/DevoirMaison.cls
@@ -521,6 +521,13 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
 INPUT Sujet0.aux
 INPUT ./Sujet0.out
 INPUT ./Sujet0.out
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb

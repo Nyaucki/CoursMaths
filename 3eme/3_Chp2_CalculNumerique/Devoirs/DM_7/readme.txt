@@ -4,4 +4,5 @@ J'ai l'impression qu'il faut tout fermer avant de compiler.
 
 Puis, on ouvre, et on compile uniquement CreationTest.py (ou fonction build dans le terminal)
 
-Je n'arrive pas à définir un seed pour avoir du control sur l'aléatoire
+En cas de bug de type "Je n'ai pas pris en compte ta modification", supprimer le dossier "pythontex-files-SujetEntier"
+
