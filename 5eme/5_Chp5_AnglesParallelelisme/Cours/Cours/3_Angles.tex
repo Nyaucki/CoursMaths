@@ -1,0 +1,79 @@
+\section{Angles}
+
+\prop{Angles opposés}
+{\begin{minipage}{0.65\textwidth}
+    Soit deux droites. Si :
+    \begin{itemize}
+        \item Elles sont sécantes 
+    \end{itemize}
+    Alors les angles formés par leur intersection sont égaux deux à deux avec l'angle opposé.
+\end{minipage}
+\hfill
+\begin{minipage}{0.3\textwidth}
+    \begin{figure}[H]
+        \center
+        \begin{tikzpicture}[scale=0.75]
+            \draw (0,0) -- (4,0) ;
+            \draw (1,1) -- (3,-1) ;
+            \draw [fill=green, opacity=0.3] (2.5,0) arc (0:135:0.5)--(2,0)--cycle;
+            \draw [fill=green, opacity=0.3] (1.5,0) arc (180:315:0.5)--(2,0)--cycle;
+            \draw [fill=red, opacity=0.3] (2.4,0) arc (0:-45:0.4)--(2,0)--cycle;
+            \draw [fill=red, opacity=0.3] (1.6,0) arc (180:135:0.4)--(2,0)--cycle;
+        \end{tikzpicture}
+    \end{figure}
+\end{minipage}
+}
+
+\rmq{On rappelle qu'un angle plat mesure 180°}
+
+\prop{Angles alternes-internes}
+{\begin{minipage}{0.68\textwidth}
+    Soient trois droites $(a),(b)$ et $(c)$. Si :
+\begin{itemize}
+    \item $(a)$ et $(b)$ sont parallèles.
+    \item $(c)$ coupe les droites $(a)$ et $(b)$
+\end{itemize}
+Alors les angles alternes internes formés par l'intersection de $(a)$ et $(c)$ et ceux de l'intersection de $(b)$ et $(c)$ sont de même mesure.
+\end{minipage}
+\hfill
+\begin{minipage}{0.3\textwidth}
+    \begin{figure}[H]
+        \center
+        \begin{tikzpicture}[scale=0.85]
+            \draw (-0.5,0) -- (3.5,0) ;
+            \draw (0,2) -- (3,-1) ;
+            \draw (-0.5,1) -- (3.5,1) ;
+            \draw [fill=green, opacity=0.3] (2.3,0) arc (0:135:0.3)--(2,0)--cycle;
+            \draw [fill=green, opacity=0.3] (0.7,1) arc (180:315:0.3)--(1,1)--cycle;
+            \draw [fill=red, opacity=0.3] (1.6,0) arc (180:135:0.4)--(2,0)--cycle;
+            \draw [fill=red, opacity=0.3] (1.4,1) arc (0:-45:0.4)--(1,1)--cycle;
+        \end{tikzpicture}
+    \end{figure}
+\end{minipage}
+}
+
+\prop{Angles alternes-internes-réciproque}
+{\begin{minipage}{0.65\textwidth}
+    Soient trois droites $(a),(b)$ et $(c)$. Si :
+    \begin{itemize}
+        \item $(c)$ coupe les droites $(a)$ et $(b)$
+        \item Les angles alternes internes sont de même mesure
+    \end{itemize}
+    Alors les droites $(a)$ et $(b)$ sont parallèles.
+\end{minipage}
+\hfill
+\begin{minipage}{0.3\textwidth}
+    \begin{figure}[H]
+        \center
+        \begin{tikzpicture}[scale=0.75]
+            \draw (-0.5,0) -- (3.5,0) ;
+            \draw (0,2) -- (3,-1) ;
+            \draw (-0.5,1) -- (3.5,1) ;
+            \draw [fill=red, opacity=0.3] (1.6,0) arc (180:135:0.4)--(2,0)--cycle;
+            \draw [fill=red, opacity=0.3] (1.4,1) arc (0:-45:0.4)--(1,1)--cycle;
+        \end{tikzpicture}
+    \end{figure}
+\end{minipage}
+}
+
+\rmq{Une égalité suffit.}
