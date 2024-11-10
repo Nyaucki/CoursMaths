@@ -1,0 +1,9 @@
+PWD /home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp5_AnglesParallelelisme/Exercices
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT /home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp5_AnglesParallelelisme/Exercices/5_Chp5_exo.tex
+OUTPUT 5_Chp5_exo.log
+INPUT /home/nyaucki/Documents/Prof/CoursMaths/mycls/Exercices.cls
+INPUT /home/nyaucki/Documents/Prof/CoursMaths/mycls/Exercices.cls

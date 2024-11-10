@@ -1,36 +1,6 @@
 \ProvidesClass{/home/nyaucki/Documents/Prof/CoursMaths/mycls/Activite}
 
-\LoadClass[a4paper,12pt]{article}
-
-\RequirePackage[utf8]{inputenc}
-\RequirePackage{babel}[french]
-\RequirePackage[T1]{fontenc}
-\RequirePackage{dsfont}
-\RequirePackage{amsmath}
-\RequirePackage[top=1cm,bottom=2cm,left=1.5cm, right=1.5cm]{geometry}
-\RequirePackage{tcolorbox}
-\RequirePackage{parskip}
-\RequirePackage{graphicx}
-\RequirePackage{float}
-\RequirePackage{tikz,tkz-tab}
-\RequirePackage{appendix}
-\RequirePackage{tabularx}
-\RequirePackage{amsmath}
-\RequirePackage{rotating}
-\RequirePackage{esvect}
-\RequirePackage{cancel}
-\usetikzlibrary{positioning}
-\RequirePackage{pgfpages}
-\RequirePackage{multicol}
-\RequirePackage{tkz-euclide}
-\RequirePackage{esvect}
-\RequirePackage{enumerate}
-\RequirePackage{fancyhdr}
-\RequirePackage{lipsum}
-\RequirePackage{amssymb}
-\RequirePackage{diagbox}
-\RequirePackage{mathtools}
-\RequirePackage[nomessages]{fp}
+\LoadClass[a4paper,12pt]{ArticleCommande}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -46,16 +16,6 @@
 \exhyphenpenalty 10000 % Pas de mots coupés
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\newcommand*{\zz}{\mathds{Z}}
-
-\newcommand*{\nn}{\mathds{N}}
-
-\newcommand*{\qq}{\mathds{Q}}
-
-\newcommand*{\rr}{\mathds{R}}
-
-\newcolumntype{Y}{>{\centering\arraybackslash}X}
 
 \newcounter{propcntr}%PROPRIETE
     \newtcolorbox{propriete}[1]{colback=white,colframe=gray,fonttitle=\bfseries,title=\stepcounter{propcntr} Propriété~\arabic{propcntr}~: \MakeUppercase#1}%Boite propriétés

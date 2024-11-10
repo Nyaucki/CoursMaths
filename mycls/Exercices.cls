@@ -1,41 +1,9 @@
 \ProvidesClass{/home/nyaucki/Documents/Prof/CoursMaths/mycls/Exercices}
 
-\LoadClass[a4paper,12pt]{article}
+\LoadClass[a4paper,12pt]{ArticleCommande}
 
-\RequirePackage[utf8]{inputenc}
-\RequirePackage{babel}[french]
-\RequirePackage[T1]{fontenc}
-\RequirePackage{dsfont}
-\RequirePackage{amsmath}
-\RequirePackage[top=1cm,bottom=2cm,left=1.5cm, right=1.5cm]{geometry}
-\RequirePackage{tcolorbox}
-\RequirePackage{parskip}
-\RequirePackage{graphicx}
-\RequirePackage{float}
-\RequirePackage{tikz,tkz-tab}
-\RequirePackage{appendix}
-\RequirePackage{tabularx}
-\RequirePackage{amsmath}
-\RequirePackage{rotating}
-\RequirePackage{cancel}
-\usetikzlibrary{positioning}
-\RequirePackage{pgfpages}
-\RequirePackage{multicol}
-\RequirePackage{tkz-euclide}
-\RequirePackage{esvect}
-\RequirePackage{enumerate}
-\RequirePackage{fancyhdr}
-\RequirePackage{lipsum}
-\RequirePackage{amssymb}
-\RequirePackage{diagbox}
-\RequirePackage{mathtools}
-\RequirePackage[nomessages]{fp}
-\RequirePackage{refcount}
-\RequirePackage{fourier}
 
-\usetikzlibrary{positioning}
-\usetikzlibrary{math}%Pour définir variables dans Tikz
-\usetikzlibrary{arrows.meta}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -63,24 +31,7 @@
 
 \setlength{\columnseprule}{0.5pt}%Pour avoir la ligne séparant les multicols (0pt pour la faire disparaitre)
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\newcommand{\makeAlph}[1]{\@Alph{#1}}%Transforme nombre en lettre
-
-\newcommand{\fillin}[1][2cm]{\makebox[#1]{\dotfill}}
-
-\newcommand{\separe}{\hrule \vspace{-0.5em}}
-
-\newcommand*{\zz}{\mathds{Z}}
-
-\newcommand*{\nn}{\mathds{N}}
-
-\newcommand*{\qq}{\mathds{Q}}
-
-\newcommand*{\rr}{\mathds{R}}
-
-\newcolumntype{Y}{>{\centering\arraybackslash}X}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\markerbox}{\raisebox{-1pt}{\tikz{\node[minimum height=0.8em,minimum width=2em,draw](){};}}}%Pour noter résultat
 

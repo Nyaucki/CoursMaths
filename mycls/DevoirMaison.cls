@@ -1,45 +1,6 @@
 \ProvidesClass{/home/nyaucki/Documents/Prof/CoursMaths/mycls/DevoirMaison}
 
-\LoadClass[a4paper,12pt]{article}
-
-\RequirePackage{etex}
-\RequirePackage[utf8]{inputenc}
-\RequirePackage[french]{babel}
-\RequirePackage{fancyhdr}
-\RequirePackage{pstricks,pstricks-add}
-\RequirePackage{geometry}
-\RequirePackage{dsfont}
-\RequirePackage{pstricks}
-\RequirePackage{pst-fill,pst-grad}
-\RequirePackage{lmodern}
-\RequirePackage[T1]{fontenc}
-\RequirePackage{amsmath,amssymb,amsfonts}
-\RequirePackage{graphicx}
-\RequirePackage{amsthm}
-\RequirePackage{xcolor}
-\RequirePackage{colortbl}
-\RequirePackage{tikz,tkz-tab}
-\usetikzlibrary{math,calc}%Pour définir variables dans Tikz +homotetie
-\RequirePackage{multicol}
-\RequirePackage{array}
-\RequirePackage{subfigure}
-\RequirePackage{framed}
-\RequirePackage{float}
-\RequirePackage{eurosym}
-\RequirePackage{enumerate}
-\RequirePackage[explicit]{titlesec}
-\RequirePackage{eso-pic}
-\RequirePackage{hyperref}
-\RequirePackage{fancybox}
-\RequirePackage{wrapfig}
-\RequirePackage{nopageno}
-\RequirePackage{listings}
-\RequirePackage{xargs}
-\RequirePackage{pifont}
-\RequirePackage{enumitem}
-\RequirePackage{lipsum}
-\RequirePackage{ifthen}
-\RequirePackage{tabularx}
+\LoadClass[a4paper,12pt]{ArticleCommande}
 
 \newif\if@pythontex \@pythontexfalse
 \DeclareOption{pythontex}{\@pythontextrue}

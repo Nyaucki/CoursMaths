@@ -1,0 +1,35 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  10 NOV 2024 15:44
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp5_AnglesParallelelisme/Exercices/5_Chp5_exo.tex
+(/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp5_AnglesParallelelisme/Exercices/5_Chp5_exo.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/home/nyaucki/Documents/Prof/CoursMaths/mycls/Exercices.cls
+Document Class: /home/nyaucki/Documents/Prof/CoursMaths/mycls/Exercices 
+
+! LaTeX Error: File `ArticleCommande.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+/home/nyaucki/Documents/Prof/CoursMaths/mycls/Exercices.cls:4: Emergency stop.
+<read *> 
+         
+l.4 ^^M
+       
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 39 strings out of 474222
+ 1356 string characters out of 5748733
+ 1922975 words of memory out of 5000000
+ 22387 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 33i,0n,43p,227b,17s stack positions out of 10000i,1000n,20000p,200000b,200000s
+/home/nyaucki/Documents/Prof/CoursMaths/mycls/Exercices.cls:4:  ==> Fatal error occurred, no output PDF file produced!
