@@ -1,0 +1,124 @@
+\exo{4}{Raisonner} : Compléter par < ou >. %8 comp
+
+\begin{multicols}{4}
+    \center {$-42~~\fillin[1cm]~~27$}
+    $$4,44~~\fillin[1cm]~~-4,5$$ 
+    $$-127~~\fillin[1cm]~~ -13$$
+    $$-123,71~~\fillin[1cm]~~ -123,8$$
+    $$-6~~\fillin[1cm]~~ -8$$
+    $$-4,2~~\fillin[1cm]~~ -4,12$$    
+    $$ 3,12 ~~\fillin[1cm]~~ 3,2$$
+    $$-0,4802~~\fillin[1cm]~~ -0,481$$
+\end{multicols}
+
+\exo{4}{Raisonner} : Écrire les liste suivante dans l'ordre croissant. %4 listes
+
+\begin{multicols}{4}
+    \begin{center}
+    -0,4 ~;~ -0,45 ~;~ -0,407 \vspace{3cm}
+    
+    -2,3 ~;~ 1,2 ~;~ -2,12 ~;~ 1,03 \vspace{3cm}
+    
+    -2,35 ~;~ -2,354  ~;~-2,3 \vspace{3cm}
+    
+    1 ~;~ -13 ~;~ 0 ~;~ -1,2 ~;~ 3,4 \vspace{3cm}
+    \end{center}
+\end{multicols}
+
+\exo{4}{Représenter} : Placer les nombres suivants sur les droites graduées. % 2droites
+
+\begin{minipage}[t]{0.45\textwidth}
+$$-0,2 ~;~ -0,4 $$
+
+\tikzmath{\ya =0; \scl=10; \rcl= 4; \dclg =1; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=\scl]
+        \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+        \foreach \x in {\dprt,\y2,...,\fin}
+        {
+          \draw (\x,\grad) -- (\x,-\grad) ;
+        }
+        \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+        \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=4]{\yb}} ;
+    \end{tikzpicture} 
+\end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+$$ -0,7 ;~ -1,4$$
+
+\tikzmath{\ya =-1; \scl=10; \rcl= 4; \dclg =1; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=\scl]
+        \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+        \foreach \x in {\dprt,\y2,...,\fin}
+        {
+          \draw (\x,\grad) -- (\x,-\grad) ;
+        }
+        \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+        \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=4]{\yb}} ;
+    \end{tikzpicture} 
+\end{figure}
+\end{minipage}
+
+\exo{4}{Représenter} : Donner les nombres $A$ et $B$ sur les droites graduées. %2droites
+\vspace*{-1em}
+
+\begin{minipage}[t]{0.45\textwidth}    
+    \tikzmath{\ya =0; \scl=10; \rcl= 6; \dclg =1; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+    
+    \begin{figure}[H]
+        \centering
+        \begin{tikzpicture}[scale=\scl]
+            \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+            \foreach \x in {\dprt,\y2,...,\fin}
+            {
+              \draw (\x,\grad) -- (\x,-\grad) ;
+            }
+            \foreach \z [count=\zi] in {-0.1,-0.6}
+            {
+              \node at (\z,\grad) [above] {\makeAlph{\zi}};
+            }
+            \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+            \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=4]{\yb}} ;
+        \end{tikzpicture} 
+    \end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}    
+    \tikzmath{\ya =-7.3; \scl=10; \rcl= 1; \dclg =1; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+    
+    \begin{figure}[H]
+        \centering
+        \begin{tikzpicture}[scale=\scl]
+            \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+            \foreach \x in {\dprt,\y2,...,\fin}
+            {
+              \draw (\x,\grad) -- (\x,-\grad) ;
+            }
+            \foreach \z [count=\zi] in {-7,-6.8}
+            {
+              \node at (\z,\grad) [above] {\makeAlph{\zi}};
+            }
+            \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+            \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=3]{\yb}} ;
+        \end{tikzpicture} 
+    \end{figure}
+\end{minipage}
+
+
+\exo{4}{Calculer} : Effectuer les calculs suivants en détaillant les étapes. %2 calculs
+
+
+\begin{multicols}{2}
+    \begin{center}
+    $(36+2\times 2)\div 8-5+3$ \vspace{5cm}
+    
+    $(4\times 8\div 2+2)\times 5+2$ \vspace{5cm}
+    \end{center}
+\end{multicols}
+

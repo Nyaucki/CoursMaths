@@ -1,4 +1,4 @@
-\ProvidesClass{interro}
+\ProvidesClass{/home/nyaucki/Documents/Prof/CoursMaths/mycls/interro}
 
 \LoadClass[a4paper,12pt]{/home/nyaucki/Documents/Prof/CoursMaths/mycls/ArticleCommande}
 
@@ -37,7 +37,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newcommand{\fillin}[1][2cm]{\makebox[#1]{\dotfill}}
+\newcommand{\filling}[1][2cm]{\makebox[#1]{\dotfill}}
 
 
 \newcommand{\compeval}
