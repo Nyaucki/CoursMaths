@@ -1,0 +1,16 @@
+\documentclass{/home/nyaucki/Documents/Prof/CoursMaths/mycls/Activite}
+
+\begin{document}
+
+\input{Switches}
+
+\input{Texte}
+
+\makeatletter
+\newcounter{int}
+\@whilenum\value{int}<\value{repetition}\do
+{\stepcounter{int}\vspace{0.3cm}\setcounter{propcntr}{0}\setcounter{excntr}{0}
+\input{Texte}}
+\makeatother
+
+\end{document}

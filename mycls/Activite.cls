@@ -1,6 +1,6 @@
 \ProvidesClass{/home/nyaucki/Documents/Prof/CoursMaths/mycls/Activite}
 
-\LoadClass[a4paper,12pt]{ArticleCommande}
+\LoadClass[a4paper,12pt]{/home/nyaucki/Documents/Prof/CoursMaths/mycls/ArticleCommande}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

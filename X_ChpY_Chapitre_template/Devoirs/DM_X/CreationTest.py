@@ -22,7 +22,7 @@ def Creation(classe,seed_numb):
 
     seed(seed_numb)
 
-    with open(classe+"/" + classe +"DM_X_SujetEntier.tex","w") as fichier :
+    with open(classe +"_DM_X_SujetEntier.tex","w") as fichier :
         fichier.write("\\documentclass{/home/nyaucki/Documents/Prof/CoursMaths/mycls/DevoirMaison}\n\\usepackage{tabularx}\n\\usepackage{pythontex}\n\\renewcommand{\\arraystretch}{1.5}\n\\begin{document}\n\\input{chemin/Devoirs/DM_X/Switch.tex}\n\\renewcommand{\classe}{"+classe+"}\n")
         for i in range(len(noms)):
             code_sujet = code_a_remplacer.replace('\\nom}{}','\\nom}{' + noms[i] + ' ' + prenoms[i] +'}') #Remplace les noms
@@ -44,14 +44,12 @@ def Creation(classe,seed_numb):
                 code_sujet = code_sujet.replace('\\c'+str(index+1),str(var))
             ##### Question d #####
             Qu_D=[randint(3,5),randint(3,5)]
-            for index,var in enumerate(Qu_C):
+            for index,var in enumerate(Qu_D):
                 code_sujet = code_sujet.replace('\\d'+str(index+1),str(var))
             fichier.write(code_sujet)
             fichier.write('\\newpage\n')
         fichier.write('\\end{document}')
 
-
-    os.system('make')
 
 if __name__ == '__main__':
     Creation('3C',666)

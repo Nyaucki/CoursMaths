@@ -1,5 +1,32 @@
 \section{Angles}
 
+\dfnt{Angles particuliers}
+{\begin{minipage}{0.45\textwidth}
+    On appelle \textbf{angle droit} un angle de 90°. 
+    \begin{figure}[H]
+        \center
+        \begin{tikzpicture}
+            \draw (1,0) coordinate (A) -- (-1,0) coordinate (B);
+            \draw (0,0) -- (0,1) coordinate (C);
+            \draw [gray,right angle quadrant=2,right angle symbol={A}{B}{C}];
+        \end{tikzpicture}
+    \end{figure}
+\end{minipage}
+\hfill
+\vrule
+\hfill
+\begin{minipage}{0.45\textwidth}
+    On appelle \textbf{angle plat} un angle de 180°.
+    \begin{figure}[H]
+        \center
+        \begin{tikzpicture}
+            \draw (3,0) coordinate (a) -- (0,0) coordinate (b) -- (-3,0) coordinate (c);
+            \draw pic["180",draw=orange,fill=orange!20,angle eccentricity=1.3, angle radius=0.7cm]{angle=a--b--c};
+        \end{tikzpicture}
+    \end{figure}
+\end{minipage}
+}
+
 \prop{Angles opposés}
 {\begin{minipage}{0.65\textwidth}
     Soit deux droites. Si :
@@ -24,7 +51,8 @@
 \end{minipage}
 }
 
-\rmq{On rappelle qu'un angle plat mesure 180°}
+\prop{Somme des angles d'un triangle}
+{La somme des trois angles d'un triangle est égale à 180°.}
 
 \prop{Angles alternes-internes}
 {\begin{minipage}{0.68\textwidth}

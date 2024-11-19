@@ -60,6 +60,9 @@
     }
 }
 
+\tikzset{
+    homothety at/.style args={#1 scaled by #2}{shift={($(#1)!#2!(0,0)$)},scale=#2},}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% AUTRES COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\makeAlph}[1]{\@Alph{#1}}%Transforme nombre en lettre
