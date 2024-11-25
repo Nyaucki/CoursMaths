@@ -26,10 +26,3 @@ code_a_remplacer=code_a_remplacer.replace("chemin","/" + Chemin_brut)
 
 with open("Devoirs/DM_X/CreationTest.py","w") as fichier :
     fichier.write(code_a_remplacer)
-
-switch_a_remplacer = open("Cours/Switches.tex").read()
-
-switch_a_remplacer=switch_a_remplacer.replace("Chapitre X",chpnum.replace("Chp","Chapitre"))
-
-with open("Cours/Switches.tex","w") as fichier :
-    fichier.write(switch_a_remplacer)
