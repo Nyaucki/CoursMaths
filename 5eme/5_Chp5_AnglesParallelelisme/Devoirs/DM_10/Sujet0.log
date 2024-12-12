@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  3 DEC 2024 07:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  6 DEC 2024 18:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_AllerPlusLoin/Distributivite/main.tex
-(/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_AllerPlusLoin/Distributivite/main.tex
+**/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp5_AnglesParallelelisme/Devoirs/DM_10/Sujet0.tex
+(/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp5_AnglesParallelelisme/Devoirs/DM_10/Sujet0.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
-(/home/nyaucki/Documents/Prof/CoursMaths/mycls/Activite.cls
-Document Class: /home/nyaucki/Documents/Prof/CoursMaths/mycls/Activite 
+(/home/nyaucki/Documents/Prof/CoursMaths/mycls/DevoirMaison.cls
+Document Class: /home/nyaucki/Documents/Prof/CoursMaths/mycls/DevoirMaison 
 (/home/nyaucki/Documents/Prof/CoursMaths/mycls/ArticleCommande.cls
 Document Class: /home/nyaucki/Documents/Prof/CoursMaths/mycls/ArticleCommande 
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -961,46 +961,41 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enitdp@description=\count362
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybabel.code.tex
 File: tikzlibrarybabel.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))
-\c@propcntr=\count363
-\c@defcntr=\count364
-\c@exmplcntr=\count365
-\c@excntr=\count366
-) (./main.aux)
-\openout1 = `main.aux'.
+))) (./Sujet0.aux)
+\openout1 = `Sujet0.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 3.
-LaTeX Font Info:    Trying to load font information for FML+futm on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 2.
+LaTeX Font Info:    Trying to load font information for FML+futm on input line 2.
  (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 3.
-LaTeX Font Info:    Trying to load font information for FMS+futm on input line 3.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 2.
+LaTeX Font Info:    Trying to load font information for FMS+futm on input line 2.
  (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 3.
-LaTeX Font Info:    Trying to load font information for FMX+futm on input line 3.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 2.
+LaTeX Font Info:    Trying to load font information for FMX+futm on input line 2.
  (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    ... okay on input line 2.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1010,14 +1005,14 @@ LaTeX Font Info:    ... okay on input line 3.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(28.45274pt, 759.6886pt, 56.9055pt)
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 773.91498pt, 42.67912pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=512.14963pt
-* \textheight=759.6886pt
-* \oddsidemargin=-29.59087pt
-* \evensidemargin=-29.59087pt
+* \textwidth=540.60239pt
+* \textheight=773.91498pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-80.81725pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -1038,16 +1033,16 @@ LaTeX Font Info:    ... okay on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count367
+\scratchcounter=\count363
 \scratchdimen=\dimen337
 \scratchbox=\box136
-\nofMPsegments=\count368
-\nofMParguments=\count369
+\nofMPsegments=\count364
+\nofMParguments=\count365
 \everyMPshowfont=\toks51
-\MPscratchCnt=\count370
+\MPscratchCnt=\count366
 \MPscratchDim=\dimen338
-\MPnumerator=\count371
-\makeMPintoPDFobject=\count372
+\MPnumerator=\count367
+\makeMPintoPDFobject=\count368
 \everyMPtoPDFconversion=\toks52
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1055,59 +1050,140 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 3.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 3.
- (./Switches.tex
-\c@repetition=\count373
-) (./Texte.tex
-LaTeX Font Info:    Trying to load font information for FML+futmi on input line 5.
- (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutmi.fd
-File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
-)
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 5.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 5.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 5.
-LaTeX Font Info:    Trying to load font information for U+esvect on input line 5.
- (/usr/share/texlive/texmf-dist/tex/latex/esvect/uesvect.fd
-File: uesvect.fd 
-)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 5.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 5.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 5.
-)
-\c@int=\count374
- [1
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 2.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 2.
+ (/home/nyaucki/Documents/Prof/CoursMaths/mycls/Entete.tex (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutmi.fd) (/usr/share/texlive/texmf-dist/tex/latex/esvect/uesvect.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+/home/nyaucki/Documents/Prof/CoursMaths/mycls/Entete.tex:6: Undefined control sequence.
+<inserted text> {p{1.4cm}p{6.7cm}X} \classe 
+                                            & \textbf {Devoir \devoirNumero ...
+l.6 \end{tabularx}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./main.aux)
+/home/nyaucki/Documents/Prof/CoursMaths/mycls/Entete.tex:6: Undefined control sequence.
+<argument> Devoir \devoirNumero 
+                                ~- Pour le \dateRendu 
+l.6 \end{tabularx}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/nyaucki/Documents/Prof/CoursMaths/mycls/Entete.tex:6: Undefined control sequence.
+<argument> ...\devoirNumero ~- Pour le \dateRendu 
+                                                  
+l.6 \end{tabularx}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/nyaucki/Documents/Prof/CoursMaths/mycls/Entete.tex:6: Undefined control sequence.
+<inserted text> {p{1.4cm}p{6.7cm}X} \classe 
+                                            & \textbf {Devoir \devoirNumero ...
+l.6 \end{tabularx}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/nyaucki/Documents/Prof/CoursMaths/mycls/Entete.tex:6: Undefined control sequence.
+<argument> Devoir \devoirNumero 
+                                ~- Pour le \dateRendu 
+l.6 \end{tabularx}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/nyaucki/Documents/Prof/CoursMaths/mycls/Entete.tex:6: Undefined control sequence.
+<argument> ...\devoirNumero ~- Pour le \dateRendu 
+                                                  
+l.6 \end{tabularx}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/nyaucki/Documents/Prof/CoursMaths/mycls/Entete.tex:6: Undefined control sequence.
+<inserted text> {p{1.4cm}p{6.7cm}X} \classe 
+                                            & \textbf {Devoir \devoirNumero ...
+l.6 \end{tabularx}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/nyaucki/Documents/Prof/CoursMaths/mycls/Entete.tex:6: Undefined control sequence.
+<argument> Devoir \devoirNumero 
+                                ~- Pour le \dateRendu 
+l.6 \end{tabularx}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/nyaucki/Documents/Prof/CoursMaths/mycls/Entete.tex:6: Undefined control sequence.
+<argument> ...\devoirNumero ~- Pour le \dateRendu 
+                                                  
+l.6 \end{tabularx}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+
+/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp5_AnglesParallelelisme/Devoirs/DM_10/Sujet0.tex:24: LaTeX Error: Command \1 unavailable in encoding T1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...1.3, angle radius=0.8cm]{angle=A2--I1--I2}
+                                                  ;
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./Sujet0.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 27682 strings out of 474222
- 585040 string characters out of 5748733
- 1941975 words of memory out of 5000000
- 49251 multiletter control sequences out of 15000+600000
- 601540 words of font info for 80 fonts, out of 8000000 for 9000
+ 27856 strings out of 474222
+ 588866 string characters out of 5748733
+ 1942975 words of memory out of 5000000
+ 49432 multiletter control sequences out of 15000+600000
+ 588149 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 130i,11n,135p,1252b,749s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on main.pdf (1 page, 52482 bytes).
+ 130i,14n,135p,1281b,1109s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on Sujet0.pdf (1 page, 43814 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream

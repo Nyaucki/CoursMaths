@@ -22,8 +22,8 @@ def Creation(classe,seed_numb):
 
     seed(seed_numb)
 
-    with open(classe+"/" + classe +"DM_X_SujetEntier.tex","w") as fichier :
-        fichier.write("\\documentclass{/home/nyaucki/Documents/Prof/CoursMaths/mycls/DevoirMaison}\n\\usepackage{tabularx}\n\\usepackage{pythontex}\n\\renewcommand{\\arraystretch}{1.5}\n\\begin{document}\n\\input{//home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp5_AnglesParallelelisme/Devoirs/DM_X/Switch.tex}\n\\renewcommand{\classe}{"+classe+"}\n")
+    with open(classe +"_DM_10_SujetEntier.tex","w") as fichier :
+        fichier.write("\\documentclass{/home/nyaucki/Documents/Prof/CoursMaths/mycls/DevoirMaison}\n\\usepackage{tabularx}\n\\usepackage{pythontex}\n\\renewcommand{\\arraystretch}{1.5}\n\\begin{document}\n\\input{//home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp5_AnglesParallelelisme/Devoirs/DM_10/Switch.tex}\n\\renewcommand{\classe}{"+classe+"}\n")
         for i in range(len(noms)):
             code_sujet = code_a_remplacer.replace('\\nom}{}','\\nom}{' + noms[i] + ' ' + prenoms[i] +'}') #Remplace les noms
             code_sujet = code_sujet.replace('\\prenom}{}','\\prenom}{' + prenoms[i] + '}')
@@ -31,20 +31,20 @@ def Creation(classe,seed_numb):
             code_sujet = code_sujet.replace('\\begin{document}','') #Retire le begin document
             code_sujet = code_sujet.replace('\\end{document}','') #Retire le end document
             ##### Question a #####
-            Qu_A=[randint(4,8),randint(3,7),randint(0,3),randint(0,3)]
+            Qu_A=[randint(4,86)]
             for index,var in enumerate(Qu_A):
                 code_sujet = code_sujet.replace('\\a'+str(index+1),str(var))
             ##### Question b #####
-            Qu_B=[4,randint(3,5)]
+            Qu_B=[randint(4,86)]
             for index,var in enumerate(Qu_B):
                 code_sujet = code_sujet.replace('\\b'+str(index+1),str(var))
             ##### Question c #####
-            Qu_C=[randint(3,5),randint(3,5)]
+            Qu_C=[randint(4,86)]
             for index,var in enumerate(Qu_C):
                 code_sujet = code_sujet.replace('\\c'+str(index+1),str(var))
             ##### Question d #####
-            Qu_D=[randint(3,5),randint(3,5)]
-            for index,var in enumerate(Qu_C):
+            Qu_D=[randint(4,86)]
+            for index,var in enumerate(Qu_D):
                 code_sujet = code_sujet.replace('\\d'+str(index+1),str(var))
             fichier.write(code_sujet)
             fichier.write('\\newpage\n')
@@ -54,4 +54,4 @@ def Creation(classe,seed_numb):
     os.system('make')
 
 if __name__ == '__main__':
-    Creation('3C',666)
+    Creation('5',666)
