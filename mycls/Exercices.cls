@@ -33,9 +33,11 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\newcommand{\filling}[1][2cm]{\makebox[#1]{\dotfill}}
+
 \newcommand{\markerbox}{\raisebox{-1pt}{\tikz{\node[minimum height=0.8em,minimum width=2em,draw](){};}}}%Pour noter résultat
 
-\newcommand{\consigne}[2]{\vspace*{1em}\textbf{Pour les exercices \ref{#1} à \ref{#2} : }\vspace{-2em}}
+\newcommand{\consigne}[2]{\vspace*{1em}\textbf{Pour les exercices \ref{#1} à \ref{#2} : }}
 
 \newcommand*{\exref}[1]{\textbf{Exercice~\ifnum\getrefnumber{#1}<10 0\fi \ref{#1}~\markerbox} } %Pour mettre deux chiffres
 

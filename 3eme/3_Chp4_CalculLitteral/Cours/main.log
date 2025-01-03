@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  10 OCT 2024 07:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  25 OCT 2024 15:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/nyaucki/Documents/Prof/CoursMaths/3eme/3_Thales/Cours/main.tex
-(/home/nyaucki/Documents/Prof/CoursMaths/3eme/3_Thales/Cours/main.tex
+**/home/nyaucki/Documents/Prof/CoursMaths/Chapitre_template/Cours/main.tex
+(/home/nyaucki/Documents/Prof/CoursMaths/Chapitre_template/Cours/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/home/nyaucki/Documents/Prof/CoursMaths/mycls/Cours.cls
@@ -930,54 +930,39 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 \openout2 = `Texte.aux'.
 
  (./Texte.tex
-LaTeX Font Info:    Trying to load font information for U+esvect on input line 3.
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 1.
  (/usr/share/texlive/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./Cours/rappels.tex
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
-
- []
+) (./Cours/1.tex) (./Cours/2.tex) (./Cours/3.tex)) [1
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
-
- []
-
-) (./Cours/emboite.tex) (./Cours/papillon.tex [1
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}]) (./Cours/reciproque.tex)) [2] (./main.aux (./Texte.aux))
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./main.aux (./Texte.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 27907 strings out of 474222
- 588996 string characters out of 5748733
- 1950975 words of memory out of 5000000
- 49481 multiletter control sequences out of 15000+600000
- 570448 words of font info for 77 fonts, out of 8000000 for 9000
+ 27717 strings out of 474222
+ 585381 string characters out of 5748733
+ 1925975 words of memory out of 5000000
+ 49306 multiletter control sequences out of 15000+600000
+ 563525 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,12n,121p,1235b,965s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on main.pdf (2 pages, 116970 bytes).
+ 116i,11n,121p,1239b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on main.pdf (1 page, 27149 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 22 PDF objects out of 1000 (max. 8388607)
+ 14 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

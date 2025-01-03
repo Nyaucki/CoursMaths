@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  10 OCT 2024 07:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  1 NOV 2024 18:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/nyaucki/Documents/Prof/CoursMaths/3eme/3_Thales/Exercices/main.tex
-(/home/nyaucki/Documents/Prof/CoursMaths/3eme/3_Thales/Exercices/main.tex
+**/home/nyaucki/Documents/Prof/CoursMaths/Chapitre_template/Exercices/main.tex
+(/home/nyaucki/Documents/Prof/CoursMaths/Chapitre_template/Exercices/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/home/nyaucki/Documents/Prof/CoursMaths/mycls/Exercices.cls
@@ -981,115 +981,16 @@ LaTeX Font Info:    Redeclaring math accent \mathring on input line 269.
 \c@exrcntr=\count371
 ) (./main.aux (./Mode_Impression/Texte.aux
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `CarreMagique1' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `CarreMagique2' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `CarreMagique3' multiply defined.
 
 
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
+LaTeX Warning: Label `CarreMagique4' multiply defined.
 
 ))
 \openout1 = `main.aux'.
@@ -1203,99 +1104,119 @@ LaTeX Font Info:    Redeclaring math accent \widetilde on input line 4.
  (./Switches.tex
 \openout2 = `Mode_Impression/Texte.aux'.
 
- (./Mode_Impression/Texte.tex (./PlanDeTravail.tex
-LaTeX Font Info:    Trying to load font information for FML+futmi on input line 39.
+ (./Mode_Impression/Texte.tex (./Ex_Calculer/Exo_Comparer.tex) (./Ex_Calculer/Exo_Opposer.tex
+LaTeX Font Info:    Trying to load font information for FML+futmi on input line 22.
  (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 39.
+(Font)              scaled to size 11.03998pt on input line 22.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 39.
+(Font)              scaled to size 8.27998pt on input line 22.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 39.
-LaTeX Font Info:    Trying to load font information for U+esvect on input line 39.
+(Font)              scaled to size 6.43999pt on input line 22.
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 22.
  (/usr/share/texlive/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 39.
+(Font)              scaled to size 11.03998pt on input line 22.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 39.
+(Font)              scaled to size 8.27998pt on input line 22.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 39.
-
-Overfull \hbox (1.884pt too wide) in paragraph at lines 52--83
-[][]  [] 
+(Font)              scaled to size 6.43999pt on input line 22.
+) (./Ex_Chercher/Exo_CarreMagiques.tex) (./Ex_Raisonner/Exo_OrdonnerLliste.tex
+Overfull \hbox (2.96829pt too wide) in paragraph at lines 4--6
+[]\T1/futs/b/n/12 Exercice 21 :  \T1/futs/m/it/12 (Rai-son-ner)[]
  []
 
 
-Overfull \hbox (1.884pt too wide) in paragraph at lines 100--126
-[][]  [] 
+Overfull \hbox (2.96829pt too wide) in paragraph at lines 7--9
+[]\T1/futs/b/n/12 Exercice 22 :  \T1/futs/m/it/12 (Rai-son-ner)[]
  []
 
-) [1
+
+Overfull \hbox (2.96829pt too wide) in paragraph at lines 10--12
+[]\T1/futs/b/n/12 Exercice 23 :  \T1/futs/m/it/12 (Rai-son-ner)[]
+ []
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./Cours_Direct/Exo_Direct.tex
-Overfull \hbox (4.75879pt too wide) in paragraph at lines 64--65
+Overfull \hbox (2.96829pt too wide) in paragraph at lines 13--15
+[]\T1/futs/b/n/12 Exercice 24 :  \T1/futs/m/it/12 (Rai-son-ner)[]
+ []
+
+
+Overfull \hbox (2.96829pt too wide) in paragraph at lines 18--20
+[]\T1/futs/b/n/12 Exercice 25 :  \T1/futs/m/it/12 (Rai-son-ner)[]
+ []
+
+
+Overfull \hbox (2.96829pt too wide) in paragraph at lines 21--23
+[]\T1/futs/b/n/12 Exercice 26 :  \T1/futs/m/it/12 (Rai-son-ner)[]
+ []
+
+
+Overfull \hbox (2.96829pt too wide) in paragraph at lines 24--26
+[]\T1/futs/b/n/12 Exercice 27 :  \T1/futs/m/it/12 (Rai-son-ner)[]
+ []
+
+
+Overfull \hbox (2.96829pt too wide) in paragraph at lines 27--29
+[]\T1/futs/b/n/12 Exercice 28 :  \T1/futs/m/it/12 (Rai-son-ner)[]
+ []
+
+) (./Ex_Representer/Exo_PlacerDroiteGradue.tex [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]) (./Ex_Representer/Exo_LireDroiteGradue.tex
+Overfull \hbox (4.6498pt too wide) in paragraph at lines 22--23
  [][] 
  []
 
-) (./Cours_Reciproque/Exo_Rcprq.tex
-Overfull \hbox (9.16626pt too wide) in paragraph at lines 131--132
- [][] 
- []
 
-[2]) (./Rappels_Pythagore/Exo_Pytha.tex) (./Rappels_Produits_En_Croix/Exo_PdtX.tex [3]) (./Rappels_Heures_Minutes/Exo_Heures.tex) (./Rappels_Vitesse/Exo_Vitesse.tex) (./Calculs/Exo_calculs.tex [4]
-Underfull \hbox (badness 10000) in paragraph at lines 254--286
-[]\T1/futs/m/n/12 Montrer que $(\FML/futmi/m/it/12 AB\T1/futs/m/n/12 )\FML/futmi/m/it/12 ;  \T1/futs/m/n/12 (\FML/futmi/m/it/12 DE\T1/futs/m/n/12 )$ et $(\FML/futmi/m/it/12 GH\T1/futs/m/n/12 )$ sont
- []
-
-) (./Concret/Exo_Concret.tex [5]) (./Type_Brevet/Exo_Brevet.tex
-Underfull \hbox (badness 7540) in paragraph at lines 4--5
-[]\T1/futs/m/n/12 Le fonc-tion-ne-ment d'un vi-deo-pro-jec-teur peut être
- []
-
-
-Underfull \hbox (badness 4378) in paragraph at lines 13--14
-\T1/futs/m/n/12 la py-ra-mide et celle re-liant leurs pieds sont
- []
-
-
-Overfull \hbox (7.38295pt too wide) in paragraph at lines 39--40
+Overfull \hbox (4.4398pt too wide) in paragraph at lines 45--46
  [][] 
  []
 
 
-Overfull \hbox (57.8594pt too wide) in paragraph at lines 1--42
-[]\T1/futs/b/n/12 Exercice 40 :  \T1/futs/m/it/12 (Cal-cul)[] []  [] 
- []
-
-) (./Plus_dur/Exo_Dur.tex [6]) [7] (./Cours_Direct/Corr_Direct.tex [8]) (./Cours_Reciproque/Corr_Rcprq.tex) (./Rappels_Pythagore/Corr_Pytha.tex [9]) (./Rappels_Produits_En_Croix/Corr_PdtX.tex) (./Rappels_Heures_Minutes/Corr_Heures.tex) (./Rappels_Vitesse/Corr_Vitesse.tex [10]) (./Calculs/Corr_calculs.tex [11] [12]) (./Concret/Corr_Concret.tex
-Underfull \hbox (badness 4378) in paragraph at lines 10--11
-\T1/futs/m/n/12 la py-ra-mide et celle re-liant leurs pieds sont
- []
-
-
-Overfull \hbox (7.38295pt too wide) in paragraph at lines 36--37
+Overfull \hbox (4.43611pt too wide) in paragraph at lines 69--70
  [][] 
  []
 
-[13]
-Overfull \hbox (7.38295pt too wide) in paragraph at lines 73--74
+
+Overfull \hbox (4.64641pt too wide) in paragraph at lines 92--93
  [][] 
  []
 
-) (./Type_Brevet/Corr_Brevet.tex) (./Plus_dur/Corr_Dur.tex)) [14]) (./main.aux (./Mode_Impression/Texte.aux))
+
+Overfull \hbox (18.22148pt too wide) in paragraph at lines 116--117
+ [][] 
+ []
+
+
+Overfull \hbox (4.61116pt too wide) in paragraph at lines 139--140
+ [][] 
+ []
+
+
+Overfull \hbox (4.29692pt too wide) in paragraph at lines 162--163
+ [][] 
+ []
+
+
+Overfull \hbox (4.29845pt too wide) in paragraph at lines 185--186
+ [][] 
+ []
+
+) (./Ex_Chercher/Corr_CarreMagique.tex)) [2] [3]) (./main.aux (./Mode_Impression/Texte.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1306,18 +1227,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 28626 strings out of 474222
- 602078 string characters out of 5748733
- 1985975 words of memory out of 5000000
- 50099 multiletter control sequences out of 15000+600000
- 602279 words of font info for 85 fonts, out of 8000000 for 9000
+ 28601 strings out of 474222
+ 601671 string characters out of 5748733
+ 1969975 words of memory out of 5000000
+ 50126 multiletter control sequences out of 15000+600000
+ 601435 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,13n,121p,1239b,1109s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,12n,121p,1243b,915s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on main.pdf (14 pages, 109744 bytes).
+Output written on main.pdf (3 pages, 57305 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 38 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
