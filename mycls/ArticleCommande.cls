@@ -35,7 +35,7 @@
 
 \usetikzlibrary{positioning}
 \usetikzlibrary{math}%Pour définir variables dans Tikz
-\usetikzlibrary{arrows.meta}
+\usetikzlibrary{arrows.meta} %pour faire des flèches
 \usetikzlibrary{babel} % permet d'éviter d'utiliser \shorthandoff{:!}
 
 

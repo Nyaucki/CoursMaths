@@ -1,0 +1,22 @@
+\documentclass[12pt,a4paper,french,landscape]{/home/nyaucki/Documents/Prof/CoursMaths/mycls/Activite}
+
+
+\begin{document}
+
+\newcommand{\fracn}[2]{Le nombre qui multiplié par #2 donne #1 \\[2em]}
+
+\input{/home/nyaucki/Documents/Prof/CoursMaths/Utilities/commandes_LaTex/fraction.tex} %Contien les commandes relatives aux fractions
+
+\input{Switches}
+
+\input{Texte}
+
+
+\makeatletter
+\newcounter{int}
+\@whilenum\value{int}<\value{repetition}\do
+{\stepcounter{int}\vspace{0.3cm}
+\input{Texte}}
+\makeatother
+
+\end{document}

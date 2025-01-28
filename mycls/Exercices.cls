@@ -2,6 +2,7 @@
 
 \LoadClass[a4paper,12pt]{/home/nyaucki/Documents/Prof/CoursMaths/mycls/ArticleCommande}
 
+\RequirePackage{setspace}
 
 
 
@@ -30,6 +31,13 @@
 \graphicspath{ {./Images/} }
 
 \setlength{\columnseprule}{0.5pt}%Pour avoir la ligne séparant les multicols (0pt pour la faire disparaitre)
+
+\setlength{\belowdisplayshortskip}{0pt} %Pour ne pas sauter autant de place sous chaque equation
+\setlength{\belowdisplayskip}{0pt} 
+\setlength{\abovedisplayshortskip}{0.5em} 
+\setlength{\abovedisplayskip}{0.5em} 
+
+\setstretch{0.3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%
 
