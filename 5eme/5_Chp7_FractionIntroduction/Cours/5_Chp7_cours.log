@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  28 JAN 2025 11:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  28 JAN 2025 17:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -993,46 +993,46 @@ File: tikzlibrarybabel.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (./5_Chp7_cours.aux (./Texte.aux))
 \openout1 = `5_Chp7_cours.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 3.
-LaTeX Font Info:    Trying to load font information for FML+futm on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 5.
+LaTeX Font Info:    Trying to load font information for FML+futm on input line 5.
  (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 3.
-LaTeX Font Info:    Trying to load font information for FMS+futm on input line 3.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 5.
+LaTeX Font Info:    Trying to load font information for FMS+futm on input line 5.
  (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 3.
-LaTeX Font Info:    Trying to load font information for FMX+futm on input line 3.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 5.
+LaTeX Font Info:    Trying to load font information for FMX+futm on input line 5.
  (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Info: Redefining \degres on input line 3.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Info: Redefining \degres on input line 5.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 3.
+(french.ldf)             reported on input line 5.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 3.
-LaTeX Info: Redefining \up on input line 3.
+(french.ldf)             reported on input line 5.
+LaTeX Info: Redefining \up on input line 5.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1087,8 +1087,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 3.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 3.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 5.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 5.
  (/home/nyaucki/Documents/Prof/CoursMaths/Utilities/commandes_LaTex/fraction.tex) (./Switches.tex)
 \openout2 = `Texte.aux'.
 
@@ -1134,25 +1134,25 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 8.27998pt on input line 12.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.43999pt on input line 12.
-) (./Cours/2_NouvelleDef.tex) (./Cours/4_Simplification.tex [1
+) (./Cours/2_NouvelleDef.tex) (./Cours/3_FractionQuantite.tex [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]) (./Cours/3_FractionQuantite.tex)) [2] (./5_Chp7_cours.aux (./Texte.aux))
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]) (./Cours/4_Simplification.tex [2])) (./5_Chp7_cours.aux (./Texte.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 28736 strings out of 474222
- 604388 string characters out of 5748733
- 1938975 words of memory out of 5000000
- 50271 multiletter control sequences out of 15000+600000
+ 28739 strings out of 474222
+ 604401 string characters out of 5748733
+ 1941975 words of memory out of 5000000
+ 50274 multiletter control sequences out of 15000+600000
  625058 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 130i,12n,135p,1263b,755s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 130i,11n,135p,1263b,755s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on 5_Chp7_cours.pdf (2 pages, 50838 bytes).
+Output written on 5_Chp7_cours.pdf (2 pages, 56155 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream

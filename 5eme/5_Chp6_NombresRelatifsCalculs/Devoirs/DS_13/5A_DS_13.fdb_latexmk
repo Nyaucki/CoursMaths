@@ -1,9 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1737612948.93326 "/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp6_NombresRelatifsCalculs/Devoirs/DS_13/5A_DS_13.tex" "5A_DS_13.pdf" "5A_DS_13" 1737612950.20458 0
+["pdflatex"] 1738908535.11136 "/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp6_NombresRelatifsCalculs/Devoirs/DS_13/5A_DS_13.tex" "5A_DS_13.pdf" "5A_DS_13" 1738908536.63856 0
   "/etc/texmf/web2c/texmf.cnf" 1728278577.13922 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp6_NombresRelatifsCalculs/Devoirs/DS_13/5A_DS_13.tex" 1730701066.80908 166 769afeb14705ec2f3923ff78bea56730 ""
-  "/home/nyaucki/Documents/Prof/CoursMaths/mycls/ArticleCommande.cls" 1731940365.88701 2636 4e0adb5e893b68c2e03418b21c2d5585 ""
-  "/home/nyaucki/Documents/Prof/CoursMaths/mycls/interro.cls" 1732009728.06704 2150 3ddbad385e19c0ad6edc648d92d22b87 ""
+  "/home/nyaucki/Documents/Prof/CoursMaths/mycls/ArticleCommande.cls" 1738907305.61708 2785 2837238257cc6a865d4e7b34da48c677 ""
+  "/home/nyaucki/Documents/Prof/CoursMaths/mycls/interro.cls" 1738908035.57411 2303 9a7756a0e310d1a4392209bc40e88e92 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1136768653 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
@@ -272,14 +272,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1728289027.05577 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1728289158 8212900 37025dc55bcf1f60124279e197ee8503 ""
-  "5A_DS_13.aux" 1737612950.09413 210 79f6b679e33ee5df829e5536b349f8e6 "pdflatex"
+  "5A_DS_13.aux" 1738908536.51012 210 79f6b679e33ee5df829e5536b349f8e6 "pdflatex"
   "5A_DS_13.tex" 1730701066.80908 166 769afeb14705ec2f3923ff78bea56730 ""
-  "Sujet1.tex" 1737612712.84613 783 7c015438bc502385603cb42ab02a45e9 ""
-  "Sujet2.tex" 1737612813.53613 783 7a0eafa279cb5e6eafebdd2797a3799b ""
-  "Switches.tex" 1737612831.68513 131 9fbb107cb27d7e72cff4f64d94a84d8d ""
-  "Texte.aux" 1737612950.09413 1084 af294c6b1448dbf619f7804f920e0716 "pdflatex"
+  "Sujet1.tex" 1738908239.72011 1911 840ef53b97ad6dabde70d8e66177d650 ""
+  "Sujet2.tex" 1738908492.04612 1911 5c6a078b6a10f422fe255a6096ce9836 ""
+  "Switches.tex" 1738908534.85812 131 2390ee30e3b129b6f7c30e6e15e373cf ""
+  "Texte.aux" 1738908536.50912 1084 1de6e90da7c33ec128bb64fd83b99d66 "pdflatex"
   "Texte.tex" 1737612818.33213 235 919b7d4a5bcb44a3ae29a45a42b96bee ""
-  "comp.tex" 1737612948.68213 290 40029fdcd8440c63bd44a1dc4ec13ec6 ""
+  "comp.tex" 1738908391.28612 482 ac741512d4d3defd2719044114269ec9 ""
   "entete.tex" 1730111679.598 192 49069e581e9ab64671ac3d8f5023da45 ""
   (generated)
   "5A_DS_13.aux"

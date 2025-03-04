@@ -32,12 +32,16 @@
 \RequirePackage{refcount}
 \RequirePackage{fourier}
 \RequirePackage{enumitem}
+\RequirePackage{pgffor} %Pour bouclke loop
 
 \usetikzlibrary{positioning}
 \usetikzlibrary{math}%Pour définir variables dans Tikz
 \usetikzlibrary{arrows.meta} %pour faire des flèches
 \usetikzlibrary{babel} % permet d'éviter d'utiliser \shorthandoff{:!}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SETTING %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hyphenpenalty=10000 %Pas couper les mots
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES TIKZ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

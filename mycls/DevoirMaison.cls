@@ -9,16 +9,16 @@
 \geometry{bottom=1.5cm}
 \fancypagestyle{plain}{
 \setlength{\footskip}{1.2cm}
-\renewcommand{\footrulewidth}{1pt}
+\renewcommand{\footrulewidth}{0pt}
 \renewcommand{\headrulewidth}{0pt}
 \lhead{}
 \chead{}
 \rhead{}
-\rfoot{\thepage}
+\rfoot{}
 \cfoot{}
 \lfoot{}
-\pagestyle{plain}
 }
+\pagestyle{plain}
 %%%%%%%%%%%%%% COULEURS %%%%%%%%%%%%%%%%%%%
 
 

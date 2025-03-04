@@ -1,7 +1,0 @@
-{
-    "python.testing.pytestArgs": [
-        "pythontex-files-SujetEntier"
-    ],
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
-}

@@ -577,9 +577,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
 INPUT ./Cours/2_NouvelleDef.tex
 INPUT ./Cours/2_NouvelleDef.tex
 INPUT Cours/2_NouvelleDef.tex
-INPUT ./Cours/4_Simplification.tex
-INPUT ./Cours/4_Simplification.tex
-INPUT Cours/4_Simplification.tex
+INPUT ./Cours/3_FractionQuantite.tex
+INPUT ./Cours/3_FractionQuantite.tex
+INPUT Cours/3_FractionQuantite.tex
 OUTPUT 5_Chp7_cours.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
@@ -602,9 +602,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futri8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futsy.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-ms.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mcl.tfm
-INPUT ./Cours/3_FractionQuantite.tex
-INPUT ./Cours/3_FractionQuantite.tex
-INPUT Cours/3_FractionQuantite.tex
+INPUT ./Cours/4_Simplification.tex
+INPUT ./Cours/4_Simplification.tex
+INPUT Cours/4_Simplification.tex
 INPUT 5_Chp7_cours.aux
 INPUT ./Texte.aux
 INPUT ./Texte.aux

@@ -13,4 +13,4 @@ for index in exo:
     for j in range (index//5 +1):
         exo[index]= exo[index] + plusmoins() + "("+plusmoins() + str(randint(1,20))+")"
 
-exercices_auto(ref,nb,path,exo) # Par défaut, écrit sur 4 colonnes. On peut rajouter un 5eme argumant pour modifier ceci.
+exercices_auto(ref,nb,path,exo) # Par défaut, écrit sur 4 colonnes. On peut rajouter un 5eme argument pour modifier ceci.

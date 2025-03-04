@@ -96,5 +96,3 @@
     \newcommand*{\cntb}{\stepcounter{excntrb}{(\arabic{excntrb})~~}\setcounter{excntr}{0}}
 \newcounter{exrcntr}%counter d'exo
     \newcommand*{\exo}[2]{\bigskip \refstepcounter{exrcntr}{\vspace{0.5em}\textbf{Exercice~\arabic{exrcntr}~:~} \testcompetence{#1}}\setcounter{excntr}{0}\setcounter{excntrb}{0}\label{#2}}%Rajouter un if pas correction
-
-\hyphenpenalty=10000 %Pas couper les mots

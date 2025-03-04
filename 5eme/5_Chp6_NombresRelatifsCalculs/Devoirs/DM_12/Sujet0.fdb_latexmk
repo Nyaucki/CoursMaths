@@ -1,9 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1735938899.6781 "/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp6_NombresRelatifsCalculs/Devoirs/DM_12/Sujet0.tex" "Sujet0.pdf" "Sujet0" 1735938900.84171 2
+["pdflatex"] 1738822444.16002 "/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp6_NombresRelatifsCalculs/Devoirs/DM_12/Sujet0.tex" "Sujet0.pdf" "Sujet0" 1738822445.29508 2
   "/etc/texmf/web2c/texmf.cnf" 1728278577.13922 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp6_NombresRelatifsCalculs/Devoirs/DM_12/Sujet0.tex" 1735938898.19087 563 c1e554643829d3a47237b898c3c199e6 ""
-  "/home/nyaucki/Documents/Prof/CoursMaths/mycls/ArticleCommande.cls" 1731940365.88701 2636 4e0adb5e893b68c2e03418b21c2d5585 ""
-  "/home/nyaucki/Documents/Prof/CoursMaths/mycls/DevoirMaison.cls" 1731909832.88208 654 8426fec920bba8db21bfa6238565dc36 ""
+  "/home/nyaucki/Documents/Prof/CoursMaths/mycls/ArticleCommande.cls" 1737965077.55126 2661 5053b48a4c1befc39b91131da605804f ""
+  "/home/nyaucki/Documents/Prof/CoursMaths/mycls/DevoirMaison.cls" 1738822442.59128 646 ee717a909218baa8e5cc1da8f7f39d65 ""
   "/home/nyaucki/Documents/Prof/CoursMaths/mycls/Entete.tex" 1727931542.83211 406 762442d428e07009205f0d2e999c3461 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -264,7 +264,7 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1728289027.05577 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1728289158 8212900 37025dc55bcf1f60124279e197ee8503 ""
-  "Sujet0.aux" 1735938900.71087 108 d76181cdaee5a061064369ef085b29fc "pdflatex"
+  "Sujet0.aux" 1738822445.14314 108 d76181cdaee5a061064369ef085b29fc "pdflatex"
   "Sujet0.tex" 1735938898.19087 563 c1e554643829d3a47237b898c3c199e6 ""
   (generated)
   "Sujet0.aux"

@@ -1,0 +1,151 @@
+\exo{4}{Calculer} Calculer les multiplications suivantes.
+
+\begin{multicols}{4}
+    $$424\times \dfrac{357}{424}$$\vspace*{1.7cm}
+    
+    \columnbreak
+    $$14\times \dfrac{3}{7}$$\vspace*{1.7cm}
+    
+    \columnbreak
+    $$32\times \dfrac{5}{4}$$\vspace*{1.7cm}
+    
+    \columnbreak
+    $$48\times \dfrac{7}{6}$$\vspace*{1.7cm}
+\end{multicols}
+
+\exo{4}{Représenter} Compléter pour rendre les fractions égales.
+
+\begin{multicols}{4}
+    $$ \dfrac{16}{\text{\filling[1cm]}}=\dfrac{2}{9}$$
+
+    $$ \dfrac{5}{3}=\dfrac{\text{\filling[1cm]}}{18}$$
+
+    $$ \dfrac{\text{\filling[1cm]}}{30}=\dfrac{5}{10}$$
+
+    $$ \dfrac{21}{35}=\dfrac{3}{\text{\filling[1cm]}}$$
+\end{multicols}
+
+\exo{4}{Représenter} Simplifier les fractions suivantes.
+
+\begin{multicols}{4}
+    $$\dfrac{60}{90}$$\vspace*{1.7cm}
+    
+    \columnbreak
+    $$\dfrac{32}{40}$$\vspace*{1.7cm}
+    
+    \columnbreak
+    $$\dfrac{45}{75}$$\vspace*{1.7cm}
+    
+    \columnbreak
+    $$\dfrac{84}{78}$$\vspace*{1.7cm}
+\end{multicols}
+
+\exo{4}{Chercher} Compléter avec > ou <.
+
+\begin{multicols}{4}
+    $$\dfrac{7}{13}\text{\filling}\dfrac{6}{13}$$\vspace*{1.7cm}
+    
+    \columnbreak
+    $$\dfrac{21}{130}\text{\filling}\dfrac{21}{5}$$\vspace*{1.7cm}
+    
+    \columnbreak
+    $$\dfrac{3}{4}\text{\filling}\dfrac{5}{8}$$\vspace*{1.7cm}
+    
+    \columnbreak
+    $$\dfrac{3}{5}\text{\filling}\dfrac{2}{3}$$\vspace*{1.7cm}
+\end{multicols}
+
+\newpage
+
+\exo{4}{Calculer} : Pour chacune des figures suivantes, déterminer l'angle $\alpha$.
+
+\begin{minipage}[t]{0.45\textwidth}
+    \begin{figure}[H]
+        \center
+        \begin{tikzpicture}
+            \draw (0,0) coordinate (A1) -- (4,0) coordinate (A2) node[right] {$(a)$};
+            \draw (0,1.5) coordinate (B1) -- (4,1.5) coordinate (B2) node[right] {$(b)$};
+            \draw (0.5,-1) coordinate (C1) -- (4,2.5) coordinate (C2);
+            \node (I1) at (1.5,0) {};
+            \node (I2) at (3,1.5) {};
+            \draw pic["$\alpha$",draw=blue,fill=blue!20,angle eccentricity=1.3, angle radius=0.8cm]{angle=C1--I2--B2};
+            \draw pic["29",draw=orange,fill=orange!20,angle eccentricity=1.3, angle radius=0.8cm]{angle=A2--I1--I2};
+        \end{tikzpicture}
+
+        $\alpha$=\filling[1.7cm]
+    \end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+    \begin{figure}[H]
+        \center
+        \begin{tikzpicture}
+            \draw (0,0.5) coordinate (A1) -- (0,3.75) coordinate (A2) node[right] {$(a)$};
+            \draw (1.5,0.5) coordinate (B1) node[right] {$(b)$} -- (1.5,3.95) coordinate (B2) ;
+            \draw (-1,0.5) coordinate (C1) -- (2.5,4) coordinate (C2);
+            \node (I1) at (0,1.5) {};
+            \node (I2) at (1.5,3) {};
+            \draw pic["$\alpha$",draw=blue,fill=blue!20,angle eccentricity=1.3, angle radius=0.8cm]{angle=C2--I2--B2};
+            \draw pic["103",draw=orange,fill=orange!20,angle eccentricity=1.4, angle radius=0.8cm]{angle=A1--I1--I2};
+        \end{tikzpicture}
+
+        $\alpha$=\filling[1.7cm]
+    \end{figure}
+\end{minipage}
+
+\begin{minipage}[t]{0.45\textwidth}
+    \begin{figure}[H]
+        \center
+        \begin{tikzpicture}[scale=1.25]
+            \draw (0,0) coordinate (A1) -- (4,0) coordinate (A2) node[right] {$(a)$};
+            \draw (0,1.5) coordinate (B1) -- (4,1.5) coordinate (B2) node[right] {$(b)$};
+            \draw (0.5,-1) coordinate (C1) -- (4,2.5) coordinate (C2);
+            \draw (1.5,-1) coordinate (D1) --(1.5,2.5) coordinate (D2) node [left] {$(d)$};
+            \node (I1) at (1.5,0) {};
+            \node (I2) at (3,1.5) {};
+            \draw [gray,right angle quadrant=2,right angle symbol={A1}{A2}{D2}];
+            \draw [gray,right angle quadrant=2,right angle symbol={B1}{B2}{D2}];
+            \draw pic["$\alpha$",draw=blue,fill=blue!20,angle eccentricity=1.3, angle radius=0.8cm]{angle=C1--I2--B2};
+            \draw pic["32",draw=orange,fill=orange!20,angle eccentricity=1.3, angle radius=0.8cm]{angle=C1--I1--D1};
+        \end{tikzpicture}
+
+        $\alpha$=\filling[1.7cm]
+    \end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+    \begin{figure}[H]
+        \center
+        \begin{tikzpicture}[scale=1.25]
+            \draw (0,0.5) coordinate (A1) -- (0,3.75) coordinate (A2) node[right] {$(a)$};
+            \draw (1.5,0.5) coordinate (B1) node[right] {$(b)$} -- (1.5,3.75) coordinate (B2) ;
+            \draw (-1,0.5) coordinate (C1) -- (2.5,4) coordinate (C2);
+            \draw (-1,1.5) coordinate (D1) --(2.5,1.5) coordinate (D2) node [below] {$(d)$};
+            \node (I1) at (0,1.5) {};
+            \node (I2) at (1.5,3) {};
+            \draw [gray,right angle quadrant=2,right angle symbol={A1}{A2}{D2}];
+            \draw [gray,right angle quadrant=2,right angle symbol={B1}{B2}{D2}];
+            \draw pic["$\alpha$",draw=blue,fill=blue!20,angle eccentricity=1.3, angle radius=0.8cm]{angle=D2--I1--I2};
+            \draw pic["107",draw=orange,fill=orange!20,angle eccentricity=1.4, angle radius=0.8cm]{angle=B1--I2--C2};
+        \end{tikzpicture}
+
+        $\alpha$=\filling[1.7cm]
+    \end{figure}
+\end{minipage}
+
+\exo{}{Modéliser} 
+
+Des élèves ont acheté un paquet de bonbons.
+
+\begin{itemize}
+    \item Joe en mange la moitié. 
+    
+    \item Puis Jack mange $\dfrac{2}{3}$ du reste.
+    
+    \item William mange $\dfrac{4}{5}$ de ce qu'ont laissé les deux précédents.
+    
+    \item À la fin, il ne reste plus que 3 bonbons à Averell.
+\end{itemize}
+
+Combien de bonbons y avait-il dans le paquet ?
+

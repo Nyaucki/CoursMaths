@@ -1,0 +1,66 @@
+\documentclass{/home/nyaucki/Documents/Prof/CoursMaths/mycls/DevoirMaison}
+\begin{document}
+
+
+
+\renewcommand{\nom}{} 
+
+\renewcommand{\prenom}{}
+
+\input{/home/nyaucki/Documents/Prof/CoursMaths/mycls/Entete.tex}
+\begin{minipage}{0.45\textwidth}
+	Voici un triangle $ABC$ rectangle en $B$. 
+
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			\draw (0,0) node[below] {$B$} -- node[midway,below] {\a1} (5,0) coordinate(A) node[below] {$A$} -- (0,3) coordinate (C) node[above] {$C$} --node[midway,left] {\a2} cycle ; 
+			\node (B) at (-0.01,0){};
+			\draw [gray,right angle length=2ex,right angle quadrant=2,right angle symbol={A}{B}{C}];
+		\end{tikzpicture}
+	\end{figure}
+	Donner, en justifiant, la longueur du côté $AC$
+\end{minipage}
+\hfil
+\begin{minipage}{0.45\textwidth}
+	Voici un triangle $ABC$ rectangle en $B$. 
+
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			\draw (0,0) node[below] {$B$} --  (5,0) coordinate(A) node[below] {$A$} --node[midway,above] {\b1} (0,3) coordinate (C) node[above] {$C$} --node[midway,left] {\b2} cycle ; 
+			\node (B) at (-0.01,0){};
+			\draw [gray,right angle length=2ex,right angle quadrant=2,right angle symbol={A}{B}{C}];
+		\end{tikzpicture}
+	\end{figure}
+	Donner, en justifiant, la longueur du côté $AB$
+\end{minipage}
+\vfil
+\begin{minipage}{0.45\textwidth}
+	Voici un triangle $ABC$. 
+
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			\draw (0,0) node[below] {$B$} -- node[midway,below] {\c1} (5,0) coordinate(A) node[below] {$A$} --node[midway,above] {\c2}  (0,3) coordinate (C) node[above] {$C$} --node[midway,left] {\c3} cycle ; 
+			\node (B) at (-0.01,0){};
+		\end{tikzpicture}
+	\end{figure}
+	Le triangle est-il rectangle ? Justifier.
+\end{minipage}
+\hfil
+\begin{minipage}{0.45\textwidth}
+	Voici un triangle $ABC$. 
+
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			\draw (0,0) node[below] {$B$} -- node[midway,below] {\d1} (5,0) coordinate(A) node[below] {$A$} --node[midway,above] {\d2} (0,3) coordinate (C) node[above] {$C$} --node[midway,left] {\d3} cycle ; 
+			\node (B) at (-0.01,0){};
+		\end{tikzpicture}
+	\end{figure}
+	Le triangle est-il rectangle ? Justifier.
+\end{minipage}
+\vfil
+
+\end{document}

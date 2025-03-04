@@ -1,5 +1,42 @@
 \textbf{Pour les exercices \ref{LireDroite1} à \ref{LireDroite8} :} dire à quels nombres correspondent à A, B et C ?
 
+\newcommand{\fracdgmult}[7][1]{
+% #1 : Combien de grd avant le départ
+% #2 : Dénominateur
+% #3 : Graduation connue
+% #4 : Numérateur 1
+% #5 : Numérateur 2
+% #6 : Numérateur 3
+% #7 : Numérateur 4
+\tikzmath{\den=#2; \ya =#3;  \rcl= #1 ; \pas=1/\den ; \yb =\ya +1; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +17*\pas ; \grad = 0.1/\den ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=\den]
+        \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+        \foreach \x in {\dprt,\y2,...,\fin}
+        {
+          \pgfmathparse{int(Mod(\x * \den +\pas ,\den))}
+          \ifnum\pgfmathresult>0
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          \else 
+            \draw[ultra thick] (\x,2*\grad) -- (\x,-2*\grad) ;
+          \fi
+        }
+        \foreach \z [count=\zi] in {#4 * \pas , #5 * \pas , #6 * \pas , #7 * \pas}
+        {
+          % \node at (\z,\grad) [above] {\makeAlph{\zi}};
+          \draw[-Stealth] (\z,5*\grad)--(\z,1.5*\grad);
+        }
+        \node (A) at (\ya,-2*\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+        \node (B) at (\yb,-2*\grad) [below] {\pgfmathprintnumber[use comma]{\yb}} ;
+    \end{tikzpicture} 
+\end{figure}}
+
+\fracdgmult{5}{0}{3}{7}{1}{12}
+
+\fracdgmult[2]{12}{0}{-1}{7}{1}{12}
+
+
 \begin{minipage}[t]{0.45\textwidth}
     \exo{Représenter}{LireDroite1} 
     

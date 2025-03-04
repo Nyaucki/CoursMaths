@@ -44,3 +44,6 @@
 \newcounter{excntr}%(a)
     \newcommand*{\cnt}{\stepcounter{excntr}{(\alph{excntr})~~}}
 
+\newcommand{\filling}[1][2cm]{\makebox[#1]{\dotfill}}
+
+

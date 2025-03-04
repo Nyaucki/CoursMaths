@@ -59,12 +59,17 @@
     \draw (-2.4,-0.15)--(-2.8,-0.15);
 \end{tikzpicture}}
 
+\ExplSyntaxOn
+\newcommand\testpoint[1]
+    { \tl_if_empty:nTF {#1} {(Bonus)} {(\hspace{0.7cm}/ #1 ~ points)} }
+\ExplSyntaxOff %Des points si remplis, bonus sinon
+
 \newcounter{excntr}%(a)
     \newcommand*{\cnt}{\stepcounter{excntr}{(\alph{excntr})~~}}
 \newcounter{excntrb}%(1)
     \newcommand*{\cntb}{\stepcounter{excntrb}{(\arabic{excntrb})~~}\setcounter{excntr}{0}}
 \newcounter{exrcntr}%counter d'exo
-    \newcommand*{\exo}[2]{\bigskip \stepcounter{exrcntr}{\textbf{Exercice~\arabic{exrcntr}~:~}(\hspace{0.7cm}/ #1 points) \textit{#2}}\setcounter{excntr}{0}\setcounter{excntrb}{0}}
+    \newcommand*{\exo}[2]{\bigskip \stepcounter{exrcntr}{\textbf{Exercice~\arabic{exrcntr}~:~}\testpoint{#1} \textit{#2}~:~}\setcounter{excntr}{0}\setcounter{excntrb}{0}}
 
 
 
