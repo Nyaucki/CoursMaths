@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  10 MAR 2025 06:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  13 MAR 2025 07:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1096,136 +1096,64 @@ LaTeX Font Info:    Redeclaring math accent \widetilde on input line 4.
 \openout2 = `Mode_Impression/Texte.aux'.
 
  (./Mode_Impression/Texte.tex (./Ex_Calculer/Exo_InegaliteTriangulaire.tex
-LaTeX Font Info:    Trying to load font information for FML+futmi on input line 22.
+LaTeX Font Info:    Trying to load font information for FML+futmi on input line 1.
  (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 22.
+(Font)              scaled to size 11.03998pt on input line 1.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 22.
+(Font)              scaled to size 8.27998pt on input line 1.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 22.
-LaTeX Font Info:    Trying to load font information for U+esvect on input line 22.
+(Font)              scaled to size 6.43999pt on input line 1.
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 1.
  (/usr/share/texlive/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 22.
+(Font)              scaled to size 11.03998pt on input line 1.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 22.
+(Font)              scaled to size 8.27998pt on input line 1.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 22.
-) (./Ex_Calculer/Exo_CalculAire.tex) (./Ex_Calculer/Exo_CalculAngle.tex) (./Ex_Durs/Exo_AnglesHardcore.tex) (./Ex_Modeliser/Exo_DireSiParticulier.tex) (./Ex_Raisonner/Exo_CalculAngleEtape.tex
-Overfull \hbox (2.96829pt too wide) in paragraph at lines 4--6
-[]\T1/futs/b/n/12 Exercice 17 :  \T1/futs/m/it/12 (Rai-son-ner)[]
+(Font)              scaled to size 6.43999pt on input line 1.
+) (./Ex_Calculer/Exo_CalculAire.tex) (./Ex_Calculer/Exo_CalculAngle.tex [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]) (./Ex_Durs/Exo_AnglesHardcore.tex) (./Ex_Modeliser/Exo_DireSiParticulier.tex
+Overfull \hbox (7.64594pt too wide) in paragraph at lines 1--2
+[]\T1/futs/b/n/12 Pour les exer-cices 28[] à 35[] :  \T1/futs/m/n/12 (Mo-de-li-ser) Sans les tra-cer, dire si les tri-angles $\FML/futmi/m/it/12 ABC$ \T1/futs/m/n/12 sui-vants sont quel-conques,
  []
 
-
-Overfull \hbox (2.96829pt too wide) in paragraph at lines 7--9
-[]\T1/futs/b/n/12 Exercice 18 :  \T1/futs/m/it/12 (Rai-son-ner)[]
- []
-
-
-Overfull \hbox (2.96829pt too wide) in paragraph at lines 10--12
-[]\T1/futs/b/n/12 Exercice 19 :  \T1/futs/m/it/12 (Rai-son-ner)[]
- []
-
-
-Overfull \hbox (2.96829pt too wide) in paragraph at lines 13--15
-[]\T1/futs/b/n/12 Exercice 20 :  \T1/futs/m/it/12 (Rai-son-ner)[]
- []
-
-
-Overfull \hbox (2.96829pt too wide) in paragraph at lines 18--20
-[]\T1/futs/b/n/12 Exercice 21 :  \T1/futs/m/it/12 (Rai-son-ner)[]
- []
-
-
-Overfull \hbox (2.96829pt too wide) in paragraph at lines 21--23
-[]\T1/futs/b/n/12 Exercice 22 :  \T1/futs/m/it/12 (Rai-son-ner)[]
- []
-
-
-Overfull \hbox (2.96829pt too wide) in paragraph at lines 24--26
-[]\T1/futs/b/n/12 Exercice 23 :  \T1/futs/m/it/12 (Rai-son-ner)[]
- []
-
-
-Overfull \hbox (2.96829pt too wide) in paragraph at lines 27--29
-[]\T1/futs/b/n/12 Exercice 24 :  \T1/futs/m/it/12 (Rai-son-ner)[]
- []
-
-) (./Ex_Representer/Exo_TracerTriangleRaporteur.tex) (./Ex_Representer/Exo_TracerTriangleCompas.tex
-Overfull \hbox (4.6498pt too wide) in paragraph at lines 22--23
- [][] 
- []
-
-
-Overfull \hbox (4.4398pt too wide) in paragraph at lines 45--46
- [][] 
- []
-
-
-Overfull \hbox (4.43611pt too wide) in paragraph at lines 69--70
- [][] 
- []
-
-
-Overfull \hbox (4.64641pt too wide) in paragraph at lines 92--93
- [][] 
- []
-
-[1
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-Overfull \hbox (18.22148pt too wide) in paragraph at lines 116--117
- [][] 
- []
-
-
-Overfull \hbox (4.61116pt too wide) in paragraph at lines 139--140
- [][] 
- []
-
-
-Overfull \hbox (4.29692pt too wide) in paragraph at lines 162--163
- [][] 
- []
-
-
-Overfull \hbox (4.29845pt too wide) in paragraph at lines 185--186
- [][] 
- []
-
-) [2]) [3]) (./5_Chp8_exo.aux (./Mode_Impression/Texte.aux))
+LaTeX Font Info:    Trying to load font information for TS1+futs on input line 8.
+(/usr/share/texlive/texmf-dist/tex/latex/fourier/ts1futs.fd
+File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
+)) (./Ex_Raisonner/Exo_CalculAngleEtape.tex) (./Ex_Representer/Exo_TracerTriangleRaporteur.tex) (./Ex_Representer/Exo_TracerTriangleCompas.tex [2]))) (./5_Chp8_exo.aux (./Mode_Impression/Texte.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 28926 strings out of 474222
- 607841 string characters out of 5748733
- 1963975 words of memory out of 5000000
- 50445 multiletter control sequences out of 15000+600000
- 601435 words of font info for 81 fonts, out of 8000000 for 9000
+ 28893 strings out of 474222
+ 607700 string characters out of 5748733
+ 1975975 words of memory out of 5000000
+ 50409 multiletter control sequences out of 15000+600000
+ 597754 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 130i,12n,135p,1254b,921s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on 5_Chp8_exo.pdf (3 pages, 55430 bytes).
+ 130i,13n,135p,1254b,1117s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on 5_Chp8_exo.pdf (2 pages, 57848 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

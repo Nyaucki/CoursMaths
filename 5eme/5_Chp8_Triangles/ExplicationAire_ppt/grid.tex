@@ -1,0 +1,417 @@
+\documentclass[12pt,a4paper,french,fleqn]{beamer}
+
+\usepackage{tikz}
+
+\begin{document}
+
+\newcommand{\ax}{-3}
+\newcommand{\ay}{-3}
+\newcommand{\bx}{-1}
+\newcommand{\by}{-3}
+\newcommand{\cx}{-1}
+\newcommand{\cy}{2}
+\newcommand{\dx}{1}
+\newcommand{\dy}{3}
+\newcommand{\ex}{1}
+\newcommand{\ey}{1}
+\newcommand{\fx}{3}
+\newcommand{\fy}{3}
+
+
+\begin{frame}
+    \begin{minipage}[t]{0.65\textwidth}
+        \begin{figure}
+            \center
+            \begin{tikzpicture}[scale=0.8]
+                \draw[dotted,blue] (-4,-4) grid (4,4);
+                \draw [blue,thick,->] (0,-4)-- (0,4);
+                \draw [blue,thick,->] (-4,0)-- (4,0);
+            \end{tikzpicture}
+        \end{figure}
+    \end{minipage}
+    \hfil
+    \vrule
+    \hfil
+    \begin{minipage}[t]{0.3\textwidth}
+        \underbar{Placer les points :}
+        \begin{itemize}
+            \item A(\ax ; \ay)
+            \item B(\bx ; \by)
+            \item C(\cx ; \cy)
+            \item D(\dx ; \dy)
+            \item E(\ex ; \ey)
+            \item F(\fx ; \fy)
+        \end{itemize}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}
+    \begin{minipage}[t]{0.65\textwidth}
+        \begin{figure}
+            \center
+            \begin{tikzpicture}[scale=0.8]
+                \draw[dotted,blue] (-4,-4) grid (4,4);
+                \draw [blue,thick,->] (0,-4)-- (0,4);
+                \draw [blue,thick,->] (-4,0)-- (4,0);
+                \draw[thick] (\ax,\ay) coordinate (A) node [below left] {A} -- (\bx,\by) coordinate (B) node [below right] {B} -- (\cx,\cy) coordinate (C) node [above] {C} -- cycle;
+                \draw[thick] (\dx,\dy) coordinate (D) node [above left] {D} -- (\ex,\ey) coordinate (E) node [below] {E} -- (\fx,\fy) coordinate (F) node [above] {F} -- cycle;
+            \end{tikzpicture}
+        \end{figure}
+    \end{minipage}
+    \hfil
+    \vrule
+    \hfil
+    \begin{minipage}[t]{0.3\textwidth}
+        \underbar{Placer les points :}
+        \begin{itemize}
+            \item A(\ax ; \ay)
+            \item B(\bx ; \by)
+            \item C(\cx ; \cy)
+            \item D(\dx ; \dy)
+            \item E(\ex ; \ey)
+            \item F(\fx ; \fy)
+        \end{itemize}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}
+    \begin{minipage}[t]{0.65\textwidth}
+        \begin{figure}
+            \center
+            \begin{tikzpicture}[scale=0.8]
+                \draw[dotted,blue] (-4,-4) grid (4,4);
+                \draw [blue,thick,->] (0,-4)-- (0,4);
+                \draw [blue,thick,->] (-4,0)-- (4,0);
+                \draw[thick] (\ax,\ay) coordinate (A) node [below left] {A} -- (\bx,\by) coordinate (B) node [below right] {B} -- (\cx,\cy) coordinate (C) node [above] {C} -- cycle;
+                \draw[thick] (\dx,\dy) coordinate (D) node [above left] {D} -- (\ex,\ey) coordinate (E) node [below] {E} -- (\fx,\fy) coordinate (F) node [above] {F} -- cycle;
+            \end{tikzpicture}
+        \end{figure}
+    \end{minipage}
+    \hfil
+    \vrule
+    \hfil
+    \begin{minipage}[t]{0.3\textwidth}
+        \underbar{Placer les points :}
+        \begin{itemize}
+            \item A(\ax ; \ay)
+            \item B(\bx ; \by)
+            \item C(\cx ; \cy)
+            \item D(\dx ; \dy)
+            \item E(\ex ; \ey)
+            \item F(\fx ; \fy)
+        \end{itemize}
+
+        \underbar{Calculer l'aire :}
+        \begin{itemize}
+            \item Du triangle ABC
+            \item Du triangle DEF
+        \end{itemize}
+    \end{minipage}
+\end{frame}
+
+\renewcommand{\ax}{-3}
+\renewcommand{\ay}{-3}
+\renewcommand{\bx}{-1}
+\renewcommand{\by}{-3}
+\renewcommand{\cx}{-1}
+\renewcommand{\cy}{2}
+\renewcommand{\dx}{2}
+\renewcommand{\dy}{-3}
+
+
+
+\begin{frame}
+    \begin{minipage}[t]{0.65\textwidth}
+        \begin{figure}
+            \center
+            \begin{tikzpicture}[scale=0.8]
+                \draw[dotted,blue] (-4,-4) grid (4,4);
+                \draw [blue,thick,->] (0,-4)-- (0,4);
+                \draw [blue,thick,->] (-4,0)-- (4,0);
+            \end{tikzpicture}
+        \end{figure}
+    \end{minipage}
+    \hfil
+    \vrule
+    \hfil
+    \begin{minipage}[t]{0.3\textwidth}
+        \underbar{Placer les points :}
+        \begin{itemize}
+            \item A(\ax ; \ay)
+            \item B(\bx ; \by)
+            \item C(\cx ; \cy)
+            \item D(\dx ; \dy)
+        \end{itemize}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}
+    \begin{minipage}[t]{0.65\textwidth}
+        \begin{figure}
+            \center
+            \begin{tikzpicture}[scale=0.8]
+                \draw[dotted,blue] (-4,-4) grid (4,4);
+                \draw [blue,thick,->] (0,-4)-- (0,4);
+                \draw [blue,thick,->] (-4,0)-- (4,0);
+                \draw[thick] (\ax,\ay) coordinate (A) node [below left] {A} -- (\bx,\by) coordinate (B) node [below right] {B} -- (\cx,\cy) coordinate (C) node [above] {C} -- cycle;
+                \draw[thick] (B)--(\dx,\dy) coordinate (D) node [below right] {D} -- (C);
+            \end{tikzpicture}
+        \end{figure}
+    \end{minipage}
+    \hfil
+    \vrule
+    \hfil
+    \begin{minipage}[t]{0.3\textwidth}
+        \underbar{Placer les points :}
+        \begin{itemize}
+            \item A(\ax ; \ay)
+            \item B(\bx ; \by)
+            \item C(\cx ; \cy)
+            \item D(\dx ; \dy)
+        \end{itemize}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}
+    \begin{minipage}[t]{0.65\textwidth}
+        \begin{figure}
+            \center
+            \begin{tikzpicture}[scale=0.8]
+                \draw[dotted,blue] (-4,-4) grid (4,4);
+                \draw [blue,thick,->] (0,-4)-- (0,4);
+                \draw [blue,thick,->] (-4,0)-- (4,0);
+                \draw[thick] (\ax,\ay) coordinate (A) node [below left] {A} -- (\bx,\by) coordinate (B) node [below right] {B} -- (\cx,\cy) coordinate (C) node [above] {C} -- cycle;
+                \draw[thick] (B)--(\dx,\dy) coordinate (D) node [below,right] {D} -- (C);
+            \end{tikzpicture}
+        \end{figure}
+    \end{minipage}
+    \hfil
+    \vrule
+    \hfil
+    \begin{minipage}[t]{0.3\textwidth}
+        \underbar{Placer les points :}
+        \begin{itemize}
+            \item A(\ax ; \ay)
+            \item B(\bx ; \by)
+            \item C(\cx ; \cy)
+            \item D(\dx ; \dy)
+        \end{itemize}
+
+        \underbar{Calculer l'aire :}
+        \begin{itemize}
+            \item Du triangle ADC
+        \end{itemize}
+    \end{minipage}
+\end{frame}
+
+\renewcommand{\ax}{-3}
+\renewcommand{\ay}{3}
+\renewcommand{\bx}{0}
+\renewcommand{\by}{3}
+\renewcommand{\cx}{-1}
+\renewcommand{\cy}{1}
+\renewcommand{\dx}{1}
+\renewcommand{\dy}{-3}
+\renewcommand{\ex}{3}
+\renewcommand{\ey}{-1}
+\renewcommand{\fx}{1}
+\renewcommand{\fy}{3}
+
+
+\begin{frame}
+    \begin{minipage}[t]{0.65\textwidth}
+        \begin{figure}
+            \center
+            \begin{tikzpicture}[scale=0.8]
+                \draw[dotted,blue] (-4,-4) grid (4,4);
+                \draw [blue,thick,->] (0,-4)-- (0,4);
+                \draw [blue,thick,->] (-4,0)-- (4,0);
+            \end{tikzpicture}
+        \end{figure}
+    \end{minipage}
+    \hfil
+    \vrule
+    \hfil
+    \begin{minipage}[t]{0.3\textwidth}
+        \underbar{Placer les points :}
+        \begin{itemize}
+            \item A(\ax ; \ay)
+            \item B(\bx ; \by)
+            \item C(\cx ; \cy)
+            \item D(\dx ; \dy)
+            \item E(\ex ; \ey)
+            \item F(\fx ; \fy)
+        \end{itemize}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}
+    \begin{minipage}[t]{0.65\textwidth}
+        \begin{figure}
+            \center
+            \begin{tikzpicture}[scale=0.8]
+                \draw[dotted,blue] (-4,-4) grid (4,4);
+                \draw [blue,thick,->] (0,-4)-- (0,4);
+                \draw [blue,thick,->] (-4,0)-- (4,0);
+                \draw[thick] (\ax,\ay) coordinate (A) node [below left] {A} -- (\bx,\by) coordinate (B) node [below right] {B} -- (\cx,\cy) coordinate (C) node [below] {C} -- cycle;
+                \draw[thick] (\dx,\dy) coordinate (D) node [below] {D} -- (\ex,\ey) coordinate (E) node [right] {E} -- (\fx,\fy) coordinate (F) node [above] {F} -- cycle;
+            \end{tikzpicture}
+        \end{figure}
+    \end{minipage}
+    \hfil
+    \vrule
+    \hfil
+    \begin{minipage}[t]{0.3\textwidth}
+        \underbar{Placer les points :}
+        \begin{itemize}
+            \item A(\ax ; \ay)
+            \item B(\bx ; \by)
+            \item C(\cx ; \cy)
+            \item D(\dx ; \dy)
+            \item E(\ex ; \ey)
+            \item F(\fx ; \fy)
+        \end{itemize}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}
+    \begin{minipage}[t]{0.65\textwidth}
+        \begin{figure}
+            \center
+            \begin{tikzpicture}[scale=0.8]
+                \draw[dotted,blue] (-4,-4) grid (4,4);
+                \draw [blue,thick,->] (0,-4)-- (0,4);
+                \draw [blue,thick,->] (-4,0)-- (4,0);
+                \draw[thick] (\ax,\ay) coordinate (A) node [below left] {A} -- (\bx,\by) coordinate (B) node [below right] {B} -- (\cx,\cy) coordinate (C) node [below] {C} -- cycle;
+                \draw[thick] (\dx,\dy) coordinate (D) node [below] {D} -- (\ex,\ey) coordinate (E) node [right] {E} -- (\fx,\fy) coordinate (F) node [above] {F} -- cycle;
+            \end{tikzpicture}
+        \end{figure}
+    \end{minipage}
+    \hfil
+    \vrule
+    \hfil
+    \begin{minipage}[t]{0.3\textwidth}
+        \underbar{Placer les points :}
+        \begin{itemize}
+            \item A(\ax ; \ay)
+            \item B(\bx ; \by)
+            \item C(\cx ; \cy)
+            \item D(\dx ; \dy)
+            \item E(\ex ; \ey)
+            \item F(\fx ; \fy)
+        \end{itemize}
+
+        \underbar{Calculer l'aire :}
+        \begin{itemize}
+            \item Du triangle ABC
+            \item Du triangle DEF
+        \end{itemize}
+    \end{minipage}
+\end{frame}
+
+\renewcommand{\ax}{-3}
+\renewcommand{\ay}{3}
+\renewcommand{\bx}{0}
+\renewcommand{\by}{3}
+\renewcommand{\cx}{-1}
+\renewcommand{\cy}{-2}
+\renewcommand{\dx}{1}
+\renewcommand{\dy}{0}
+\renewcommand{\ex}{3}
+\renewcommand{\ey}{-2}
+\renewcommand{\fx}{1}
+\renewcommand{\fy}{3}
+
+
+\begin{frame}
+    \begin{minipage}[t]{0.65\textwidth}
+        \begin{figure}
+            \center
+            \begin{tikzpicture}[scale=0.8]
+                \draw[dotted,blue] (-4,-4) grid (4,4);
+                \draw [blue,thick,->] (0,-4)-- (0,4);
+                \draw [blue,thick,->] (-4,0)-- (4,0);
+            \end{tikzpicture}
+        \end{figure}
+    \end{minipage}
+    \hfil
+    \vrule
+    \hfil
+    \begin{minipage}[t]{0.3\textwidth}
+        \underbar{Placer les points :}
+        \begin{itemize}
+            \item A(\ax ; \ay)
+            \item B(\bx ; \by)
+            \item C(\cx ; \cy)
+            \item D(\dx ; \dy)
+            \item E(\ex ; \ey)
+            \item F(\fx ; \fy)
+        \end{itemize}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}
+    \begin{minipage}[t]{0.65\textwidth}
+        \begin{figure}
+            \center
+            \begin{tikzpicture}[scale=0.8]
+                \draw[dotted,blue] (-4,-4) grid (4,4);
+                \draw [blue,thick,->] (0,-4)-- (0,4);
+                \draw [blue,thick,->] (-4,0)-- (4,0);
+                \draw[thick] (\ax,\ay) coordinate (A) node [below left] {A} -- (\bx,\by) coordinate (B) node [below right] {B} -- (\cx,\cy) coordinate (C) node [below] {C} -- cycle;
+                \draw[thick] (\dx,\dy) coordinate (D) node [below] {D} -- (\ex,\ey) coordinate (E) node [right] {E} -- (\fx,\fy) coordinate (F) node [above] {F} -- cycle;
+            \end{tikzpicture}
+        \end{figure}
+    \end{minipage}
+    \hfil
+    \vrule
+    \hfil
+    \begin{minipage}[t]{0.3\textwidth}
+        \underbar{Placer les points :}
+        \begin{itemize}
+            \item A(\ax ; \ay)
+            \item B(\bx ; \by)
+            \item C(\cx ; \cy)
+            \item D(\dx ; \dy)
+            \item E(\ex ; \ey)
+            \item F(\fx ; \fy)
+        \end{itemize}
+    \end{minipage}
+\end{frame}
+
+\begin{frame}
+    \begin{minipage}[t]{0.65\textwidth}
+        \begin{figure}
+            \center
+            \begin{tikzpicture}[scale=0.8]
+                \draw[dotted,blue] (-4,-4) grid (4,4);
+                \draw [blue,thick,->] (0,-4)-- (0,4);
+                \draw [blue,thick,->] (-4,0)-- (4,0);
+                \draw[thick] (\ax,\ay) coordinate (A) node [below left] {A} -- (\bx,\by) coordinate (B) node [below right] {B} -- (\cx,\cy) coordinate (C) node [below] {C} -- cycle;
+                \draw[thick] (\dx,\dy) coordinate (D) node [below] {D} -- (\ex,\ey) coordinate (E) node [right] {E} -- (\fx,\fy) coordinate (F) node [above] {F} -- cycle;
+            \end{tikzpicture}
+        \end{figure}
+    \end{minipage}
+    \hfil
+    \vrule
+    \hfil
+    \begin{minipage}[t]{0.3\textwidth}
+        \underbar{Placer les points :}
+        \begin{itemize}
+            \item A(\ax ; \ay)
+            \item B(\bx ; \by)
+            \item C(\cx ; \cy)
+            \item D(\dx ; \dy)
+            \item E(\ex ; \ey)
+            \item F(\fx ; \fy)
+        \end{itemize}
+
+        \underbar{Calculer l'aire :}
+        \begin{itemize}
+            \item Du triangle ABC
+            \item Du triangle DEF
+        \end{itemize}
+    \end{minipage}
+\end{frame}
+
+\end{document}

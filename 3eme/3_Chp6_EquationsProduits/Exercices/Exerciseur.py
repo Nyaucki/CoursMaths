@@ -5,7 +5,15 @@ def plusmoins() -> str:
             return("+")
         else:
             return("-")
+        
+def plusmoinsdebut() -> str:
+        if randint(0,2)==0:
+            return(" ")
+        else:
+            return("-")
 
+def facteur() -> str:
+     return("("+plusmoinsdebut() +str(randint(1,10)) +"x" + plusmoins() + str(randint(1,10))+")")
 
 def exercices_auto(ref : str,nb_exo : int,path : str,exo : list,comp : str, consigne ="",nb_column = 4) -> None:
     with open(path,"w") as fichier :
