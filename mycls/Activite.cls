@@ -12,6 +12,8 @@
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt} %Pas de header ni foot
 
+\setlength{\columnseprule}{0.5pt}%Pour avoir la ligne séparant les multicols (0pt pour la faire disparaitre)
+
 \hyphenpenalty 10000 % Pas de mots coupés
 \exhyphenpenalty 10000 % Pas de mots coupés
 

@@ -23,7 +23,7 @@ def Creation(classe,seed_numb):
     seed(seed_numb)
 
     with open(classe +"_DM_X_SujetEntier.tex","w") as fichier :
-        fichier.write("\\documentclass{/home/nyaucki/Documents/Prof/CoursMaths/mycls/DevoirMaison}\n\\usepackage{tabularx}\n\\usepackage{pythontex}\n\\renewcommand{\\arraystretch}{1.5}\n\\begin{document}\n\\input{//home/nyaucki/Documents/Prof/CoursMaths/3eme/3_Chp6_EquationsProduits/Devoirs/DM_X/Switch.tex}\n\\renewcommand{\classe}{"+classe+"}\n")
+        fichier.write("\\documentclass{/home/nyaucki/Documents/Prof/CoursMaths/mycls/DevoirMaison}\n\\usepackage{tabularx}\n\\usepackage{pythontex}\n\\renewcommand{\\arraystretch}{1.5}\n\\begin{document}\n\\input{//home/nyaucki/Documents/Prof/CoursMaths/3eme/3_Chp7_PuissanceRacine/Devoirs/DM_X/Switch.tex}\n\\renewcommand{\classe}{"+classe+"}\n")
         for i in range(len(noms)):
             code_sujet = code_a_remplacer.replace('\\nom}{}','\\nom}{' + noms[i] + ' ' + prenoms[i] +'}') #Remplace les noms
             code_sujet = code_sujet.replace('\\prenom}{}','\\prenom}{' + prenoms[i] + '}')

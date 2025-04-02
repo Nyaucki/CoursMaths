@@ -28,8 +28,7 @@
 
 \graphicspath{ {./Images/} }
 
-
-\renewcommand{\arraystretch}{2.5}%Place dans un tableau
+\renewcommand{\arraystretch}{1.5}%Place dans un tableau
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

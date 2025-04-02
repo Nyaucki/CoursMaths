@@ -12,6 +12,7 @@
 
 \setlength{\mathindent}{0cm}
 
+
 \advance\year by -1
 \ifnum \the\month > 7 \advance\year by 1 \fi %pour la bonne année en bas à droite 
 
