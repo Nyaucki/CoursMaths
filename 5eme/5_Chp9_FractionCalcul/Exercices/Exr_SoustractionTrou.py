@@ -3,7 +3,7 @@ from Exerciseur import *
 
 ref="SousTrou" # Ce qui servira de référence aux exercices pour le fichier Tex
 
-nb=10 # Le nombre d'exercice
+nb=6 # Le nombre d'exercice
 
 comp="" # La compétence de l'exercice
 
@@ -13,13 +13,13 @@ path="Ex_Chercher/Exo_SoustractionsTrou.tex" # Le chemin (relatif suffit) vers l
 
 exo=list(range(nb)) # Le code pour générer les exercices aléatoires
 for index in exo:
-    if index <4:
+    if index <1:
         den=randint(3,10)
         fact=randint(3,10)
         num1=randint(3,10)
         num2=randint(3,10)
         exo[index]="\\dfrac{\\dots}{"+ str( den ) + "}-\\dfrac{ "+str(num2)+"}{" + str(fact*den)+"}=\\dfrac{"+str(num1*fact - num2)+"}{"+str(fact*den)+"}"
-    elif index<8 :
+    elif index<3 :
         den=randint(3,10)
         fact=randint(3,10)
         num1=randint(3,10)
@@ -32,4 +32,4 @@ for index in exo:
         num2=randint(3,10)
         exo[index]="\\dfrac{" + str(num1) + "}{"+ str( den ) + "}-\\dfrac{ \\dots}{" + str(fact*den)+"}=\\dfrac{"+str(num1*fact - num2)+"}{"+str(fact*den)+"}"
 
-exercices_auto(ref,nb,path,exo,comp,consigne,5) # Par défaut, écrit sur 4 colonnes. On peut rajouter un 6eme argument pour modifier ceci.
+exercices_auto(ref,nb,path,exo,comp,consigne,6) # Par défaut, écrit sur 4 colonnes. On peut rajouter un 6eme argument pour modifier ceci.

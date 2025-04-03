@@ -595,9 +595,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm
 INPUT ./Cours/2_Moyenne.tex
 INPUT ./Cours/2_Moyenne.tex
 INPUT Cours/2_Moyenne.tex
-INPUT ./Cours/3_Mediane.tex
-INPUT ./Cours/3_Mediane.tex
-INPUT Cours/3_Mediane.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futmii.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mlit.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-ml.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futri8r.tfm
 INPUT 3_Chp8_cours.aux
 INPUT ./Texte.aux
 INPUT ./Texte.aux
@@ -605,3 +606,4 @@ INPUT Texte.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb

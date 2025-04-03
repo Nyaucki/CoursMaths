@@ -3,7 +3,7 @@ from Exerciseur import *
 
 ref="AddSimple" # Ce qui servira de référence aux exercices pour le fichier Tex
 
-nb=10 # Le nombre d'exercice
+nb=6 # Le nombre d'exercice
 
 comp="" # La compétence de l'exercice
 
@@ -16,4 +16,4 @@ for index in exo:
     den=randint(3,20)
     exo[index]="\\dfrac{" + str(randint(1,20)) + "}{"+ str( den ) + "}+\\dfrac{" + str(randint(1,20)) +"}{" + str(randint(2,10)*den)+"}"
 
-exercices_auto(ref,nb,path,exo,comp,consigne,5) # Par défaut, écrit sur 4 colonnes. On peut rajouter un 6eme argument pour modifier ceci.
+exercices_auto(ref,nb,path,exo,comp,consigne,6) # Par défaut, écrit sur 4 colonnes. On peut rajouter un 6eme argument pour modifier ceci.

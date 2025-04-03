@@ -3,7 +3,7 @@ from Exerciseur import *
 
 ref="SousMul" # Ce qui servira de référence aux exercices pour le fichier Tex
 
-nb=10 # Le nombre d'exercice
+nb=5 # Le nombre d'exercice
 
 comp="" # La compétence de l'exercice
 

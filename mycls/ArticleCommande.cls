@@ -35,6 +35,7 @@
 \RequirePackage{pgffor} %Pour bouclke loop
 
 \usetikzlibrary{positioning}
+\usetikzlibrary{calc}%Pour extend line
 \usetikzlibrary{math}%Pour définir variables dans Tikz
 \usetikzlibrary{arrows.meta} %pour faire des flèches
 \usetikzlibrary{babel} % permet d'éviter d'utiliser \shorthandoff{:!}
@@ -52,7 +53,7 @@
         \pgfmathsetmacro\quadrantb{{1,-1,-1,1}[#1-1]}},
     right angle quadrant=1, % Make sure it is set, even if not called explicitly
     right angle length/.code={\def\rightanglelength{#1}},   % Length of symbol
-    right angle length=1ex, % Make sure it is set...
+    right angle length=2ex, % Make sure it is set...
     right angle symbol/.style n args={3}{
         insert path={
             let \p0 = ($(#1)!(#3)!(#2)$) in     % Intersection

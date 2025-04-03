@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  1 APR 2025 20:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  3 APR 2025 12:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1124,10 +1124,10 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 8.27998pt on input line 5.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.43999pt on input line 5.
-) (./Ex_Calculer/Exo_AdditionsSimples.tex) (./Ex_Calculer/Exo_SoustractionsSimples.tex) (./Ex_Calculer/Exo_AdditionsDur.tex.tex) (./Ex_Chercher/Exo_AdditionsTrou.tex) [1
+) (./Ex_Calculer/Exo_AdditionsSimples.tex) (./Ex_Calculer/Exo_SoustractionsSimples.tex) (./Ex_Calculer/Exo_AdditionsDur.tex.tex) (./Ex_Chercher/Exo_AdditionsTrou.tex) (./Ex_Calculer/Exo_AvecEntiers.tex) (./Ex_Chercher/Exo_SoustractionsTrou.tex) (./Ex_Modeliser/Exo_Problemes.tex [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./Ex_Calculer/Exo_AvecEntiers.tex) (./Ex_Chercher/Exo_SoustractionsTrou.tex) (./Ex_Modeliser/Exo_Problemes.tex
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
 Underfull \hbox (badness 1077) in paragraph at lines 79--80
 \T1/futs/m/n/12 Est-il pos-sible que $[]$ du trou-peau soient à
  []
@@ -1137,7 +1137,7 @@ Underfull \hbox (badness 1077) in paragraph at lines 92--93
 \T1/futs/m/n/12 Est-il pos-sible que $[]$ du trou-peau soient à
  []
 
-[2]
+
 Underfull \hbox (badness 1077) in paragraph at lines 103--104
 \T1/futs/m/n/12 Est-il pos-sible que $[]$ du trou-peau soient à
  []
@@ -1147,25 +1147,25 @@ Underfull \hbox (badness 1077) in paragraph at lines 116--117
 \T1/futs/m/n/12 Est-il pos-sible que $[]$ du trou-peau soient à
  []
 
-) (./Ex_Raisonner/Exo_SousMultiple.tex) (./Ex_Raisonner/Exo_AddMultiple.tex) (./Ex_Durs/Exo_CalculsDurs.tex)) [3]) (./5_Chp9_exo.aux (./Mode_Impression/Texte.aux))
+) (./Ex_Raisonner/Exo_SousMultiple.tex) (./Ex_Raisonner/Exo_AddMultiple.tex) (./Ex_Durs/Exo_CalculsDurs.tex)) [2]) (./5_Chp9_exo.aux (./Mode_Impression/Texte.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 28702 strings out of 474222
- 602898 string characters out of 5748733
- 1963975 words of memory out of 5000000
- 50212 multiletter control sequences out of 15000+600000
+ 28664 strings out of 474222
+ 602482 string characters out of 5748733
+ 1969975 words of memory out of 5000000
+ 50174 multiletter control sequences out of 15000+600000
  601435 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  130i,12n,135p,1259b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on 5_Chp9_exo.pdf (3 pages, 58929 bytes).
+Output written on 5_Chp9_exo.pdf (2 pages, 56881 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 35 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

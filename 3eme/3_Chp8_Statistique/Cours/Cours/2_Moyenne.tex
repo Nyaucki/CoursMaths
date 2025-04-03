@@ -1,1 +1,40 @@
-A faire
+\section{Médianes \& Moyennes}
+
+\dfnt{Moyenne}
+{La moyenne d'une série statistiques chiffrée est obtenue en calculant la somme des valeurs multiplier par les effectifs et en divisant le tout par la somme des effectifs. On la note $\overline{x}$.
+}
+
+\exmpl{Pour la série \hspace*{3ex}
+    \begin{tabular}{c*{5}{|c}}
+        Valeurs & \textcolor{blue}{1} & \textcolor{olive}{3} & \textcolor{red}{4} &\textcolor{purple}{5} & \textcolor{teal}{6} \\ \hline
+        Effectifs & \textcolor{blue!50}{1} & \textcolor{olive!50}{2} & \textcolor{red!50}{3} & \textcolor{purple!50}{6} & \textcolor{teal!50}{2}
+    \end{tabular}
+\hspace*{3ex}la moyenne est : 
+$$\overline{x}=\dfrac{\textcolor{blue}{1}\times \textcolor{blue!50}{1} + \textcolor{olive}{3}\times \textcolor{olive!50}{2} + \textcolor{red}{4}\times \textcolor{red!50}{3} + \textcolor{purple}{5}\times \textcolor{purple!50}{6} + \textcolor{teal}{6} \times \textcolor{teal!50}{2}}{\textcolor{blue!50}{1}+\textcolor{olive!50}{2}+\textcolor{red!50}{3}+\textcolor{purple!50}{6}+\textcolor{teal!50}{2}}=\dfrac{61}{14}$$ 
+}
+
+\dfnt{Médianes}
+{La médiane (notée $Me$) d'une série statistique chiffrée est la valeur (présente ou non dans la série) permettant de couper équitablement la série en deux.
+\begin{itemize}
+    \item Si l'effectif total est impair, la médiane est la valeur centrale.
+    \item Si l'effectif total est pair, la médiane est la moyenne des deux valeurs centrales.
+\end{itemize}}
+
+\exmpl{
+    \begin{itemize}
+        \item Pour la série \hspace*{3ex}
+        \begin{tabular}{c*{5}{|c}}
+            Valeurs & 1 & 3 & 4 &5 & 6 \\ \hline
+            Effectifs & 2 & 2 & 3 & 5 & 2
+        \end{tabular}
+    \hspace*{3ex}l'effectif total est 14. La médiane est donc la moyenne entre la 7ème valeur (4) et la 8ème valeur (5), soit $$Me=\dfrac{4+5}{2}=4.5$$
+    \item Pour la série \hspace*{3ex}
+    \begin{tabular}{c*{5}{|c}}
+        Valeurs & 1 & 3 & 4 &5 & 6 \\ \hline
+        Effectifs & 2 & 2 & 3 & 5 & 3
+    \end{tabular}
+    \hspace*{3ex}l'effectif total est 15. La médiane est donc la 8ème valeur (5),  $$Me=5$$
+    \end{itemize}
+}
+
+\rmq{La médiane permet d'ignorer les valeurs extrêmes d'une série alors que la moyenne est fortement affectée par celle-ci.}
