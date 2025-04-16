@@ -571,6 +571,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
+INPUT ./Cours/2_Moyenne.tex
+INPUT ./Cours/2_Moyenne.tex
+INPUT Cours/2_Moyenne.tex
 OUTPUT 3_Chp8_cours.pdf
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
@@ -592,9 +595,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mcl.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm
-INPUT ./Cours/2_Moyenne.tex
-INPUT ./Cours/2_Moyenne.tex
-INPUT Cours/2_Moyenne.tex
+INPUT ./Cours/3_Diagrames.tex
+INPUT ./Cours/3_Diagrames.tex
+INPUT Cours/3_Diagrames.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futmii.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mlit.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-ml.tfm

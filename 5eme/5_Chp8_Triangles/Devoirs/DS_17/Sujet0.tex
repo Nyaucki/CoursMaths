@@ -1,0 +1,246 @@
+
+
+\exo{4}{Représenter} : Tracer les triangles ABC suivants.
+
+\begin{minipage}{0.45\textwidth}
+    \begin{itemize}
+        \item $AB=\exunAB$cm
+        \item $AC=\exunAC$cm
+        \item $BC=\exunBC$cm
+    \end{itemize}
+    \vspace*{10cm}
+\end{minipage}
+\hfil
+\vrule
+\hfil
+\begin{minipage}{0.45\textwidth}
+    \begin{itemize}
+        \item $AB=\exunbAB$cm
+        \item $\widehat{ABC}=\exunABC$°
+        \item $\widehat{BAC}=\exunBAC$°
+    \end{itemize}
+    \vspace*{10cm}
+\end{minipage}
+
+
+\exo{4}{Raisonner} : Pour chacun des triangles $ABC$ suivants, dire s'il est Rectangle, Isocèle, Équilatéral, Impossible ou quelconque.
+
+\begin{minipage}{0.22\textwidth}
+    \begin{itemize}
+        \item $AB=\eDqAmA$cm
+        \item $AC=\eDqAmB$cm
+        \item $BC=\eDqAmC$cm
+    \end{itemize}
+    \begin{center}
+        \filling
+    \end{center}
+\end{minipage}
+\hfil
+\vrule
+\hfil
+\begin{minipage}{0.22\textwidth}
+    \begin{itemize}
+        \item $AB=\eDqBmA$cm
+        \item $AC=\eDqBmB$cm
+        \item $BC=\eDqBmC$cm
+    \end{itemize}
+    \begin{center}
+        \filling
+    \end{center}
+\end{minipage}
+\hfil
+\vrule
+\hfil
+\begin{minipage}{0.22\textwidth}
+    \begin{itemize}
+        \item $AB=\eDqCmA$cm
+        \item $AC=\eDqCmB$cm
+        \item $BC=\eDqCmC$cm
+    \end{itemize}
+    \begin{center}
+        \filling
+    \end{center}
+\end{minipage}
+\hfil
+\vrule
+\hfil
+\begin{minipage}{0.22\textwidth}
+    \begin{itemize}
+        \item $AB=\eDqDmA$cm
+        \item $AC=\eDqDmB$cm
+        \item $BC=\eDqDmC$cm
+    \end{itemize}
+    \begin{center}
+        \filling
+    \end{center}
+\end{minipage}
+\vfil
+
+\begin{minipage}{0.22\textwidth}
+    \begin{itemize}
+        \item $\widehat{ABC}=\eDqEmA$°
+        \item $\widehat{BAC}=\eDqEmB$°
+    \end{itemize}
+    \begin{center}
+        \filling
+    \end{center}
+\end{minipage}
+\hfil
+\vrule
+\hfil
+\begin{minipage}{0.22\textwidth}
+    \begin{itemize}
+        \item $\widehat{ABC}=\eDqFmA$°
+        \item $\widehat{BAC}=\eDqFmB$°
+    \end{itemize}
+    \begin{center}
+        \filling
+    \end{center}
+\end{minipage}
+\hfil
+\vrule
+\hfil
+\begin{minipage}{0.22\textwidth}
+    \begin{itemize}
+        \item $\widehat{ABC}=\eDqGmA$°
+        \item $\widehat{BAC}=\eDqGmB$°
+    \end{itemize}
+    \begin{center}
+        \filling
+    \end{center}
+\end{minipage}
+\hfil
+\vrule
+\hfil
+\begin{minipage}{0.22\textwidth}
+    \begin{itemize}
+        \item $\widehat{ABC}=\eDqHmA$°
+        \item $\widehat{BAC}=\eDqHmB$°
+    \end{itemize}
+    \begin{center}
+        \filling
+    \end{center}
+\end{minipage}
+
+\newpage
+
+\exo{4}{Calculer} : Calculer l'aire des deux triangles suivants.
+
+\begin{minipage}{0.45\textwidth}
+    \begin{figure}[H]
+        \center
+        \begin{tikzpicture}
+            \draw (0,0) coordinate (A) --node [midway,below] {\eTqAmA} (5,0) coordinate (B) --node [midway,above right] {\eTqAmB} (2,3) coordinate (C) --node [midway,above left] {\eTqAmC} cycle;
+            \draw[dashed] ($(A)!(C)!(B)$)--node [midway,right]{\eTqAmD} (C); %Perpendiculaire
+            \draw [gray,right angle quadrant=1,right angle symbol={A}{B}{C}];
+        \end{tikzpicture}
+
+        Aire=\filling[3cm]
+    \end{figure}
+\end{minipage}
+\hfil
+\vrule
+\hfil
+\begin{minipage}{0.45\textwidth}
+    \begin{figure}[H]
+        \center
+        \begin{tikzpicture}
+            \draw (-0.5,-0.5) coordinate (A) --node [midway,below] {\eTqBmA} (5,-1) coordinate (B) --node [midway,below left] {\eTqBmB} (2,1.2) coordinate (C) --node [midway,below right] {\eTqBmC} cycle;
+            \draw[dashed] ($(A)!(B)!(C)$)--node [midway,right]{\eTqBmD} (B);%Perpendiculaire
+            \draw [dashed,shorten >=-2cm] (A)--(C); %Extension
+            \draw [gray,right angle quadrant=1,right angle symbol={C}{A}{B}];
+        \end{tikzpicture}
+
+        Aire=\filling[3cm]
+    \end{figure}
+\end{minipage}
+
+\exo{4}{Raisonner} : Pour chacune des figures suivantes, déterminer l'angle $\alpha$.
+
+\begin{minipage}[t]{0.45\textwidth}
+    \begin{figure}[H]
+        \center
+        \begin{tikzpicture}
+            \draw (0,0) coordinate (A) -- (3,0) coordinate (B) -- (1,2) coordinate (C) --cycle;
+            \draw (B)--(5,0)coordinate (D)--(C);
+            \draw (D)--(5,-2) coordinate (F)--(B);
+            \node (E) at (5.2,0){};
+            \draw [gray,right angle quadrant=1,right angle symbol={E}{A}{F}];
+            \draw pic["\eQqAmA °",draw=green,fill=green!20,angle eccentricity=1.4, angle radius=0.7cm]{angle=B--A--C};
+            \draw pic["\eQqAmB °",draw=green,fill=green!20,angle eccentricity=1.3, angle radius=0.8cm]{angle=C--D--B};
+            \draw pic["\eQqAmC °",draw=green,fill=green!20,angle eccentricity=1.3, angle radius=0.7cm]{angle=A--C--B};
+            \draw pic["$\alpha$",draw=blue,fill=blue!20,angle eccentricity=1.3, angle radius=0.8cm]{angle=D--F--B};
+        \end{tikzpicture}
+        
+        $\alpha$=\filling[3cm]
+    \end{figure}
+\end{minipage}
+\hfill
+\vrule
+\hfil
+\begin{minipage}[t]{0.45\textwidth}
+    \begin{figure}[H]
+        \center
+        \begin{tikzpicture}
+            \draw (0.5,0) coordinate (A) -- node[sloped, rotate=20] {$\parallel$} (3,0) coordinate (B) -- (7,0) coordinate (C) --(4.5,-2) coordinate (D) --node[sloped, rotate=20] {$\parallel$} (1.5,-2) coordinate (E)--cycle;
+            \draw (E)--node[sloped, rotate=20] {$\parallel$}(B)--node[sloped, rotate=20] {$\parallel$}(D);
+            \draw pic["\eQqBmA °",draw=green,fill=green!20,angle eccentricity=1.4, angle radius=0.7cm]{angle=B--E--A};
+            \draw pic["\eQqBmB °",draw=green,fill=green!20,angle eccentricity=1.3, angle radius=0.8cm]{angle=C--D--B};
+            \draw pic["$\alpha$",draw=blue,fill=blue!20,angle eccentricity=1.3, angle radius=0.8cm]{angle=B--C--D};
+        \end{tikzpicture}
+
+        $\alpha$=\filling[1.7cm]
+    \end{figure}
+\end{minipage}
+
+\exo{4}{Raisonner} 
+
+\begin{minipage}[t]{0.45\textwidth}
+    \begin{figure}[H]
+        \center
+        \begin{tikzpicture}
+            \draw (0,0) coordinate (A) node[below left]{A}--node [midway,below] {\eCqAmA} (5,0) coordinate (B) node [below right]{B} --(0,3) coordinate (C) node[above]{C} --node [midway,above left] {\eCqAmB} cycle;
+            \draw[dashed] ($(C)!(A)!(B)$) node[above right]{H}--node [midway,right]{4} (A); 
+            %Perpendiculaire
+            \draw [gray,right angle quadrant=1,right angle symbol={C}{B}{A}];
+            \node (D)at(-0.5,0){} ;
+            \draw [gray,right angle quadrant=1,right angle symbol={D}{B}{C}];
+        \end{tikzpicture}
+    \end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+    Dans la figure ci-contre :
+    \begin{enumerate}
+        \item Calculer l'aire du triangle $ABC$.
+        \vspace*{1.2cm}
+        \item En écrivant le calcul de l'aire du triangle $ABC$ à l'aide de la longueur $AH$, déterminer la longueur $BC$.
+        \vspace*{2.3cm}
+    \end{enumerate}
+\end{minipage}
+
+% \exo{}{} Si réussi, l'exercice comptera comme une note en plus. Déterminer l'angle $\alpha$.
+
+% \begin{minipage}[m]{0.45\textwidth}
+%     \begin{figure}[H]
+%         \center
+%         \begin{tikzpicture}[yscale=0.75]
+%             \draw (0,0) coordinate (A) node [below left] {A}--(3.5,0) coordinate (J) node [below]{J} --(7,0) coordinate (B) node [below right] {B}--(4,2.5) coordinate (G) node [right] {G} --(1,5) coordinate (C) node [above]{C}--(0.5,2.5) coordinate (E) node [left]{E}--cycle;
+%             \draw (0.2,1) coordinate (I)node [left] {I} --(3.7,0.9) coordinate (K) node[right] {K}--(4.45,4.81) coordinate (H) node[above right]{H}--cycle;
+%             \draw (J)--(K)--(G)--(E)--cycle ;
+%             \draw pic["$\alpha$",draw=blue,fill=blue!20,angle eccentricity=1.3, angle radius=0.8cm]{angle=I--H--G};
+%             \draw pic["40°",draw=blue,fill=blue!20,angle eccentricity=1.3, angle radius=0.8cm]{angle=A--C--B};
+%             \draw pic["30°",draw=blue,fill=blue!20,angle eccentricity=1.3, angle radius=0.8cm]{angle=E--J--A};
+%             \draw pic["40°",draw=blue,fill=blue!20,angle eccentricity=1.3, angle radius=0.8cm]{angle=H--I--C};
+%         \end{tikzpicture}
+%     \end{figure}
+% \end{minipage}
+% \hfil
+% \begin{minipage}[m]{0.45\textwidth}
+%     \begin{itemize}
+%         \item (AC)//(JG)
+%         \item (AB)//(EG)
+%         \item (EJ)//(BC)
+%         \item (IK)//(AB)
+%     \end{itemize}
+% \end{minipage}

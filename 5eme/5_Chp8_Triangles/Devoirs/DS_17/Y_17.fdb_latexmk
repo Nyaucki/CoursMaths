@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1743678335.92434 "/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp8_Triangles/Devoirs/DS_17/Y_17.tex" "Y_17.pdf" "Y_17" 1743678337.36751 0
+["pdflatex"] 1744261245.28761 "/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp8_Triangles/Devoirs/DS_17/Y_17.tex" "Y_17.pdf" "Y_17" 1744261246.84993 0
   "/etc/texmf/web2c/texmf.cnf" 1728278577.13922 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_Chp8_Triangles/Devoirs/DS_17/Y_17.tex" 1741097173.00134 166 769afeb14705ec2f3923ff78bea56730 ""
-  "/home/nyaucki/Documents/Prof/CoursMaths/mycls/ArticleCommande.cls" 1743655747.44506 2867 a7661d1f75151ed6d96a9ea7a71b3b7b ""
+  "/home/nyaucki/Documents/Prof/CoursMaths/mycls/ArticleCommande.cls" 1744002902.6801 2866 9468130c57ad7caf5b2989cc89da9a69 ""
   "/home/nyaucki/Documents/Prof/CoursMaths/mycls/interro.cls" 1741097173.01434 2303 9a7756a0e310d1a4392209bc40e88e92 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -282,9 +282,9 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1728289158 8212900 37025dc55bcf1f60124279e197ee8503 ""
   "Sujet1.tex" 1743678334.14202 7952 30aac67e324d709a03f3f7680f4816cf ""
   "Switches.tex" 1743668311.16 131 af90f8727b8e83c55e3119b33666c643 ""
-  "Texte.aux" 1743678337.23802 1084 accf7052d5b8d2405a82152dbe746ebc "pdflatex"
-  "Texte.tex" 1741097173.00034 197 1142b327c2d1bbf5dd18905950392fd9 ""
-  "Y_17.aux" 1743678337.23802 210 1c459362110cef85eeda581d00fec955 "pdflatex"
+  "Texte.aux" 1744261246.73311 1084 accf7052d5b8d2405a82152dbe746ebc "pdflatex"
+  "Texte.tex" 1744261243.38711 199 497e2a2d806b1cdb893d1bf786b36c0b ""
+  "Y_17.aux" 1744261246.73311 210 1c459362110cef85eeda581d00fec955 "pdflatex"
   "Y_17.tex" 1741097173.00134 166 769afeb14705ec2f3923ff78bea56730 ""
   "comp.tex" 1743666926.90102 362 8ecee9583570419555d041868c6ffd9c ""
   "entete.tex" 1741097173.00134 192 49069e581e9ab64671ac3d8f5023da45 ""

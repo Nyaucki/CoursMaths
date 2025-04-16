@@ -44,7 +44,6 @@
 
 \hyphenpenalty=10000 %Pas couper les mots
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES TIKZ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \tikzset{ %Pour marquer les perpendiculaires

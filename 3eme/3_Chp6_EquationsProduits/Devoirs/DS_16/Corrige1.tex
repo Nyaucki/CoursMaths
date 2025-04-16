@@ -1,176 +1,56 @@
-\exo{6}{Représenter}
+\section*{Exercice 1 qesution 2}
 
-Effectuer les transformations suivantes.
+La bonne factorisation est la suivante :
 
-\begin{minipage}[t]{0.45\textwidth} 
-    La symétrie axiale d'axe $(d)$
-    \begin{figure}[H]
-        \centering
-        \begin{tikzpicture}[scale=1]
-            \def\mypath{(-2,2) -- (-1,0) --(-2,0) -- (1,3)--(-2,2)}
-            \draw [thick]\mypath ;
-            \draw (-2,-2)--(3,3) node [right]{$(d)$} ;
-            \draw [cm={0,1,1,0,(0,0)},dashed] \mypath;%Matrice de transformation inverse X et Y
-            \draw [dotted](-3,-3) grid (4,4);
-        \end{tikzpicture}
-    \end{figure}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.45\textwidth}
-    La translation qui amène $A$ sur $B$
-    \begin{figure}[H]
-        \centering
-        \begin{tikzpicture}[scale=1]
-            \def\mypath{(-2,-2) -- (-1,1) --(-2,0) -- (-1,2)--(0,-2)--(-2,-2)}
-            \draw [thick]\mypath ;
-            \fill (1,-1) coordinate (c) circle(2pt) node[above] {$A$};            
-            \fill (4,1) coordinate (c) circle(2pt) node [above]{$B$};    
-            \draw[dashed,shift=(3,2)]\mypath  ;      
-            \draw [dotted](-3,-3) grid (4,4);
-        \end{tikzpicture}
-    \end{figure}
-\end{minipage}
+\begin{align*}
+    &(3x-5)^2-(x+7)^2=0\\
+    \iff & ((3x-5)-(x+7))((3x-5)+(x+7))=0\\
+    \iff & (2x-12)(4x+2)=0
+\end{align*}
 
-\begin{minipage}[t]{0.45\textwidth} 
-    La symétrie centrale de centre $O$
-    \begin{figure}[H]
-        \centering
-        \begin{tikzpicture}[scale=1]
-            \tikzset{
-            homothety at/.style args={#1 scaled by #2}{shift={($(#1)!#2!(0,0)$)},scale=#2},}
-            \def\mypath{(-2,2) -- (-1,0) --(-2,0) -- (1,3)--(-2,2)}
-            \draw [thick]\mypath ;
-            \fill (0,0) coordinate (c) circle(2pt) node [above]{$O$};     
-            \begin{scope}[homothety at=c scaled by -1]
-                \draw[dashed] \mypath;
-            \end{scope}        
-            \draw [dotted](-3,-3) grid (4,4);
-        \end{tikzpicture}
-    \end{figure}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.45\textwidth}
-    L'homothétie de centre $O$ et de rapport -2.
-    \begin{figure}[H]
-        \centering
-        \begin{tikzpicture}[scale=1]
-            \tikzset{
-            homothety at/.style args={#1 scaled by #2}{shift={($(#1)!#2!(0,0)$)},scale=#2},}
-            \def\mypath{(-2,-2) -- (-1,1) --(-2,0) -- (-1,0)--(0,-2)--(-2,-2)}
-            \draw [thick]\mypath ;
-            \fill (0,0) coordinate (c) circle(2pt) node [above]{$O$};     
-            \begin{scope}[homothety at=c scaled by -2]
-                \draw[dashed] \mypath;
-            \end{scope}        
-            \draw [dotted](-3,-3) grid (4,4);
-        \end{tikzpicture}
-    \end{figure}
-\end{minipage}
+\section*{Exercice 3 question 4}
 
-\begin{minipage}[t]{0.45\textwidth} 
-    L'homothétie de centre $O$ et de rapport -0.5
-    \begin{figure}[H]
-        \centering
-        \begin{tikzpicture}[scale=1]
-            \tikzset{
-            homothety at/.style args={#1 scaled by #2}{shift={($(#1)!#2!(0,0)$)},scale=#2},}
-            \draw [white](-3,-4) grid (4,3);
-            \def\mypath{(0,0) -- (-2,3) --(-2,0) -- (-1,-4)--(0,0)}
-            \draw [thick]\mypath ;
-            \fill (2,0) coordinate (c) circle(2pt) node [above]{$O$};     
-            \begin{scope}[homothety at=c scaled by -0.5]
-                \draw[dashed] \mypath;
-            \end{scope}        
-        \end{tikzpicture}
-    \end{figure}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.45\textwidth}
-    L'homothétie de centre $O$ et de rapport 2.
-    \begin{figure}[H]
-        \centering
-        \begin{tikzpicture}[scale=1]
-            \tikzset{
-            homothety at/.style args={#1 scaled by #2}{shift={($(#1)!#2!(0,0)$)},scale=#2},}
-            \draw [white](-3,-3) grid (4,4);
-            \def\mypath{(-2,-2) -- (-1,1) -- (-1,0)--(1,-2)--(-2,-2)}
-            \draw [thick]\mypath ;
-            \fill (-3,0) coordinate (c) circle(2pt) node [above]{$O$};     
-            \begin{scope}[homothety at=c scaled by 2]
-                \draw[dashed] \mypath;
-            \end{scope}        
-        \end{tikzpicture}
-    \end{figure}
-\end{minipage}
+Le raisonnement est juste. Il était néanmoins possible de faire plus simple en utilisant Thalès avec les droites $(AF)$ et $(BD)$ se coupant en $C$ :
 
-\exo{4}{Raisonner}
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=1]
+        \draw (0,0) coordinate (A) node[above] {$A$} --node [midway,above]{4}(2,0) coordinate (B) node [above] {$B$} -- (1,-1) coordinate (C) node[right] {$C$} --(-2,-4) coordinate (D) node [below] {$D$}--(0,-4) coordinate (E) node [below] {$E$} --(4,-4) coordinate (F) node [below] {$F$};
+        \node (A_left) at (-0.1,0) {};
+        \tkzInterLL(A,E)(B,D) \tkzGetPoint{G};
+        \node[label=180:$G$] at (G) {};
+        \draw[white] (A)--node[black] [midway,left]{3}(G);
+        \draw[white] (E)--node[black] [midway,right]{4,5}(G);
+        \draw[dashed] (A)--node [midway, right]{3} (C)--node [midway,above right]{6} (F);
+        \draw [dashed] (A)--(E);
+        \draw [gray,right angle quadrant=1,right angle symbol={D}{F}{A}];
+        \draw [gray,right angle quadrant=1,right angle symbol={A_left}{B}{E}];
+        \draw[thick,red] (A)--(B)--(D)--(F)--cycle;
+    \end{tikzpicture}
+\end{figure} 
 
-Trouver le centre de chacune des homothéties suivantes.
+\section*{Exercice 2 question 4}
 
-\begin{minipage}[t]{0.45\textwidth}  
-    \begin{figure}[H]
-        \centering
-		\begin{tikzpicture}[scale=0.8]
-            \tikzset{
-            homothety at/.style args={#1 scaled by #2}{shift={($(#1)!#2!(0,0)$)},scale=#2},}
-            \def\mypath{(8,0)--(0,0)--(0,8)--(8,8)}
-            \draw [white](0,0) grid (8,8);
-            \draw [thick]\mypath ;
-            \fill (4.7,5.7) coordinate (c) circle(2pt);
-            \begin{scope}[homothety at=c scaled by -0.6]
-                \draw[dashed] \mypath;
-            \end{scope}
-        \end{tikzpicture}
-    \end{figure}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.45\textwidth}  
-    \begin{figure}[H]
-        \centering
-        \begin{tikzpicture}[scale=0.8]
-            \tikzset{
-            homothety at/.style args={#1 scaled by #2}{shift={($(#1)!#2!(0,0)$)},scale=#2},}
-            \def\mypath{(7,0)--(4,1)--(4,0)--(0,0)--(0,3)--(4,1)}
-            \draw [white](0,0) grid (8,8);
-            \draw [thick]\mypath ;
-            \fill (8,8) coordinate (c) circle(2pt);
-            \begin{scope}[homothety at=c scaled by 0.7]
-                \draw[dashed] \mypath;
-            \end{scope}
-        \end{tikzpicture}
-    \end{figure}
-\end{minipage}
+Attention, passer par la racine ne te donne que la moitié des solutions. Même si c'est plus long, voici la méthode qui permet de vraiment résoudre ce type d'équations.
 
-\begin{minipage}[t]{0.45\textwidth}  
-    \begin{figure}[H]
-        \centering
-        \begin{tikzpicture}[scale=0.8]
-            \tikzset{
-            homothety at/.style args={#1 scaled by #2}{shift={($(#1)!#2!(0,0)$)},scale=#2},}
-            \def\mypath{(2,0)--(2,3)--(3,4)--(2,0)}
-            \draw [white](0,0) grid (8,8);
-            \draw [thick]\mypath ;
-            \fill (0,0) coordinate (c) circle(2pt);
-            \begin{scope}[homothety at=c scaled by 2]
-                \draw[dashed] \mypath;
-            \end{scope}
-        \end{tikzpicture}
-    \end{figure}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.45\textwidth}  
-    \begin{figure}[H]
-        \centering
-        \begin{tikzpicture}[scale=0.8]
-            \tikzset{
-            homothety at/.style args={#1 scaled by #2}{shift={($(#1)!#2!(0,0)$)},scale=#2},}
-            \def\mypath{(2,2)--(2,4)--(3,4)--(4,4)--(3,2)--(2,2)}
-            \draw [white](0,0) grid (8,8);
-            \draw [thick]\mypath ;
-            \fill (5,1) coordinate (c) circle(2pt);
-            \begin{scope}[homothety at=c scaled by 1.7]
-                \draw[dashed] \mypath;
-            \end{scope}
-        \end{tikzpicture}
-    \end{figure}
-\end{minipage}
+\begin{align*}
+    & (-2x-7)^2=9\\
+    \iff & (-2x-7)^2 -9=9-9\\
+    \iff & (-2x-7)^2 -3^2=0\\
+    \iff & ((-2x-7)-3)((-2x-7)+3)=0\\
+    \iff & (-2x-10)(-2x-4)=0
+\end{align*}
+
+et à partir de là, tu as une équation produit classique que tu sauras résoudre.
+
+\section*{Exercice 2 question 5}
+
+Même chose que la question précédente:
+
+\begin{align*}
+    & (-2x-7)^2=(3x+2)^2\\
+    \iff & (-2x-7)^2 -(3x+2)^2=(3x+2)^2-(3x+2)^2\\
+    \iff & (-2x-7)^2 -(3x+2)^2=0\\
+    \iff & ((-2x-7)-(3x+2))((-2x-7)+(3x+2))=0\\
+    \iff & (-5x-9)(x-5)=0
+\end{align*}

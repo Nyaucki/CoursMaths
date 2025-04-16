@@ -5,6 +5,15 @@ def plusmoins() -> str:
             return("+")
         else:
             return("-")
+            
+def frac_tex(num,den):
+    div=math.gcd(int(num),int(den))
+    a=num//div
+    b=den//div
+    if b ==1:
+        return str(int(a))
+    else :
+        return(str("\\dfrac{"+str(a)+"}{"+str(b)+"}"))
 
 
 def exercices_auto(ref : str,nb_exo : int,path : str,exo : list,comp : str, consigne ="",dolar=True,nb_column = 4) -> None:

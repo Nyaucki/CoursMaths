@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  15 NOV 2024 09:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  4 APR 2025 09:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/nyaucki/Documents/Prof/CoursMaths/Utilities/grid.tex
-(/home/nyaucki/Documents/Prof/CoursMaths/Utilities/grid.tex
+**/home/nyaucki/Documents/Prof/CoursMaths/Utilities/grille_ppt/grid.tex
+(/home/nyaucki/Documents/Prof/CoursMaths/Utilities/grille_ppt/grid.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -757,6 +757,12 @@ Dictionary: translator-theorem-dictionary, Language: French
 
 ] [3
 
+] [4
+
+] [5
+
+] [6
+
 ]
 \tf@nav=\write6
 \openout6 = `grid.nav'.
@@ -776,18 +782,18 @@ Package rerunfilecheck Info: File `grid.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24474 strings out of 474222
- 483763 string characters out of 5748733
+ 24491 strings out of 474222
+ 483977 string characters out of 5748733
  1931975 words of memory out of 5000000
- 46249 multiletter control sequences out of 15000+600000
+ 46260 multiletter control sequences out of 15000+600000
  559274 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,14n,123p,429b,669s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,14n,123p,440b,683s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on grid.pdf (3 pages, 5252 bytes).
+Output written on grid.pdf (6 pages, 10028 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
+ 172 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
+ 13 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
