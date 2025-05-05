@@ -1,0 +1,95 @@
+\section*{Chapitre 10 : Retrouvailles avec les parallélogrammes}
+
+\begin{enumerate}[leftmargin=0cm]
+    \item Trouver quelles caractéristiques correspondent à quel quadrilatère :
+
+\begin{multicols}{2}
+\begin{enumerate}[label=\alph*.]
+    \item Possède deux côtés parallèles
+    \item Ses côtés opposés sont parallèles
+    \item Possède 4 angles droits
+    \item Possède 2 côtés égaux
+    \item Possède 4 côtés égaux
+    \item Ses côtés opposés sont égaux
+    \item Possède deux côtés égaux et parallèles
+    \item Ses diagonales se coupent en leurs milieux
+    \item Ses diagonales ont la même longueur
+    \item Ses diagonales sont perpendiculaires
+\end{enumerate}
+\end{multicols}
+
+
+\newcommand{\hot}{\vspace*{12cm}}
+
+\begin{tabularx}{\textwidth}{Y*{3}{|Y}}
+    Parallélogramme & Rectangle & Losange & Carré \\\hline
+     \hot &\hot&\hot&\hot\\
+\end{tabularx}
+
+\item Parmi ces caractéristiques, entoure celles qui suffisent à elles seules pour démontrer qu'il s'agit d'un parallélogramme/rectangle/losange/...
+
+\item Complète les figures suivantes pour faire de $ABCD$ le quadrilatère voulu.
+
+\begin{multicols}{3}
+    $ABCD$ est un rectangle
+
+    \begin{tikzpicture}
+        \draw(0,0) node [below left]{A}--(4,0) node [below right]{B};
+        \draw(0,3) node [above left]{D}--(4,3) node [above right]{C};
+    \end{tikzpicture}
+
+    $ABCD$ est un rectangle
+
+    \begin{tikzpicture}
+        \draw (0,0) node [below left]{A}--(4,0) node [below right]{B}--(4,3) node [above right] {C};
+    \end{tikzpicture}
+
+    $ABCD$ est un rectangle
+
+    \begin{tikzpicture}
+        \draw[dashed] (0,0) node [below left]{A}--(4,3) node [above right] {C};
+    \end{tikzpicture}
+
+    $ABCD$ est un parallélogramme
+
+    \begin{tikzpicture}
+        \draw (3,0) node [below right]{B}--(2,3) node [above right] {C};
+        \draw (0,0) node [below left]{A}--(-1,3) node [above left]{D};
+    \end{tikzpicture}
+
+    $ABCD$ est un parallélogramme
+
+    \begin{tikzpicture}
+        \draw[white] (0,0) node [below left]{A}--(4,0) node [below right]{B}--(4,3) node [above right] {C};
+        \draw (0,0) node [below left]{A}--(3,0) node [below right]{B}--(4,3) node [above right] {C};
+    \end{tikzpicture}
+
+    $ABCD$ est un parallélogramme
+
+    \begin{tikzpicture}
+        \draw [dashed] (0,0) node [below left]{A}--(4.5,3) node [above right] {C};
+        \draw [dashed] (2.25,1.5) --(2.5,0) node [below right] {B};
+    \end{tikzpicture}
+
+    $ABCD$ est un carré
+
+    \begin{tikzpicture}
+        \draw[white] (0,0) node [below left]{A}--(4,0) node [below right]{B}--(4,3) node [above right] {C};
+        \draw (0,0) node [below left]{A}--(3,0) node [below right]{B};
+    \end{tikzpicture}
+
+    $ABCD$ est un losange
+
+    \begin{tikzpicture}
+        \draw[white] (0,0) node [below left]{A}--(4,0) node [below right]{B}--(4,1.5) node [above right] {C};
+        \draw (0,0) node [ left]{A}--(2,-1.5) node [below ]{B}--(4,0) node [ right] {C};
+    \end{tikzpicture}
+
+    $ABCD$ est un carré
+
+    \begin{tikzpicture}
+        \draw[white] (0,0) node [below left]{A}--(4,3) node [above right] {C};
+        \draw[dashed] (1,0) node [below left]{A}--(3,1) node [above right] {C};
+    \end{tikzpicture}
+\end{multicols}
+\end{enumerate}

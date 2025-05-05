@@ -1,0 +1,68 @@
+\consigne{Lire1}{Lire2} (Chercher) Résoudre graphiquement.
+
+\begin{minipage}{0.45\textwidth}
+    \newcommand{\xmin}{-3}
+    \newcommand{\xmax}{4}
+    \newcommand{\ymin}{-5}
+    \newcommand{\ymax}{4}
+    \newcommand{\fnct}{f}
+    \begin{minipage}{0.75\textwidth}
+        
+        
+        \exo{}{Lire1}
+
+            \begin{tikzpicture}[yscale=0.5,xscale=0.75]
+                \draw [dotted] (\xmin,\ymin) grid (\xmax,\ymax);
+                \draw [ultra thick,->] (0,\ymin)-- (0,\ymax) node[below left] {$\fnct(x)$};
+                \draw [ultra thick,->] (\xmin,0)-- (\xmax,0) node[below left] {$x$};
+                \draw[domain=\xmin : \xmax,samples=100]  plot (\x,{2*\x*sin(90*\x)+1}) node [left] {$\fnct$};
+                \draw (1,0.2)--(1,-0.2) node[below] {1};
+                \draw (0.2,1)--(-0.2,1) node[left] {1};
+            \end{tikzpicture}
+    \end{minipage}
+    \hfil
+    \begin{minipage}{0.23\textwidth}
+        \begin{enumerate}[leftmargin=0em]
+            \item $\fnct (1)=?$
+            \item $\fnct (x)=1$
+            \item $\fnct (x)=4$
+            \item $\fnct (-3)=?$
+            \item $\fnct (x)=-5$
+            \item $\fnct (-2)=?$ 
+        \end{enumerate}
+    \end{minipage}
+\end{minipage}
+\hfil
+\begin{minipage}{0.45\textwidth}
+    \newcommand{\xmin}{-3}
+    \newcommand{\xmax}{4}
+    \newcommand{\ymin}{-5}
+    \newcommand{\ymax}{4}
+    \newcommand{\fnct}{g}
+    \begin{minipage}{0.75\textwidth}
+        
+        
+        \exo{}{Lire2}
+        
+            \begin{tikzpicture}[yscale=0.5,xscale=0.75]
+                \draw [dotted] (\xmin,\ymin) grid (\xmax,\ymax);
+                \draw [ultra thick,->] (0,\ymin)-- (0,\ymax) node[below left] {$\fnct(x)$};
+                \draw [ultra thick,->] (\xmin,0)-- (\xmax,0) node[below left] {$x$};
+                \draw[domain=\xmin+0.2 : -0.275,samples=100]  plot (\x,{2/\x-\x+2}) ;
+                \draw[domain=0.61: \xmax,samples=100]  plot (\x,{4/\x-\x-2}) node [above] {$\fnct$};
+                \draw (1,0.2)--(1,-0.2) node[below] {1};
+                \draw (0.2,1)--(-0.2,1) node[left] {1};
+            \end{tikzpicture}
+    \end{minipage}
+    \hfil
+    \begin{minipage}{0.23\textwidth}
+        \begin{enumerate}[leftmargin=0em]
+            \item $\fnct (1)=?$
+            \item $\fnct (x)=1$
+            \item $\fnct (x)=-5$
+            \item $\fnct (-2)=?$
+            \item $\fnct (x)=-2$
+            \item $\fnct (2)=?$ 
+        \end{enumerate}
+    \end{minipage}
+\end{minipage}

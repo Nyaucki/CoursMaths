@@ -1,0 +1,17 @@
+\begin{figure}[H]
+\center
+\begin{tikzpicture}[scale=0.8]
+\newcommand{\y}{0}\renewcommand{\y}{0}
+\foreach \x [count=\xi] in {179, 183, 181}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{\scriptsize\x}};}
+\renewcommand{\y}{-1}
+\foreach \x [count=\xi] in {187, 191, 189}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{\scriptsize\x}};}
+\renewcommand{\y}{-2}
+\foreach \x [count=\xi] in {193, 195, 197}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{\scriptsize\x}};}
+\renewcommand{\y}{-3}
+\foreach \x [count=\xi] in {199, 192, 211}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{\scriptsize\x}};}
+\end{tikzpicture}
+\end{figure}

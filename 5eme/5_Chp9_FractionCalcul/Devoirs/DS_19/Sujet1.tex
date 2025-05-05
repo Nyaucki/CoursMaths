@@ -1,0 +1,93 @@
+\exo{8}{Calculer} : Effectuer les calculs suivants.
+
+\begin{multicols}{2}
+    $$\dfrac{8}{7}+\dfrac{17}{14}$$\vspace*{-0.5em}\dotlines[0]{3}
+    
+    $$\dfrac{6}{2}+\dfrac{8}{7}$$\vspace*{-0.5em}\dotlines[0]{3}
+
+    \columnbreak
+    $$3-\dfrac{5}{8}$$\vspace*{-0.5em}\dotlines[0]{3}
+
+    $$\dfrac{7}{8}-\dfrac{2}{7}-\dfrac{9}{56}$$\vspace*{-0.5em}\dotlines[0]{3}
+
+\end{multicols}
+
+
+\exo{6}{Représenter} : Donner les fractions associées aux positions suivantes.
+
+\newcommand{\fracdgmult}[5][1]{
+% #1 : Combien de grd avant le départ
+% #2 : Dénominateur
+% #3 : Graduation connue
+% #4 : Numérateur 1
+% #5 : Numérateur 2
+\tikzmath{\den=#2; \ya =#3;  \rcl= #1 ; \pas=1/\den ; \yb =\ya +1; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +17*\pas ; \grad = 0.1/\den ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=\den]
+        \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+        \foreach \x in {\dprt,\y2,...,\fin}
+        {
+          \pgfmathparse{int(Mod(\x * \den +\pas ,\den))}
+          \ifnum\pgfmathresult>0
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          \else 
+            \draw[ultra thick] (\x,2*\grad) -- (\x,-2*\grad) ;
+          \fi
+        }
+        \foreach \z [count=\zi] in {#4 * \pas , #5 * \pas}
+        {
+          % \node at (\z,\grad) [above] {\makeAlph{\zi}};
+          \draw[-Stealth] (\z,5*\grad) node [above] {\filling[1cm]}--(\z,1.5*\grad);
+        }
+        \node (A) at (\ya,-2*\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+        \node (B) at (\yb,-2*\grad) [below] {\pgfmathprintnumber[use comma]{\yb}} ;
+    \end{tikzpicture} 
+\end{figure}}
+
+\newcommand{\fracdplace}[3][1]{
+% #1 : Combien de grd avant le départ
+% #2 : Dénominateur
+% #3 : Graduation connue
+\tikzmath{\den=#2; \ya =#3;  \rcl= #1 ; \pas=1/\den ; \yb =\ya +1; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +17*\pas ; \grad = 0.1/\den ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=\den]
+        \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+        \foreach \x in {\dprt,\y2,...,\fin}
+        {
+          \pgfmathparse{int(Mod(\x * \den +\pas ,\den))}
+          \ifnum\pgfmathresult>0
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          \else 
+            \draw[ultra thick] (\x,2*\grad) -- (\x,-2*\grad) ;
+          \fi
+        }
+        \node (A) at (\ya,-2*\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+        \node (B) at (\yb,-2*\grad) [below] {\pgfmathprintnumber[use comma]{\yb}} ;
+    \end{tikzpicture} 
+\end{figure}}
+
+
+    \fracdgmult[0]{4}{0}{2}{9}
+
+    \fracdgmult[2]{3}{3}{11}{17}
+
+    \fracdgmult[4]{5}{1}{2}{7}
+
+\exo{6}{Modéliser} :    
+
+
+Hisoka achète un paquet de 400 chewing gum. En rentrant chez lui :
+\begin{itemize}
+    \item Il en mange $\dfrac{2}{5}$.
+    \item Il en donne $\dfrac{1}{4}$ à Kurapika.
+    \item Son sac était troué et il en a perdu $\dfrac{1}{5}$
+\end{itemize}
+Combien de chewing gum lui reste-t-il ?
+\dotlines[0]{6}
+
+\exo{}{} :  Calculer  
+
+$$1+\dfrac{1}{2}-\dfrac{1}{3}+\dfrac{1}{4}-\dfrac{1}{6}+\dfrac{1}{8}$$
+\dotlines[0]{6}

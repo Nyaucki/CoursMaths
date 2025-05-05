@@ -1,0 +1,422 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{fourier}
+\usepackage[scaled=0.875]{helvet}
+\renewcommand{\ttdefault}{lmtt}
+\usepackage{amsmath,amssymb,makeidx}
+\usepackage{fancybox}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\usepackage{pifont}
+\usepackage{lscape}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{diagbox}
+\usepackage{multirow}
+\usepackage{scratch3}
+\usepackage{textcomp}
+\usepackage{siunitx}
+\newcommand{\euro}{\eurologo{}}
+\DeclareUnicodeCharacter{0301}{~}
+%\usepackage[dvipsnames]{xcolor}
+%\xdefinecolor{abricot}{named}{Apricot}
+%Sujet aimablement fourni par Emmanuelle Acker
+%Tapuscrit : François Kriegk
+% Relecture : Denis Vergès
+\usepackage[dvipsnames]{pstricks}
+\usepackage{pst-plot,pst-text,pst-tree,pstricks-add}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\D}{\mathbb{D}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\usepackage[left=3.5cm, right=3.5cm, top=3cm, bottom=3cm,headheight=14pt]{geometry}
+\newcommand{\vect}[1]{\overrightarrow{\,\mathstrut#1\,}}
+\renewcommand{\theenumi}{\textbf{\arabic{enumi}}}
+\renewcommand{\labelenumi}{\textbf{\theenumi.}}
+\renewcommand{\theenumii}{\textbf{\alph{enumii}}}
+\renewcommand{\labelenumii}{\textbf{\theenumii.}}
+\def\Oij{$\left(\text{O},~\vect{\imath},~\vect{\jmath}\right)$}
+\def\Oijk{$\left(\text{O},~\vect{\imath},~\vect{\jmath},~\vect{k}\right)$}
+\def\Ouv{$\left(\text{O},~\vect{u},~\vect{v}\right)$}
+\usepackage{fancyhdr}
+%\usepackage[colorlinks=true,pdfstartview=FitV,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\usepackage[dvips]{hyperref}
+\hypersetup{%
+pdfauthor = {APMEP},
+pdfsubject = {Brevet},
+pdftitle = {Amérique du Nord 29 mai 2024},
+allbordercolors = white,
+pdfstartview=FitH}
+\usepackage[french]{babel}
+\usepackage[np]{numprint}
+\begin{document}
+\setlength\parindent{0mm}
+\marginpar{\rotatebox{90}{\textbf{A. P{}. M. E. P{}.}}}
+\lhead{\small L'année 2024}
+\rhead{\small \textbf{A. P{}. M. E. P{}.}}
+\rfoot{\small Amérique du Nord }
+\lfoot{\small 29 mai 2024}
+\pagestyle{fancy}
+\thispagestyle{empty}
+\begin{center} {\huge \textbf{\decofourleft~Brevet Amérique du Nord 29 mai 2024 \decofourright}}
+\end{center}
+
+\bigskip
+
+\section*{Exercice 1 : \hfill 20 points}
+Voici cinq affirmations. Pour chacune d'entre elles, dire si elle est vraie ou fausse. On rappelle que chaque réponse doit être justifiée.
+
+\begin{enumerate}
+	\item Voici les prix en euros d'un vêtement relevés dans différents magasins.
+
+\[12~;~15~;~10~;~7~;~13\]
+
+	\textbf{Affirmation A :} La moyenne des prix est 11,40~\euro.
+
+	\textbf{Affirmation B :} La médiane des prix est 10~\euro.
+
+	\item Lors d'un entraînement, une élève court $\np[m]{20}$ en 6 secondes.
+
+	\textbf{Affirmation C :} Lors de cet entraînement, sa vitesse moyenne était de 14~km/h.
+
+	\item Une urne contient 15 boules indiscernables numérotées de 1 à 15 .
+
+	\textbf{Affirmation D :} La probabilité de tirer au hasard une boule sur laquelle apparaît un nombre premier est $\dfrac{7}{15}$.
+
+	\item Le triangle A$'$B$'$C$'$ est l'image du triangle ABC par l'homothétie de centre O et de rapport $(-3)$.
+
+
+\begin{center}
+%	\begin{tikzpicture}[x =10mm,y = 10mm]
+%		\draw (-3,1)node[above left]{B}--(-1.5,1.3)node[above right]{A}--(-0.5,-0.5)node[below]{C} --cycle;
+%		\draw (9,-1)node[right]{B$'$}--(4.5,-3.9)node[below left]{A$'$}--(1.5,1.5)node[above right]{C$'$} --cycle;
+%		\draw (-2pt,-2pt)--(2pt,2pt) (-2pt ,2pt)--(2pt, -2pt) node [right]{O};
+%		\node at(0,-3.5){\emph{Le dessin n'est pas à l'échelle}};
+%	\end{tikzpicture}
+\psset{unit=0.8cm}
+\begin{pspicture}(-3.5,-2.6)(9.2,4.5)
+%%\psgrid
+\uput[dl](-1.4,-0.4){A} \uput[d](-0.6,-1.4){B} \uput[u](-0.4,0.7){C} 
+\uput[u](0,0){O}
+\psdots[dotstyle=+,dotscale=2,dotangle=45](0,0)(-1.4,-0.4)(-0.6,-1.4)(-0.4,0.7)(3.6,1.2)(1.8,4.2)(1.2,-2.1)
+\pspolygon(-1.4,-0.4)(-0.6,-1.4)(-0.4,0.7)%ABC
+\uput[dr](3.6,1.2){A$'$} \uput[u](1.8,4.2){B$'$} \uput[d](1.2,-2.1){C$'$}
+\pspolygon(3.6,1.2)(1.8,4.2)(1.2,-2.1)%A'B'C'
+\end{pspicture}
+\end{center}
+
+
+	\textbf{Affirmation E :} L'aire du triangle A$'$B$'$C$'$ est égale à 3 fois l'aire du triangle ABC.
+\end{enumerate}
+
+\section*{Exercice 2 : \hfill 20 points}
+Voici un programme de calcul :
+
+
+\begin{center}
+	\begin{tikzpicture}[>=stealth]
+		\draw[shift={(0,8)}] (-2.5,-0.4) rectangle (2.5,0.4) (0,0) node {Nombre choisi au départ};
+		\draw[shift={(-4.5,6)}] (-2.5,-0.4) rectangle (2.5,0.4) (0,0) node {Ajouter 2};
+		\draw[shift={(-4.5,4)}] (-2.5,-0.4) rectangle (2.5,0.4) (0,0) node {Multiplier par 4};
+		\draw[shift={(4.5,6)}] (-2.5,-0.4) rectangle (2.5,0.4) (0,0) node {Multiplier par 5};
+		\draw[shift={(4.5,4)}] (-2.5,-0.4) rectangle (2.5,0.4) (0,0) node {Soustraire 3};
+		\draw[shift={(0,2)}] (-2.5,-0.4) rectangle (2.5,0.4) (0,0) node {Multiplier les deux nombres};
+		\draw[shift={(0,0)}] (-2.5,-0.4) rectangle (2.5,0.4) (0,0) node {Résultat obtenu à l'arrivée};
+		\draw[->] (0,7.6)--(-4.5,6.5);
+		\draw[->] (0,7.6)--(4.5,6.5);
+		\draw[->] (-4.5,5.6)--(-4.5,4.5);
+		\draw[->] (4.5,5.6)--(4.5,4.5);
+		\draw[->] (-4.5,3.6)--(0,2.5);
+		\draw[->] (4.5,3.6)--(0,2.5);
+		\draw[->] (0,1.6)--(0,0.5);
+	\end{tikzpicture}
+\end{center}
+
+\begin{enumerate}
+	\item Montrer que si on choisit 2 comme nombre de départ, le résultat à l'arrivée est 112 .
+
+	\item Quel est le résultat obtenu à l'arrivée quand on choisit -3 comme nombre de départ?
+
+	\item On choisit $x$ comme nombre de départ.
+
+
+	Parmi les expressions suivantes, lesquelles permettent d'exprimer le résultat à l'arrivée de ce programme de calcul. Aucune justification n'est demandée.
+
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			Expression A & Expression B & Expression C & Expression D \\
+			\hline
+			$(x+2 \times 4)(x \times 5-3)$ & $(4 x+2)(5 x-3)$ & $(4 x+8)(5 x-3)$ & $(x+2) \times 4 \times(5 x-3)$ \\
+			\hline
+		\end{tabular}
+	\end{center}
+
+	\item Trouver les deux nombres de départ qui permettent d'obtenir 0 à l'arrivée. Expliquer la démarche.
+
+	\item Développer et réduire l'expression B.
+
+\end{enumerate}
+
+\section*{Exercice 3 : \hfill 20 points}
+Un cinéma propose trois tarifs :
+
+\textbf{Tarif \og{} Classique \fg{} :} La personne paye chaque entrée 11\euro{}.
+
+	\textbf{Tarif \og{} Essentiel \fg{} :} La personne paye un abonnement annuel de 50 \euro{} puis chaque entrée coûte 5 \euro{}.
+
+\textbf{Tarif \og{} Liberté \fg{} :} La personne paye un abonnement annuel de 240 \euro{} avec un nombre d'entrées illimité.
+
+\begin{enumerate}
+	\item Avec le tarif \og{} Classique \fg{}, une personne souhaite acheter trois entrées au cinéma.
+
+	Combien va-t-elle payer ?
+
+	\item Avec le tarif \og{} Essentiel \fg{}, une personne souhaite aller huit fois au cinéma.
+
+	Montrer qu'elle va payer 90 \euro{}.
+
+	\item Dans la suite, $x$ désigne le nombre d'entrées au cinéma.
+
+	On considère les trois fonctions $f, g$ et $h$ suivantes :
+
+	\hfill~$f: x \longmapsto 50+5 x \qquad g: x \longmapsto 240 \qquad h: x \longmapsto 11 x$\hfill~
+
+	Associer, sans justifier, chacune de ces fonctions au tarif correspondant.
+\end{enumerate}
+
+Le graphique ci-dessous représente le prix à payer en fonction du nombre d'entrées pour chacun de ces trois tarifs.
+
+\begin{center}
+\begin{tikzpicture}[x=2mm,y=0.2mm,>=stealth]
+		\draw [color = gray!75, line width = 0.5pt, xstep=1, ystep = 10] (0,0) grid (46,280);
+	\draw[->,line width = 1.3pt] (0,0) -- (47,0) node[above right]{Nombre d'entrées};
+	\foreach \x in {5,10,...,45}
+	\draw[shift={(\x,0)},color=black,line width = 1.3pt] (0pt,2pt) -- (0pt,-2pt) node[below, fill = white] {\footnotesize $\np{\x}$};
+	\draw[->,line width = 1.3pt] (0,0) -- (0,290) node[above right]{Pris à payer (en \euro{})};
+	\foreach \y in {50,100,...,250}
+	\draw[shift={(0,\y)},color=black,line width = 1.3pt] (2pt,0pt) -- (-2pt,0pt) node[left, fill = white] {\footnotesize $\np{\y}$};
+	\draw[color=black] (-2pt,-2pt) node[below left] {{\footnotesize 0}};
+	\draw[line width=1.2pt,color=red](0,0)--(25.4545,280) node[above]{$(\mathrm{d}_1)$};
+	\draw[line width=1.2pt,color=blue](0,240)--(46,240) node[right]{$(\mathrm{d}_3)$};
+	\draw[line width=1.2pt,color=teal](0,50)--(46,280) node[above right]{$(\mathrm{d}_2)$};
+\end{tikzpicture}
+\end{center}
+
+La droite $(\mathrm{d}_{1})$ représente la fonction correspondant au tarif \og{} Classique \fg{}.
+
+La droite $(\mathrm{d}_{2})$ représente la fonction correspondant au tarif \og{} Essentiel \fg{}.
+
+La droite $(\mathrm{d}_{3})$ représente la fonction correspondant au tarif \og{} Liberté \fg{}.
+
+\begin{enumerate}[resume]
+
+	\item Quel tarif propose un prix proportionnel au nombre d'entrées ?
+
+	\item Pour les questions suivantes, aucune justification n'est attendue.
+
+	\begin{enumerate}
+		\item Avec 150 \euro{}, combien peut-on acheter d'entrées au maximum avec le tarif \og{} Essentiel \fg{}?
+		\item À partir de combien d'entrées, le tarif \og{} Liberté \fg{} devient-il le tarif le plus intéressant?
+		\item Si on décide de ne pas dépasser un budget de 200 \euro{}, quel est le tarif qui permet d'acheter le plus grand nombre d'entrées ?
+	\end{enumerate}
+\end{enumerate}
+
+\section*{Exercice 4 : \hfill 21 points}
+M. et Mme Martin veulent construire une terrasse en béton dans leur jardin. Ils souhaitent que leur terrasse ait une hauteur de $15 \mathrm{~cm}$. Les représentations ci-dessous ne sont pas à l'échelle.
+
+
+\begin{tikzpicture}[x={(6:8.5mm)},y={(115:8mm)},z={(90:5mm)} ,scale=0.8,>=stealth,baseline={(T)}]
+	\draw[fill opacity=0.1,fill=gray] (0,0,0) -- (10,0,0) -- (10,0,1) -- (6,3,1) -- (0,3,1) -- (0,3,0) --cycle ;
+	\node at(3,1.5,0.5) {Terrasse en béton};
+	\draw (0,0,0) node[below]{A}-- (6,0,0)node[below]{D}-- (10,0,0)node[below]{I}-- (10,0,1)node[above]{J}--
+	(6,3,1)node[above]{G}-- (0,3,1)node[above]{H}-- (0,3,0) node[left]{D}--cycle (0,0,0)--(0,0,1)
+	(0,3,1)--(0,0,1)node[above right]{E}--(10,0,1)
+	(6,0,0)--(6,0,1)node[above right]{F}--(6,3,1);
+	\draw[dashed] (0,3,0) -- (6,3,0)node[below left]{C}--(10,0,0) (6,3,1)--(6,3,0)--(6,0,0);
+	\draw[<->,shift={(0.3,0,0)}] (10,0,0)--(10,0,1) node[pos=0.5,right]{15cm}  ;
+	\node at (8,-1,0)  {IJ = 15 cm};
+	\draw[line width=1.5pt] (-2cm,5cm) rectangle (10cm,-1cm);
+	\node (T) at (-2cm,5cm) [below right] {\textbf{Vue en perspective de la terrasse}};
+\end{tikzpicture}
+\hfill
+\begin{tikzpicture}[baseline={(T)}]
+	\draw[line width=1.5pt] (0cm,2.5cm) rectangle (4.5cm,0cm);
+	\node (T) at (0cm,2.5cm) [below right] {\textbf{Rappel :}};
+	\node[text width=4.5cm,below right] at (0cm,1.8) {Le volume d'un prisme est donné par la formule :\linebreak $V= \mathrm{Aire}_\mathrm{base} \times \mathrm{Hauteur}$};
+\end{tikzpicture}
+
+\medskip
+
+\begin{tikzpicture}[>=stealth]
+	\draw[line width=1.5pt] (-1cm,4.5cm) rectangle (12cm,-1.5cm);
+	\node (T) at (-1cm,4.5cm) [below right] {\textbf{Vue de dessus de la terrasse}};
+
+	\draw (0,0)node[below left]{E}-- (10,0)node[below right]{J}-- (6,3)node[above]{G} -- (0,3)node[above left]{H}node[pos=0.5,above]{6 m}--cycle node[pos=0.5,left]{3m};
+	\draw[dashed] (6,3) -- (6,0)node[below]{F};
+	\draw[red,line width=1pt] (6,0.35)--(6.35,.35)--(6.35,0) ;
+	\draw[<->] (0,-0.65)--(10,-0.65) node[pos=0.5,below]{10 m}  ;
+	\node at (9.5,2.5)  {EFGH est un rectangle};
+
+\end{tikzpicture}
+
+
+\begin{enumerate}
+	\item Montrer que FJ $= 4$~m.
+
+	\item Afin de pouvoir couler le béton, $M$. et M\up{me} Martin doivent délimiter la terrasse en installant des planches tout autour. Quelle longueur de planches doivent-ils acheter au minimum ?
+
+	\item M. et Mme Martin souhaitent réaliser $4 \mathrm{~m}^{3}$ de béton.
+
+	\begin{enumerate}
+		\item Montrer que le volume de la terrasse est bien inférieur à $\np[m^3]{4}$.
+
+		\item Sachant que pour faire $\np[m^3]{1}$ de béton, il faut $\np[kg]{250}$ de ciment, quelle masse de ciment (en kg) doivent-ils acheter pour réaliser $\np[m^3]{4}$ de béton ?
+
+		\item Pour faire du béton, on ajoute de l'eau à un mélange de ciment, de gravier et de sable.
+
+		Dans ce mélange, les masses de ciment - gravier - sable sont dans le ratio $2: 7: 5$.
+
+		Déterminer (en kg), la masse de gravier et la masse de sable nécessaires pour réaliser les $\np[m^3]{4}$ de béton.
+		\end{enumerate}
+
+	\item M. et M\up{me} Martin souhaitent peindre la surface supérieure de leur terrasse.
+
+À l'aide des documents 1,2 et 3 , déterminer le type et le nombre de pots nécessaires pour effectuer ces travaux avec un coût minimum.
+
+\begin{center}
+
+\fbox{\begin{minipage}{10cm}
+	\textbf{Document 1 :} Pots de peinture proposés
+
+\begin{center}
+	\begin{tabular}{|c|c|c|}
+		\cline { 2 - 3 }
+		\multicolumn{1}{c|}{} & Pot A & Pot B \\
+		\hline
+		Contenance (en litres) & 5 & 10 \\
+		\hline
+		Prix (en euros) & 79,90 & 129,90 \\
+		\hline
+	\end{tabular}
+\end{center}
+\end{minipage}}
+
+\bigskip
+
+\fbox{\begin{minipage}{10cm}
+		\textbf{Document 2 :} L'offre du mois
+
+		\begin{center}
+			\begin{tikzpicture}[]
+				\node at(0,30pt) {Moins 50\,\%};
+				\node at(0,15pt) {sur le deuxième article};
+				\node at(0,0) {identique};
+				\draw (0,15pt) circle (2.8cm and 1cm);
+			\end{tikzpicture}
+		\end{center}
+\end{minipage}}
+
+\bigskip
+
+\fbox{\begin{minipage}{10cm}
+\textbf{Document 3 :}
+\medskip
+
+Deux couches de peinture sont nécessaires.
+
+1 litre de peinture permet de réaliser une couche de \np[m^2]{5}.
+\end{minipage}}
+\end{center}
+\end{enumerate}
+
+
+\section*{Exercice 5 : (19 points)}
+\begin{minipage}[t]{9cm}
+	Dans cet exercice on considère la figure codée ci-contre.
+
+\begin{itemize}
+	\item Les points A, C et E sont alignés.
+	\item Les points B, C et D sont alignés.
+	\item $\mathrm{AB}=\np[mm]{240}$.
+	\item $\mathrm{CE} =\np[mm]{80}$.
+\end{itemize}\end{minipage}
+\hfill
+\begin{tikzpicture}[baseline={(D.base)}]
+\draw (0,0)node[below left]{A}-- (3.8,0)node[below right]{B} node[pos=0.5,below]{240 mm} -- ++(120:5)node[above left](D){D} node[pos=0.88,sloped]{{\scriptsize ||}}-- ++(1.2,0)node[above right]{E}node[pos=0.5,sloped]{{\scriptsize ||}}--cycle node[pos=0.12,sloped]{{\scriptsize ||}}node[pos=0.12, right=3mm]{80mm} node[pos=0.24, right]{C};
+\draw[fill=gray,fill opacity=0.1] (0,0) --(0.4,0)arc(0:60:0.4)--(0,0) ;
+\draw (30:0.3)--(30:.5) (30:0.8) node {60°} ;
+\draw[shift={(3.8,0)},fill=gray,fill opacity=0.1] (0,0) --(-0.4,0)arc(180:120:0.4)--(0,0) ;
+\draw[shift={(3.8,0)}] (150:0.3)--(150:.5);
+\node at (1.9,-1)  {\emph{le dessin n'est pas à l'échelle}};
+\end{tikzpicture}
+
+
+\textbf{Partie A}
+
+\begin{enumerate}
+	\item Montrer que le triangle ABC est équilatéral.
+
+	\item Montrer que les droites (DE) et (AB) sont parallèles.
+
+\end{enumerate}
+
+\textbf{Partie B}
+
+On donne le programme suivant qui permet de tracer la figure précédente.
+
+Ce programme comporte une variable nommée \og{} côté \fg{}.
+
+Les longueurs sont données en pas : \textbf{1 pas représente 1 mm.}
+
+On rappelle que l'instruction \begin{scratch} \blockmove{s'orienter à ~\ovalnum{90}}\end{scratch} signifie que le lutin se dirige horizontalement vers la droite.
+
+
+\begin{tabularx}{\linewidth}{|X|X|}\hline
+	Programme & Le bloc \textbf{triangle} \\
+	\begin{scratch}[num blocks]
+		\blockinit{quand \greenflag est cliqué}
+		\blockmove{aller à x : \ovalnum{-180} y : \ovalnum{-150}}
+		\blockmove{s'orienter à ~\ovalnum{90}}
+		\blockvariable{mettre \selectmenu{côté} à \ovalnum{...}}
+		\blockmoreblocks{triangle}
+		\blockmove{tourner \turnleft{} de \ovalnum{60} degrés}
+		\blockmove{avancer de \ovalnum{240}}
+		\blockvariable{mettre \selectmenu{côté} à \ovaloperator{\ovalvariable{côté}/\ovalnum{3}}}
+		\blockmoreblocks{triangle}
+	\end{scratch}&
+	\begin{scratch}
+		\initmoreblocks{définir \namemoreblocks{triangle}}
+		\blockpen{stylo en position d'écriture}
+		\blockrepeat{répéter \ovalnum{3} fois}{
+		\blockmove{avancer de \ovalvariable{côté} pas}
+		\blockmove{tourner \turnleft{} de \ovalnum{120} degré}}
+		\blockpen{relever le stylo}
+	\end{scratch}\\\hline
+\end{tabularx}
+\begin{enumerate}
+	\item Quelles sont les coordonnées du point de départ du lutin ? Aucune justification n'est demandée.
+
+	\item Quelle valeur doit être saisie à la ligne 4 dans le programme ? Aucune justification n'est demandée.
+
+	\item Le lutin démarre à la case D8. Dans quelle case se trouve-t-il lorsqu'il vient d'exécuter la ligne 7 du programme ? Aucune justification n'est demandée.
+
+	\begin{center}
+		\begin{tikzpicture}[>=stealth,x=9mm,y=9mm]
+			\draw[dotted,xstep=1,ystep=1] (0,1) grid  (11,-8);
+			\foreach \y in {1,...,8}{
+				\node[shift={(0.5,0.5)}] at(0,-\y){\y};}
+			\foreach \x/\l in {1/A,2/B,3/C,4/D,5/E,6/F,7/G,8/H,9/I,10/J}{
+				\node[shift={(0.5,0.5)}] at(\x,0){\l};}
+			\draw[] (4.5,-7.5)--(10.5,-7.5)--(6.5,-.5)--(8.5,-.5)--cycle ;
+			\draw[<-] (4.4,-7.5)--(3.5,-7.5)node[left]{Départ du lutin} ;
+		\end{tikzpicture}
+	\end{center}
+
+	\item Expliquer l'instruction \og{} côté $/ 3$ \fg{} de la ligne 8 du programme pour le tracé de la figure.
+\end{enumerate}
+\end{document}

@@ -69,6 +69,16 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% AUTRES COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+\newcommand{\dotlines}[2][0.3]{
+    \foreach \n in {0,...,#2}
+    {
+    \\*[#1 cm]
+
+    \dotfill
+    }
+}
+
 \newcommand{\makeAlph}[1]{\@Alph{#1}}%Transforme nombre en lettre
 
 \newcommand{\fillin}[1][2cm]{\makebox[#1]{\dotfill}}

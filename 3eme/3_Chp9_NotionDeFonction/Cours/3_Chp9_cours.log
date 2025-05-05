@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  16 APR 2025 22:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  25 APR 2025 23:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1153,7 +1153,12 @@ Overfull \hbox (11.82777pt too wide) in paragraph at lines 78--79
  []
 
 
-Overfull \hbox (33.97571pt too wide) in paragraph at lines 124--125
+Underfull \hbox (badness 3281) in paragraph at lines 92--93
+[][]\T1/futs/m/n/12 On trace le seg-ment de-puis ces points
+ []
+
+
+Overfull \hbox (11.82777pt too wide) in paragraph at lines 127--128
  [] 
  []
 
@@ -1164,15 +1169,15 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 28860 strings out of 474222
- 606039 string characters out of 5748733
- 1953975 words of memory out of 5000000
- 50400 multiletter control sequences out of 15000+600000
+ 28867 strings out of 474222
+ 606091 string characters out of 5748733
+ 1955975 words of memory out of 5000000
+ 50407 multiletter control sequences out of 15000+600000
  621263 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 130i,11n,135p,1259b,952s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 130i,11n,135p,1259b,913s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on 3_Chp9_cours.pdf (2 pages, 58132 bytes).
+Output written on 3_Chp9_cours.pdf (2 pages, 58525 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream

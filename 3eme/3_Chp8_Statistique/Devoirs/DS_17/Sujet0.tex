@@ -1,0 +1,113 @@
+\exo{4}{Calculer} : Compléter avec la fréquence, la médiane, la moyenne et trace l'histogramme correspondant sur la figure de droite.
+
+\begin{minipage}[c]{0.40\textwidth}
+    \begin{center}
+        \begin{tabular}{c*{4}{|p{0.5cm}}}
+         Valeurs  & \exAvA & \exAvB & \exAvC & \exAvD\\ \hline 
+         Effectifs  & \exAvE & \exAvF & \exAvG & \exAvH\\ \hline 
+         Fréquences &  &  &  & \\[0.5cm]
+        \end{tabular}
+    \end{center}\vspace*{2em}
+    $$\overline{x}=\filling ~ Me=\filling$$
+\end{minipage}
+\hfil
+\begin{minipage}[c]{0.55\textwidth}
+    \begin{center} 
+        \begin{tikzpicture}
+        \draw [<->] (0,6.5) node[above left]{Effectifs}|- (6.5,0) node[below right]{Valeurs};
+        \foreach \x in {1,...,6}
+        {
+        \draw[lightgray,thin] (0,\x)--(6.5,\x);
+        \draw[lightgray,thin] (\x,0)--(\x,6.5);
+        }
+        \foreach \x in {1,...,6}
+        {
+        \draw (-0.1,\x) --(0.1,\x);
+        \draw (\x,-0.1) --(\x,0.1);
+        }
+        \end{tikzpicture}
+        \end{center}
+\end{minipage}
+
+\exo{4}{Représenter} : Donner le tableau de valeurs correspondant et calculer la moyenne, la médiane et la fréquence.
+
+\begin{minipage}[c]{0.55\textwidth}
+    \begin{center} 
+        \begin{tikzpicture}
+        \draw [<->] (0,5.5) node[above left]{Effectifs}|- (5.5,0) node[below right]{Valeurs};
+        \foreach \x in {1,...,5}
+        {
+            \draw[lightgray,thin] (0,\x)--(5.5,\x);
+            \draw[lightgray,thin] (\x,0)--(\x,6.5);
+        }
+        \foreach \x in {1,...,5}
+        {
+            \draw (-0.1,\x) --(0.1,\x);
+            \draw (\x,-0.1) --(\x,0.1);
+        }
+        \foreach \z [count=\zi] in {\exBvA , \exBvB , \exBvC , \exBvD}
+        {
+            \node at (\zi - 0.5,-0.5) {\z};
+        }
+        \foreach \y [count=\yi] in {\exBvE , \exBvF , \exBvG , \exBvH}
+        {
+            \draw[fill=white] (\yi -1,0) rectangle (\yi,\y);
+        }
+        \end{tikzpicture}
+        \end{center}
+\end{minipage}
+\hfil
+\begin{minipage}[c]{0.40\textwidth}
+    \begin{center}
+        \begin{tabular}{c*{4}{|p{0.5cm}}}
+         Valeurs  &  &  &  & \\ \hline 
+         Effectifs  &  &  &  & \\ \hline 
+         Fréquences &  &  &  & \\[0.5cm]
+        \end{tabular}
+    \end{center}
+    \vspace*{2em}
+    $$\overline{x}=\filling ~ Me=\filling$$
+\end{minipage}
+
+\exo{4}{Raisonner} : Quelle est la valeur manquante ?
+
+On a la série  : 
+    \begin{tabular}{c*{4}{|p{0.5cm}}}
+     Valeurs  & \exCvA & \exCvB & \exCvC & \exCvD\\ \hline 
+     Effectifs  & \exCvE & \exCvF & \exCvG & \exCvH\\
+    \end{tabular} avec pour moyenne :
+$\overline{x}=\exCvI$. Trouver $x$. 
+
+\exo{6}{Modéliser} : 
+
+Nabila a eu les notes suivantes ce trimestre : 
+\begin{multicols}{3}
+    \begin{itemize}
+        \item \exDvA ~coefficient \exDvB
+        \item \exDvC ~coefficient \exDvD
+        \item \exDvE ~coefficient \exDvF
+        \item \exDvG ~coefficient \exDvH
+        \item \exDvI ~coefficient \exDvJ
+        \item \exDvK ~coefficient \exDvL
+    \end{itemize}
+\end{multicols}
+
+\begin{enumerate}
+    \item Quelle est la fréquence de la note \exDvI ?
+    \item Nabila hésite entre présenter à ses parents sa moyenne ou sa médiane. Laquelle serait la plus avantageuse ? 
+\end{enumerate}
+
+\vfill
+
+\exo{2}{Chercher} : Trouver une série de valeurs telle que :
+
+\begin{itemize}
+    \item L'effectif total est 5
+    \item L'étendue est \exEvA
+    \item La moyenne est \exEvB
+    \item La médiane est \exEvC
+\end{itemize}
+
+\dotfill
+
+

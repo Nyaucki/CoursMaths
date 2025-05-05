@@ -1,0 +1,38 @@
+\begin{figure}[H]
+\center
+\begin{tikzpicture}[scale=0.8]
+\newcommand{\y}{0}\renewcommand{\y}{0}
+\foreach \x [count=\xi] in {white, red, red, red, red, red, white}
+{\draw[fill=\x] (\xi,\y) rectangle (\xi +1,\y -1);}
+\renewcommand{\y}{-1}
+\foreach \x [count=\xi] in {red, red, white, white, white, red, red}
+{\draw[fill=\x] (\xi,\y) rectangle (\xi +1,\y -1);}
+\renewcommand{\y}{-2}
+\foreach \x [count=\xi] in {red, red, red, red, red, red, red}
+{\draw[fill=\x] (\xi,\y) rectangle (\xi +1,\y -1);}
+\renewcommand{\y}{-3}
+\foreach \x [count=\xi] in {brown, magenta, black, magenta, black, magenta, brown}
+{\draw[fill=\x] (\xi,\y) rectangle (\xi +1,\y -1);}
+\renewcommand{\y}{-4}
+\foreach \x [count=\xi] in {magenta, magenta, brown, brown, brown, magenta, magenta}
+{\draw[fill=\x] (\xi,\y) rectangle (\xi +1,\y -1);}
+\renewcommand{\y}{-5}
+\foreach \x [count=\xi] in {white, magenta, magenta, magenta, magenta, magenta, white}
+{\draw[fill=\x] (\xi,\y) rectangle (\xi +1,\y -1);}
+\renewcommand{\y}{-6}
+\foreach \x [count=\xi] in {red, blue, red, red, red, blue, red}
+{\draw[fill=\x] (\xi,\y) rectangle (\xi +1,\y -1);}
+\renewcommand{\y}{-7}
+\foreach \x [count=\xi] in {red, yellow, blue, blue, blue, yellow, red}
+{\draw[fill=\x] (\xi,\y) rectangle (\xi +1,\y -1);}
+\renewcommand{\y}{-8}
+\foreach \x [count=\xi] in {black, blue, blue, blue, blue, blue, black}
+{\draw[fill=\x] (\xi,\y) rectangle (\xi +1,\y -1);}
+\renewcommand{\y}{-9}
+\foreach \x [count=\xi] in {white, blue, blue, blue, blue, blue, white}
+{\draw[fill=\x] (\xi,\y) rectangle (\xi +1,\y -1);}
+\renewcommand{\y}{-10}
+\foreach \x [count=\xi] in {white, brown, brown, white, brown, brown, white}
+{\draw[fill=\x] (\xi,\y) rectangle (\xi +1,\y -1);}
+\end{tikzpicture}
+\end{figure}

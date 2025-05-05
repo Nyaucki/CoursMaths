@@ -16,5 +16,5 @@ def exercices_auto(ref : str,nb_exo : int,path : str,exo : list,comp : str, cons
             if dollar:
                 fichier.write("$$"+exo[index]+"$$\n\n")
             else :
-                fichier.write(exo[index]+"\n\n")
+                fichier.write("\n\n"+exo[index]+"\n\n")
         fichier.write("\\end{multicols}")

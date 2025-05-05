@@ -1,0 +1,1 @@
+{"rule":"PLACE_DE_LA_VIRGULE","sentence":"^\\QLa figure 2 n'est pas possible car les angles ne font pas 90°.\\E$"}

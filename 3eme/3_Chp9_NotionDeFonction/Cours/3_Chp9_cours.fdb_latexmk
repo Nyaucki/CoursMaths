@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1744833816.36017 "/home/nyaucki/Documents/Prof/CoursMaths/3eme/3_Chp9_NotionDeFonction/Cours/3_Chp9_cours.tex" "3_Chp9_cours.pdf" "3_Chp9_cours" 1744833817.24317 0
+["pdflatex"] 1745614840.47803 "/home/nyaucki/Documents/Prof/CoursMaths/3eme/3_Chp9_NotionDeFonction/Cours/3_Chp9_cours.tex" "3_Chp9_cours.pdf" "3_Chp9_cours" 1745614841.83363 0
   "/etc/texmf/web2c/texmf.cnf" 1728278577.13922 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/nyaucki/Documents/Prof/CoursMaths/3eme/3_Chp9_NotionDeFonction/Cours/3_Chp9_cours.tex" 1744715849.52705 223 7608dd8fbd1b740a159fd7d456c59168 ""
-  "/home/nyaucki/Documents/Prof/CoursMaths/mycls/ArticleCommande.cls" 1744002902.6801 2866 9468130c57ad7caf5b2989cc89da9a69 ""
+  "/home/nyaucki/Documents/Prof/CoursMaths/mycls/ArticleCommande.cls" 1744888572.131 2973 ba1d24549f83819b177802ce42b8fed3 ""
   "/home/nyaucki/Documents/Prof/CoursMaths/mycls/Cours.cls" 1743523595.92712 1915 b88f1fdaa96cef2c0ab329c4adf8978a ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -272,13 +272,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1728289027.05577 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1728289158 8212900 37025dc55bcf1f60124279e197ee8503 ""
-  "3_Chp9_cours.aux" 1744833817.16793 210 1c459362110cef85eeda581d00fec955 "pdflatex"
+  "3_Chp9_cours.aux" 1745614841.70191 210 1c459362110cef85eeda581d00fec955 "pdflatex"
   "3_Chp9_cours.tex" 1744715849.52705 223 7608dd8fbd1b740a159fd7d456c59168 ""
   "Cours/1_DefVocab.tex" 1744714462.64201 1198 cda7fb03b751694a755822a3e1a6b6be ""
   "Cours/2_TableauValeur.tex" 1744714682.23102 882 48c646b79693e16dd510a93f0368a622 ""
-  "Cours/3_CourbeReprésentative.tex" 1744833816.17895 5380 5da07f7c606b76020ffc807f5752cab9 ""
+  "Cours/3_CourbeReprésentative.tex" 1745614840.20792 5656 15df5a6282b768db45325c6e418d6720 ""
   "Switches.tex" 1744606638.55605 98 0a1946ad83cb13eb8fd57cff1beee319 ""
-  "Texte.aux" 1744833817.16793 1088 9ca8ccd6cfa596b15ee4c771b47bc402 "pdflatex"
+  "Texte.aux" 1745614841.70191 1088 9ca8ccd6cfa596b15ee4c771b47bc402 "pdflatex"
   "Texte.tex" 1744607813.41208 136 751d790b45165a76312b776acc4c53fc ""
   (generated)
   "3_Chp9_cours.aux"
