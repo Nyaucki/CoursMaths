@@ -1,0 +1,52 @@
+\documentclass[12pt,a4paper,french,fleqn]{beamer}
+
+\usepackage{tikz}
+
+\begin{document}
+
+\newcommand{\ax}{-3}
+\newcommand{\ay}{-3}
+\newcommand{\bx}{-1}
+\newcommand{\by}{-1}
+\newcommand{\cx}{-1}
+\newcommand{\cy}{2}
+\newcommand{\dx}{3}
+\newcommand{\dy}{1}
+\newcommand{\ex}{2}
+\newcommand{\ey}{1}
+\newcommand{\fx}{4}
+\newcommand{\fy}{3}
+
+
+\begin{frame}
+    \begin{minipage}[t]{0.65\textwidth}
+        \begin{figure}
+            \center
+            \begin{tikzpicture}[scale=0.8]
+                \draw[dotted,blue] (-4,-4) grid (4,4);
+                \draw [blue,thick,->] (0,-4)-- (0,4);
+                \draw [blue,thick,->] (-4,0)-- (4,0);
+            \end{tikzpicture}
+        \end{figure}
+    \end{minipage}
+    \hfil
+    \vrule
+    \hfil
+    \begin{minipage}[t]{0.32\textwidth}
+        \underbar{Placer les points :}
+        
+        \begin{itemize}
+            \item A(\ax ; \ay)
+            \item B(\bx ; \by)
+            \item C(\cx ; \cy)
+            \item D(\dx ; \dy)
+            \item E(\ex ; \ey)
+            \item F(\fx ; \fy)
+        \end{itemize}
+        Tracer le symétrique de [AC] de centre B
+
+        Tracer le symétrique de [EF] de centre D
+    \end{minipage}
+\end{frame}
+
+\end{document}

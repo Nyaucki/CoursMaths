@@ -1,0 +1,64 @@
+
+%% Exercices avec repère %%
+
+\textbf{Exercice : }À l'aide du repère ci-dessous :
+
+\newcommand{\ax}{1}
+\newcommand{\ay}{2}
+\newcommand{\bx}{-1}
+\newcommand{\by}{-1}
+\newcommand{\cx}{5}
+\newcommand{\cy}{-2}
+\newcommand{\dx}{-7}
+\newcommand{\dy}{2}
+
+
+\begin{figure}[H]
+    \center
+    \begin{tikzpicture}
+        \draw[dotted] (-8,-5) grid (8,7);
+        \draw [ultra thick,->] (0,-5)-- (0,7);
+        \draw [ultra thick,->] (-8,0)-- (8,0);
+        \node at (0,0) [below  left]{0};
+        \draw (1,0.2)--(1,-0.2) node [below] {1};
+        \draw (0.2,1)--(-0.2,1) node [left] {1};
+        % \fill[red] (\ax , \ay) coordinate (A) circle(1.5pt)node [below  left]{$A$};
+        % \fill[red] (\bx , \by) coordinate (B) circle(1.5pt)node [below  left]{$B$};
+        % \fill[red] (\cx , \cy) circle(1.5pt)node [below  left]{$C$};
+        % \fill[red] (\dx , \dy) coordinate (D) circle(1.5pt)node [below  left]{$D$};
+    \end{tikzpicture}
+\end{figure}
+
+\begin{enumerate}
+    \item Placer les points suivants :
+        \begin{multicols}{4}
+            \begin{itemize}
+                \item $A~(\ax;\ay)$
+                \item $B~(\bx;\by)$
+                \item $C~(\cx;\cy)$
+                \item $D~(\dx;\dy)$
+            \end{itemize}
+        \end{multicols}
+    \item Placer les points suivants : 
+    \begin{itemize}
+        \item $B'$ l'image de $B$ par la symétrie d'axe $(AC)$
+        \item $C'$ l'image de $C$ par la symétrie d'axe $(AD)$
+        \item $[A'D']$ l'image de $[AD]$ par la symétrie de centre $B$.
+    \end{itemize}
+    \item Donner les coordonnées des points placés précédemment :
+    \begin{multicols}{4}
+        \begin{itemize}
+            \item $A'~\filling$
+            \item $B'~\filling$
+            \item $C'~\filling$
+            \item $D'~\filling$
+        \end{itemize}
+    \end{multicols}
+    \item Que peut-on dire des droites $(AD)$ et $(A'D')$. Justifier.
+    \foreach \m in {0,...,2}
+    {
+        \\*[0.3cm]
+    
+        \dotfill
+    }
+\end{enumerate}

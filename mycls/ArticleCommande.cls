@@ -15,7 +15,6 @@
 \RequirePackage{tikz,tkz-tab}
 \RequirePackage{appendix}
 \RequirePackage{tabularx}
-\RequirePackage{amsmath}
 \RequirePackage{rotating}
 \RequirePackage{cancel}
 \RequirePackage{pgfpages}

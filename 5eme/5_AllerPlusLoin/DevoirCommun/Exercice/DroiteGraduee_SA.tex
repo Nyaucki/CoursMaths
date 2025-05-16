@@ -1,0 +1,111 @@
+
+
+
+%%%%% DEVOIR 6 EME %%%%
+
+\newpage
+
+\newcommand{\fracdgmult}[5][1]{
+% #1 : Combien de grd avant le départ
+% #2 : Dénominateur
+% #3 : Graduation connue
+% #4 : Numérateur 1
+% #5 : Numérateur 2
+\tikzmath{\den=#2; \ya =#3;  \rcl= #1 ; \pas=1/\den ; \yb =\ya +1; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +17*\pas ; \grad = 0.1/\den ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=\den]
+        \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+        \foreach \x in {\dprt,\y2,...,\fin}
+        {
+          \pgfmathparse{int(Mod(\x * \den +\pas ,\den))}
+          \ifnum\pgfmathresult>0
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          \else 
+            \draw[ultra thick] (\x,2*\grad) -- (\x,-2*\grad) ;
+          \fi
+        }
+        \foreach \z [count=\zi] in {#4 * \pas , #5 * \pas}
+        {
+          % \node at (\z,\grad) [above] {\makeAlph{\zi}};
+          \draw[-Stealth] (\z,5*\grad) node [above] {\filling[1cm]}--(\z,1.5*\grad);
+        }
+        \node (A) at (\ya,-2*\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+        \node (B) at (\yb,-2*\grad) [below] {\pgfmathprintnumber[use comma]{\yb}} ;
+    \end{tikzpicture} 
+\end{figure}}
+
+\newcommand{\fracdplace}[3][1]{
+% #1 : Combien de grd avant le départ
+% #2 : Dénominateur
+% #3 : Graduation connue
+\tikzmath{\den=#2; \ya =#3;  \rcl= #1 ; \pas=1/\den ; \yb =\ya +1; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +17*\pas ; \grad = 0.1/\den ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[scale=\den]
+        \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+        \foreach \x in {\dprt,\y2,...,\fin}
+        {
+          \pgfmathparse{int(Mod(\x * \den +\pas ,\den))}
+          \ifnum\pgfmathresult>0
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          \else 
+            \draw[ultra thick] (\x,2*\grad) -- (\x,-2*\grad) ;
+          \fi
+        }
+        \node (A) at (\ya,-2*\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+        \node (B) at (\yb,-2*\grad) [below] {\pgfmathprintnumber[use comma]{\yb}} ;
+    \end{tikzpicture} 
+\end{figure}}
+
+
+\textbf{Exercice : } Sur les droites graduées
+
+\begin{enumerate}
+    \item Donner les nombres associés aux positions suivantes.
+    
+    \fracdgmult[0]{10}{0}{3}{11}
+
+    \item Donner les fractions associées aux positions suivantes.
+
+    \fracdgmult[0]{4}{0}{2}{9}
+
+    \fracdgmult[4]{5}{1}{2}{7}
+
+    \item Placer les lettres associées aux nombres ou fractions suivants sur une des droites graduées ci-dessous.
+    \begin{multicols}{6}
+        \begin{itemize}[label={}, leftmargin=*]
+            \item $$A=\dfrac{3}{4}$$
+            \item $$B=\dfrac{5}{4}$$
+            \item $$C=\dfrac{39}{10}$$
+            \item $$D=\dfrac{14}{4}$$
+            \item $$E=4,2$$
+            \item $$F=3,98$$
+        \end{itemize}
+    \end{multicols}
+    \vspace{1em}
+
+    \fracdplace[0]{4}{0}
+
+    \fracdplace[3]{10}{4}
+
+    \tikzmath{\den=100; \ya =3.9;  \rcl= 1 ; \pas=1/\den ; \yb =\ya +0.1; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +17*\pas ; \grad = 0.1/\den ; } 
+    \begin{figure}[H]
+        \centering
+        \begin{tikzpicture}[scale=\den]
+            \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+            \foreach \x in {\dprt,\y2,...,\fin}
+            {
+              \pgfmathparse{int(Mod(\x * \den +\pas ,\den))}
+              \ifnum\pgfmathresult>0
+                \draw (\x,\grad) -- (\x,-\grad) ;
+              \else 
+                \draw[ultra thick] (\x,2*\grad) -- (\x,-2*\grad) ;
+              \fi
+            }
+            \draw[ultra thick] (3.9,2*\grad) -- (3.9,-2*\grad) ;
+            \node (A) at (\ya,-2*\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+            \node (B) at (\yb,-2*\grad) [below] {\pgfmathprintnumber[use comma]{\yb}} ;
+        \end{tikzpicture} 
+    \end{figure}   
+\end{enumerate}

@@ -1,0 +1,64 @@
+
+%% Exercices avec repère %%
+
+\textbf{Exercice \hspace*{1cm} / 12 points : }À l'aide du repère ci-dessous :
+
+\renewcommand{\ax}{1}
+\renewcommand{\ay}{5}
+\renewcommand{\bx}{5}
+\renewcommand{\by}{7}
+\renewcommand{\cx}{4}
+\renewcommand{\cy}{1}
+\renewcommand{\dx}{-5}
+\renewcommand{\dy}{2}
+
+
+\begin{figure}[H]
+    \center
+    \begin{tikzpicture}
+        \draw[dotted] (-8,-5) grid (8,7);
+        \draw [ultra thick,->] (0,-5)-- (0,7);
+        \draw [ultra thick,->] (-8,0)-- (8,0);
+        \node at (0,0) [below  left]{0};
+        \draw (1,0.2)--(1,-0.2) node [below] {1};
+        \draw (0.2,1)--(-0.2,1) node [left] {1};>
+        \fill (\ax , \ay) coordinate (A) circle(1.5pt)node [above  left]{$A$};
+        % \fill[red] (\bx , \by) coordinate (B) circle(1.5pt)node [below  left]{$B$};
+        % \fill[red] (\cx , \cy) coordinate (C) circle(1.5pt)node [below  left]{$C$};
+        % \fill[red] (\dx , \dy) coordinate (D) circle(1.5pt)node [below  left]{$D$};
+        % \fill[red] ($(D)!1!-90:(A)$)  coordinate (E) circle(1.5pt)node  [below  left]{$E$};
+        % \fill[red] ($(A)!2!(C)$) coordinate (A')  circle(1.5pt)node [below  right]{$A'$};
+        % \fill[red] ($(B)!2!(C)$) coordinate (B')  circle(1.5pt)node [above  left]{$B'$};
+        % \draw [red,dashed] (A)--(E)--(D)--(A)--(B)--(A')--(B')--(A);
+    \end{tikzpicture}
+\end{figure}
+
+\begin{enumerate}
+    \item Placer les points suivants (\hspace*{1cm}/3 points) :
+        \begin{multicols}{3}
+            \begin{itemize}
+                \item $B~(\bx;\by)$
+                \item $C~(\cx;\cy)$
+                \item $D~(\dx;\dy)$
+            \end{itemize}
+        \end{multicols}
+    \item Placer les points suivants (\hspace*{1cm}/3 points) : 
+    \begin{itemize}
+        \item $E$ tel que le triangle $ADE$ soit rectangle et isocèle en $D$.
+        \item $[A'B']$ l'image de $[AB]$ par la symétrie centrale de centre $C$.
+    \end{itemize}
+    \item Quelle est la nature du quadrilatère $ABA'B'$. Justifier. (\hspace*{1cm}/3 points) :
+    \foreach \m in {0,...,1}
+    {
+        \\*[0.3cm]
+    
+        \dotfill
+    }
+    \item L'angle $\widehat{B'A'B}$ mesure 110°, quelle est la mesure de l'angle $\widehat{B'AE}$ ? Justifier. (\hspace*{1cm}/3 points) :
+    \foreach \m in {0,...,1}
+    {
+        \\*[0.3cm]
+    
+        \dotfill
+    }
+\end{enumerate}
