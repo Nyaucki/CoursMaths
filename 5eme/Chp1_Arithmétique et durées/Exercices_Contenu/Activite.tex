@@ -1,0 +1,126 @@
+%! TEX root = ../Exercices.tex
+\section{Activités d'introductions}
+
+\exo{IntroTrouverDiviseur} Pour introduire l'exercice type \textcolor{red}{todo}. A retravailler avec l'exercice \textcolor{red}{todo}.
+
+On cherche à trouver tous les diviseurs de 12.
+
+\begin{multicols}{3}
+\foreach \x in {1,...,12}
+	{
+		\begin{itemize}[label={},leftmargin=0pt]
+			\foreach \y in {quotient,reste}
+			{\item Le \y~ de $12\div\x$~est : \filling[1cm]
+			}
+		\end{itemize}
+}
+\end{multicols}
+
+Les diviseurs de 12 sont donc : \dotfill
+
+\begin{enumerate}
+	\item Etait-il nécessaire de faire la division pour vérifier si 1 était bien un diviseur ? \filling
+	\item  Comment pouvait-on trouver les diviseurs supérieurs ou égaux à 4 sans faire de division ? 
+		\dotlines{1}
+	\item Si on souhaite aller le plus vite possible, les seules divisions à garder sont : \dotfill	
+	\item Sur le cahier, chercher de la même manière tous les diviseurs de 28.
+\end{enumerate}
+
+
+\exo{IntroNombrePremier}
+
+Cherchons si 79 est un nombre premier. Pour cela, cherhons les diviseurs de 79.
+
+\begin{multicols}{3}
+\foreach \x in {2,...,9}
+	{
+		\begin{itemize}[label={},leftmargin=0pt]
+			\foreach \y in {quotient,reste}
+			{\item Le \y~ de $79\div\x$~est : \filling[1cm]
+			}
+		\end{itemize}
+}
+\end{multicols}
+
+Les diviseurs de 79 sont \fillin
+
+\begin{enumerate}
+	\item Pourquoi n'est-il pas nécessaire de continuer après 9 ?
+		\dotlines{1}
+	\item Comme 2 n'est pas diviseur de 79, pourquoi n'est-il pas nécessaire d'essayer avec 4 ? Quels-autres nombres nes sont pas nécessaires ?
+		\dotlines{1}
+	\item Au final, les seuls diviseurs qu'il est nécessaire de tester sont : \fillin.
+	\item Sur le cahier, vérifier de la même manière si 83 est un nombre premier.
+\end{enumerate}
+
+
+\exo{IntroDecompositionNombrePremier}
+
+Cherchons la décomposition en nombres premiers de 140.
+
+
+On rappelle que les nombres premiers commencent par 2 ; 3 ; 5 ; 7 ; 11... et on va essayer de diviser 140 par ces nombres.
+\begin{itemize}
+	\item $140\div2=70$. On peut donc écrire $140=2 \times$\fillin
+	\item $70\div2=35$. On peut donc écrire $140=2 \times$\fillin[1cm]$=2 \times2 \times$\fillin[1cm]
+	\item \divreste{35}{3}. 3 n'entre donc pas dans la décomposition de 140.
+	\item $35\div5=7$. On a donc $140=2 \times2 \times 5 \times$\fillin[1cm]
+	\item 7 est un nombre premier, on ne peut donc pas aller plus loin.
+\end{itemize}
+La décomposition en produit de nombres premiers de 140 est donc :$140=$\dotfill.
+
+\begin{enumerate}
+	\item Donner la liste des nombres premiers inférieurs à 30 :
+		\dotlines{1}
+	\item Pourquoi n'avons nous pas essayer de diviser par 11 ?
+		\dotlines{1}
+	\item Sur le cahier, trouver de la même manière la décomposition de 132.
+\end{enumerate}
+
+
+\exo{IntroConversionDuree}
+
+On cherche à convertir 12345 secondes en heures, minutes et secondes.
+
+\begin{enumerate}
+	\item Dans une minute, il y a \fillin secondes.
+	\item je dois donc \fillin 12345 par 60 pour savoir combien il y a de minutes.
+	\item On a : 12345 \fillin[0.5cm] 60 = \fillin[1cm] Reste \fillin[1cm].
+	\item Dans une heure, il y a \fillin minutes.
+	\item Je dois donc \fillin 205 par 60 pour savoir combien il y a d'heures.
+	\item On a : 205 \fillin[0.5cm] 60 =\fillin[1cm] REste \fillin[1cm].
+	\item Ainsi, 12345 secondes = \fillin[1cm] heures, \fillin[1cm] minutes et \fillin[1cm] secondes.
+	\item Sur le cahier, de la même manière, convertire 9876 secondes en heures, minutes et secondes.
+\end{enumerate}
+
+On cherche maintenant à convertir 1,33 heures en secondes.
+
+\begin{enumerate}
+	\item Je dois \fillin par 60 pour savoir combien cela fait de minutes.
+	\item On a : 1,33 \fillin[0.5cm] 60 = 79,8
+	\item Je dois \fillin par 60 pour savoir combien cela fait de secondes.
+	\item On a : 79,8 \fillin[0.5cm] 60 = \fillin.
+	\item Ainsi, 1,33 heures = \fillin secondes.
+	\item Sur le cahier, de la même manière, convertir 2,43 heures en secondes.
+\end{enumerate}
+
+
+\exo{IntroSommeDuree}
+
+On cherche à ajouter 37 minutes à 14 heures et 45 minutes.
+
+\begin{enumerate}
+	\item Si on ne s'intéresse qu'on minutes, on doit faire la somme : 37+45=\fillin
+	\item On peut convertir le résultat en heures et minutes, ce qui donne \fillin[1cm] heures et \fillin[1cm] minutes.
+	\item On a donc :
+		\begin{align*}
+			14h45min+37min &= 14h + \fillin min\\
+				       &= 14h + \fillin h + \fillin min\\
+				       &= \fillin h + \fillin min
+		\end{align*}
+		
+	\item Ainsi, en ajoutant 37 minutes à 14h45, on obtient \dotfill
+	\item Sur le cahier, de la même manière, ajouter 28 secondes à 12 minutes et 46 secondes.
+\end{enumerate}
+
+

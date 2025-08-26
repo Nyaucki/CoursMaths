@@ -1,3 +1,0 @@
-{"rule":"FR_SPELLING_RULE","sentence":"^\\Qà la ligne 15, avant \"annee\" pour que ça marche encore.\\E$"}
-{"rule":"FR_SPELLING_RULE","sentence":"^\\Q------------------- Rajouter une colonne à la table Reponses -------------------\\E$"}
-{"rule":"FR_SPELLING_RULE","sentence":"^\\QÀ la ligne 15, avant \"annee\" pour que ça marche encore.\\E$"}

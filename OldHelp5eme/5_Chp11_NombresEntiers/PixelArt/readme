@@ -1,0 +1,10 @@
+Ce dossier contient deux exercices : un exercice sur les nombres premiers, et un sur les multiples.
+
+Mis à part pour les compiler, il n'est pas nécessaire de faire aucune action avec les fichiers .tex. Le fichier final s'appelle 5_Chp11_PixelArt
+
+L'exercice sur les nombres premiers est basé sur un message, chaque élève ayant une lettre différente.
+Le programme lettre.py a permis de transformer chaque lettre du format .jpg au format .tex . C'est dans ce programme que l'exercice est choisi.
+Le programme messageur.py permet d'agréger toutes ces lettres pour former le message (dans le fichier Supertexte.tex) voulu.
+
+L'exercice sur les multiples s'appelle mario (devine ce qui apparaitra dans le pixel art...)
+Il est composé d'un script général, makeur.py, potentiellement adaptable à d'autres exercices, et d'un autre script, mario.py appelant le premier dans ce cas spécifique.

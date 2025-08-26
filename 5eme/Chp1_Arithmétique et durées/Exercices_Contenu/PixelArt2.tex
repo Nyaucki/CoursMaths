@@ -1,0 +1,52 @@
+\exo{PixelArt2}Colorie en noir uniquement les nombres qui ne sont pas premiers.
+
+\begin{figure}[H]
+\center
+\begin{tikzpicture}[scale=1.3]
+\newcommand{\y}{0}\renewcommand{\y}{0}
+\foreach \x [count=\xi] in {2, 3, 5, 4, 6, 9, 10, 15, 7, 11, 13, 17}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{ \x}};}
+\renewcommand{\y}{-1}
+\foreach \x [count=\xi] in {19, 23, 18, 29, 31, 37, 21, 41, 43, 47, 53, 59}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{ \x}};}
+\renewcommand{\y}{-2}
+\foreach \x [count=\xi] in {61, 25, 67, 71, 27, 33, 35, 39, 42, 73, 79, 83}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{ \x}};}
+\renewcommand{\y}{-3}
+\foreach \x [count=\xi] in {89, 45, 97, 49, 51, 55, 57, 60, 63, 72, 101, 103}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{ \x}};}
+\renewcommand{\y}{-4}
+\foreach \x [count=\xi] in {75, 107, 109, 78, 81, 85, 91, 99, 102, 105, 113, 127}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{ \x}};}
+\renewcommand{\y}{-5}
+\foreach \x [count=\xi] in {131, 137, 139, 111, 119, 151, 149, 157, 163, 167, 173, 179}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{ \x}};}
+\renewcommand{\y}{-6}
+\foreach \x [count=\xi] in {181, 191, 193, 121, 132, 197, 134, 144, 199, 155, 211, 223}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{ \x}};}
+\renewcommand{\y}{-7}
+\foreach \x [count=\xi] in {227, 229, 233, 239, 241, 251, 158, 160, 257, 165, 263, 171}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{ \x}};}
+\renewcommand{\y}{-8}
+\foreach \x [count=\xi] in {180, 185, 190, 192, 200, 269, 271, 277, 281, 283, 293, 183}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{ \x}};}
+\renewcommand{\y}{-9}
+\foreach \x [count=\xi] in {187, 307, 311, 313, 189, 317, 195, 192, 207, 209, 331, 337}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{ \x}};}
+\renewcommand{\y}{-10}
+\foreach \x [count=\xi] in {221, 347, 225, 349, 230, 353, 359, 231, 237, 367, 373, 240}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{ \x}};}
+\renewcommand{\y}{-11}
+\foreach \x [count=\xi] in {245, 379, 255, 383, 258, 389, 397, 401, 409, 419, 421, 267}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{ \x}};}
+\renewcommand{\y}{-12}
+\foreach \x [count=\xi] in {270, 431, 273, 433, 285, 439, 291, 299, 301, 305, 443, 310}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{ \x}};}
+\renewcommand{\y}{-13}
+\foreach \x [count=\xi] in {315, 449, 457, 461, 321, 463, 467, 479, 487, 491, 499, 503}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{ \x}};}
+\renewcommand{\y}{-14}
+\foreach \x [count=\xi] in {324, 330, 345, 343, 351, 509, 521, 523, 541, 355, 547, 557}
+{\draw (\xi,\y) rectangle (\xi +1,\y -1) node[pos=0.5]{{ \x}};}
+\end{tikzpicture}
+\end{figure}

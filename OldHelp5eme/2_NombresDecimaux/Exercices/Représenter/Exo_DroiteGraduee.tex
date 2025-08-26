@@ -1,0 +1,408 @@
+
+\begin{minipage}[t]{0.45\textwidth}
+  \exo{Représenter}{PlacerDroite1}
+  
+  Placer chacun des nombres sur la droite graduée ci-dessous :
+  0,4 ; 0,2 ; 0,5 ; 0,7
+  \vspace{2em}
+  
+  
+  \tikzmath{\ya =0; \scl=10; \rcl= 0; \dclg =8; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+  
+  \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=\scl]
+          \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+          \foreach \x in {\dprt,\y2,...,\fin}
+          {
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          }
+          \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+          \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=3]{\yb}} ;
+      \end{tikzpicture} 
+  \end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \exo{Représenter}{PlacerDroite2}
+  
+  Placer chacun des nombres sur la droite graduée ci-dessous :
+  0,8 ; 1,4 ; 1,1 ; 0,7 
+  \vspace{2em}
+  
+  
+  \tikzmath{\ya =1; \scl=10; \rcl= 3; \dclg =2; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+  
+  \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=\scl]
+          \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+          \foreach \x in {\dprt,\y2,...,\fin}
+          {
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          }
+          \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+          \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=4]{\yb}} ;
+      \end{tikzpicture} 
+  \end{figure}
+\end{minipage}
+
+
+\begin{minipage}[t]{0.45\textwidth}
+  \exo{Représenter}{PlacerDroite3}
+  
+  Placer chacun des nombres sur la droite graduée ci-dessous :
+  1 ; 0,96 ; 1,02 ; 1,04
+  \vspace{2em}
+  
+  
+  \tikzmath{\ya =0.98; \scl=100; \rcl= 2; \dclg =5; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+  
+  \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=\scl]
+          \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+          \foreach \x in {\dprt,\y2,...,\fin}
+          {
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          }
+          \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+          \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=3]{\yb}} ;
+      \end{tikzpicture} 
+  \end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \exo{Représenter}{PlacerDroite4}
+  
+  Placer chacun des nombres sur la droite graduée ci-dessous :
+  1,48 ; 1,5 ; 1,43 ; 1.45
+  \vspace{2em}
+  
+  
+  \tikzmath{\ya =1.44; \scl=100; \rcl= 1; \dclg =2; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+  
+  \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=\scl]
+          \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+          \foreach \x in {\dprt,\y2,...,\fin}
+          {
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          }
+          \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+          \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=4]{\yb}} ;
+      \end{tikzpicture} 
+  \end{figure}
+\end{minipage}
+
+\begin{minipage}[t]{0.45\textwidth}
+  \exo{Représenter}{PlacerDroite5}
+  
+  Placer chacun des nombres sur la droite graduée ci-dessous :
+  4,8 ; 4,2 ; 3,8 ; 5,2
+  \vspace{2em}
+  
+  
+  \tikzmath{\ya =4; \scl=5; \rcl= 2; \dclg =2; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+  
+  \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=\scl]
+          \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+          \foreach \x in {\dprt,\y2,...,\fin}
+          {
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          }
+          \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+          \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=3]{\yb}} ;
+      \end{tikzpicture} 
+  \end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \exo{Représenter}{PlacerDroite6}
+  
+  Placer chacun des nombres sur la droite graduée ci-dessous :
+  8,1 ; 7,7 ; 8,9 ; 7,3 
+  \vspace{2em}
+  
+  
+  \tikzmath{\ya =8.5; \scl=5; \rcl= 6; \dclg =1; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+  
+  \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=\scl]
+          \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+          \foreach \x in {\dprt,\y2,...,\fin}
+          {
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          }
+          \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+          \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=4]{\yb}} ;
+      \end{tikzpicture} 
+  \end{figure}
+\end{minipage}
+
+
+\begin{minipage}[t]{0.45\textwidth}
+  \exo{Représenter}{PlacerDroite7}
+  
+  Placer chacun des nombres sur la droite graduée ci-dessous :
+  1.58 ; 1.54 ; 1,46 ; 1,6
+  \vspace{2em}
+  
+  
+  \tikzmath{\ya =1.5; \scl=50; \rcl= 2; \dclg =3; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+  
+  \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=\scl]
+          \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+          \foreach \x in {\dprt,\y2,...,\fin}
+          {
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          }
+          \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+          \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=3]{\yb}} ;
+      \end{tikzpicture} 
+  \end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \exo{Représenter}{PlacerDroite8}
+  
+  Placer chacun des nombres sur la droite graduée ci-dessous :
+  10 ; 9,84 ; 10,12 ; 9.92
+  \vspace{2em}
+  
+  
+  \tikzmath{\ya =9.88; \scl=25; \rcl= 1; \dclg =2; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+  
+  \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=\scl]
+          \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+          \foreach \x in {\dprt,\y2,...,\fin}
+          {
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          }
+          \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+          \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=4]{\yb}} ;
+      \end{tikzpicture} 
+  \end{figure}
+\end{minipage}
+
+\vspace{-1em}
+
+
+\begin{minipage}[t]{0.45\textwidth}
+  \exo{Représenter}{LireDroite1}
+    
+  Quels nombre correspondent à A, B, C et D?
+  
+  
+  \tikzmath{\ya =0; \scl=10; \rcl= 0; \dclg =8; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+  
+  \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=\scl]
+          \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+          \foreach \x in {\dprt,\y2,...,\fin}
+          {
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          }
+          \foreach \z [count=\zi] in {0.2,0.7,0.4,0.1}
+          {
+            \node at (\z,\grad) [above] {\makeAlph{\zi}};
+          }
+          \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+          \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=3]{\yb}} ;
+      \end{tikzpicture} 
+  \end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \exo{Représenter}{LireDroite2}
+    
+  Quels nombre correspondent à A, B, C et D?
+  
+  
+  \tikzmath{\ya =2; \scl=10; \rcl= 3; \dclg =1; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+  
+  \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=\scl]
+          \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+          \foreach \x in {\dprt,\y2,...,\fin}
+          {
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          }
+          \foreach \z [count=\zi] in {2.3,1.8,2.5,1.7}
+          {
+            \node at (\z,\grad) [above] {\makeAlph{\zi}};
+          }
+          \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+          \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=3]{\yb}} ;
+      \end{tikzpicture} 
+  \end{figure}
+\end{minipage}
+\vspace{-1em}
+
+\begin{minipage}[t]{0.45\textwidth}
+  \exo{Représenter}{LireDroite3}
+    
+  Quels nombre correspondent à A, B, C et D?
+  
+  
+  \tikzmath{\ya =8.95; \scl=50; \rcl= 1; \dclg =2; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+  
+  \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=\scl]
+          \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+          \foreach \x in {\dprt,\y2,...,\fin}
+          {
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          }
+          \foreach \z [count=\zi] in {9.03,8.93,9.05,9.01}
+          {
+            \node at (\z,\grad) [above] {\makeAlph{\zi}};
+          }
+          \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+          \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=3]{\yb}} ;
+      \end{tikzpicture} 
+  \end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \exo{Représenter}{LireDroite4}
+    
+  Quels nombre correspondent à A, B, C et D?
+  
+  
+  \tikzmath{\ya =2.13; \scl=100; \rcl= 2; \dclg =1; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+  
+  \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=\scl]
+          \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+          \foreach \x in {\dprt,\y2,...,\fin}
+          {
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          }
+          \foreach \z [count=\zi] in {2.11,2.17,2.19,2.14}
+          {
+            \node at (\z,\grad) [above] {\makeAlph{\zi}};
+          }
+          \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+          \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=3]{\yb}} ;
+      \end{tikzpicture} 
+  \end{figure}
+\end{minipage}
+\vspace{-1em}
+
+
+\begin{minipage}[t]{0.45\textwidth}
+  \exo{Représenter}{LireDroite5}
+    
+  Quels nombre correspondent à A, B, C et D?
+  
+  
+  \tikzmath{\ya =7.51; \scl=5; \rcl= 4; \dclg =2; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+  
+  \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=\scl]
+          \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+          \foreach \x in {\dprt,\y2,...,\fin}
+          {
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          }
+          \foreach \z [count=\zi] in {8.11,7.31,6.91,6.71}
+          {
+            \node at (\z,\grad) [above] {\makeAlph{\zi}};
+          }
+          \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+          \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=3]{\yb}} ;
+      \end{tikzpicture} 
+  \end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \exo{Représenter}{LireDroite6}
+    
+  Quels nombre correspondent à A, B, C et D?
+  
+  
+  \tikzmath{\ya =2.13; \scl=200; \rcl= 2; \dclg =2; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+  
+  \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=\scl]
+          \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+          \foreach \x in {\dprt,\y2,...,\fin}
+          {
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          }
+          \foreach \z [count=\zi] in {2.12,2.15,2.16,2.135}
+          {
+            \node at (\z,\grad) [above] {\makeAlph{\zi}};
+          }
+          \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+          \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=3]{\yb}} ;
+      \end{tikzpicture} 
+  \end{figure}
+\end{minipage}
+\vspace{-1em}
+\begin{minipage}[t]{0.45\textwidth}
+  \exo{Représenter}{LireDroite7}
+    
+  Quels nombre correspondent à A, B, C et D?
+  
+  
+  \tikzmath{\ya =5.51; \scl=5; \rcl= 1; \dclg =6; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+  
+  \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=\scl]
+          \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+          \foreach \x in {\dprt,\y2,...,\fin}
+          {
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          }
+          \foreach \z [count=\zi] in {5.71,6.11,6.91,6.51}
+          {
+            \node at (\z,\grad) [above] {\makeAlph{\zi}};
+          }
+          \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+          \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=3]{\yb}} ;
+      \end{tikzpicture} 
+  \end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \exo{Représenter}{LireDroite8}
+    
+  Quels nombre correspondent à A, B, C et D?
+  
+  
+  \tikzmath{\ya =5.14; \scl=100; \rcl= 1; \dclg =4; \pas=1/\scl ; \yb =\ya +\dclg * \pas; \dprt = \ya - \rcl * \pas; \y2 =\dprt +\pas; \fin =\dprt +8*\pas ; \grad = 0.1/\scl ; } %modifier yA, scl (scale), rcl (reculer) et dclg (decalage )uniquelent
+  
+  \begin{figure}[H]
+      \centering
+      \begin{tikzpicture}[scale=\scl]
+          \draw (\dprt,0) -- (\fin,0) node[midway, sloped]{};
+          \foreach \x in {\dprt,\y2,...,\fin}
+          {
+            \draw (\x,\grad) -- (\x,-\grad) ;
+          }
+          \foreach \z [count=\zi] in {5.2,5.13,5.16,5.15}
+          {
+            \node at (\z,\grad) [above] {\makeAlph{\zi}};
+          }
+          \node (A) at (\ya,-\grad) [below] {\pgfmathprintnumber[use comma]{\ya}} ;
+          \node (B) at (\yb,-\grad) [below] {\pgfmathprintnumber[use comma,precision=3]{\yb}} ;
+      \end{tikzpicture} 
+  \end{figure}
+\end{minipage}

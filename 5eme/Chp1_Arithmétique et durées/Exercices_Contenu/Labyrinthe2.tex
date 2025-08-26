@@ -1,0 +1,106 @@
+\exo{Labyrinthe2} Traverser le labyrinthe en franchissant les cases dans l'ordre décroissant 
+
+\begin{center}
+\tikzmath{\sizex = 9 ;\sizexm=\sizex-1 ; \sizey=10 ; \sizeym=\sizey-1;}
+\begin{tikzpicture}[scale=1.7]
+	\foreach \i in {0,...,\sizex}
+ 		{\foreach \j in {0,...,\sizey}
+ 			{\draw ({max(\i-0.2,0)},\j)--({min(\sizex,\i+0.2)},\j);
+			\draw (\i,{max(0,\j-0.2)})--(\i,{min(\sizey,\j+0.2)}); }}
+	\draw (0,0) rectangle (\sizex,\sizey) ;
+	\draw[thick,white] (0,\sizey-0.1)--(0,\sizeym+0.2) ;
+ 	\draw[thick,white] (\sizex,0.2)--(\sizex,0.8) ;
+	\draw[-{Latex[length=3mm,width=5mm]}] (-0.5,\sizey-0.5)--(0,\sizey-0.5) ;
+	\draw[-{Latex[length=3mm,width=5mm]}] (\sizex,0.5)--(\sizex+0.5,0.5) ;
+	\node at (0.5,9.5) {2392s};
+	\node at (1.5,9.5) {39.53min};
+	\node at (2.5,9.5) {2352s};
+	\node at (3.5,9.5) {39.06min};
+	\node at (4.5,9.5) {2025s};
+	\node at (5.5,9.5) {33.38min};
+	\node at (6.5,9.5) {1991s};
+	\node at (7.5,9.5) {33.18min};
+	\node at (8.5,9.5) {2004s};
+	\node at (0.5,8.5) {39.65min};
+	\node at (1.5,8.5) {2370s};
+	\node at (2.5,8.5) {38.85min};
+	\node at (3.5,8.5) {2319s};
+	\node at (4.5,8.5) {33.8min};
+	\node at (5.5,8.5) {2022s};
+	\node at (6.5,8.5) {33.33min};
+	\node at (7.5,8.5) {1996s};
+	\node at (8.5,8.5) {33.08min};
+	\node at (0.5,7.5) {2309s};
+	\node at (1.5,7.5) {38.75min};
+	\node at (2.5,7.5) {2328s};
+	\node at (3.5,7.5) {38.73min};
+	\node at (4.5,7.5) {2032s};
+	\node at (5.5,7.5) {33.48min};
+	\node at (6.5,7.5) {1980s};
+	\node at (7.5,7.5) {32.9min};
+	\node at (8.5,7.5) {1963s};
+	\node at (0.5,6.5) {38.51min};
+	\node at (1.5,6.5) {2320s};
+	\node at (2.5,6.5) {38.61min};
+	\node at (3.5,6.5) {2064s};
+	\node at (4.5,6.5) {34.03min};
+	\node at (5.5,6.5) {2036s};
+	\node at (6.5,6.5) {32.51min};
+	\node at (7.5,6.5) {1967s};
+	\node at (8.5,6.5) {32.55min};
+	\node at (0.5,5.5) {2291s};
+	\node at (1.5,5.5) {38.58min};
+	\node at (2.5,5.5) {2069s};
+	\node at (3.5,5.5) {34.76min};
+	\node at (4.5,5.5) {2063s};
+	\node at (5.5,5.5) {34.65min};
+	\node at (6.5,5.5) {1880s};
+	\node at (7.5,5.5) {32.45min};
+	\node at (8.5,5.5) {1939s};
+	\node at (0.5,4.5) {37.98min};
+	\node at (1.5,4.5) {2272s};
+	\node at (2.5,4.5) {37.68min};
+	\node at (3.5,4.5) {2107s};
+	\node at (4.5,4.5) {35.25min};
+	\node at (5.5,4.5) {1882s};
+	\node at (6.5,4.5) {31.55min};
+	\node at (7.5,4.5) {1904s};
+	\node at (8.5,4.5) {32.05min};
+	\node at (0.5,3.5) {2257s};
+	\node at (1.5,3.5) {37.68min};
+	\node at (2.5,3.5) {2250s};
+	\node at (3.5,3.5) {35.16min};
+	\node at (4.5,3.5) {2124s};
+	\node at (5.5,3.5) {35.25min};
+	\node at (6.5,3.5) {1883s};
+	\node at (7.5,3.5) {31.48min};
+	\node at (8.5,3.5) {1907s};
+	\node at (0.5,2.5) {37.45min};
+	\node at (1.5,2.5) {2258s};
+	\node at (2.5,2.5) {37.58min};
+	\node at (3.5,2.5) {2153s};
+	\node at (4.5,2.5) {35.7min};
+	\node at (5.5,2.5) {2138s};
+	\node at (6.5,2.5) {31.11min};
+	\node at (7.5,2.5) {1865s};
+	\node at (8.5,2.5) {30.76min};
+	\node at (0.5,1.5) {2237s};
+	\node at (1.5,1.5) {37.53min};
+	\node at (2.5,1.5) {2172s};
+	\node at (3.5,1.5) {36.06min};
+	\node at (4.5,1.5) {2146s};
+	\node at (5.5,1.5) {35.65min};
+	\node at (6.5,1.5) {1856s};
+	\node at (7.5,1.5) {30.93min};
+	\node at (8.5,1.5) {1850s};
+	\node at (0.5,0.5) {37.11min};
+	\node at (1.5,0.5) {2204s};
+	\node at (2.5,0.5) {36.36min};
+	\node at (3.5,0.5) {2175s};
+	\node at (4.5,0.5) {35.5min};
+	\node at (5.5,0.5) {2144s};
+	\node at (6.5,0.5) {30.51min};
+	\node at (7.5,0.5) {1842s};
+	\node at (8.5,0.5) {30.5min};
+\end{tikzpicture}
+\end{center}

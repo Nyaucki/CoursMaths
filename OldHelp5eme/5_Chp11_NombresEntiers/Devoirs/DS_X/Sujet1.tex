@@ -1,0 +1,67 @@
+\exo{4}{Calculer} : Effectuer les calculs suivants.
+
+\begin{multicols}{2}
+    $10m-(9-2m)+8$ pour $m=5$
+    \dotlines{4}
+
+    $4h^2-5+3h$ pour $h=2$
+    \dotlines{4}
+\end{multicols}
+
+\exo{8}{Raisonner} : Calculer les aires des figures suivantes :
+
+
+\begin{minipage}[t]{0.45\textwidth}
+    \begin{figure}[H]
+        \centering
+        \begin{tikzpicture}
+            \draw [dotted] (0,0)--(3,0)--(3,2)--(0,2)--cycle ;
+            \draw (0,0) coordinate (A)-- node [midway, below] {12} (5,0) coordinate (B)-- node[sloped, rotate=-40] {$\parallel$}(5,2)-- node[sloped, rotate=-40] {$\parallel$}(3,2) coordinate (C)--(3,4) node [midway, right] {6}-- node [midway, above] {9}(0,4)-- cycle ;
+            \draw [gray,right angle quadrant=1,right angle symbol={A}{B}{C}];
+        \end{tikzpicture}\dotlines{4}
+    \end{figure}    
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+
+    \begin{figure}[H]
+        \centering
+        \begin{tikzpicture}
+            \draw [dotted] (0,0) coordinate (A) -- node [midway, above] {2} (1,0) coordinate (M);
+            \draw [dotted] (M) -- (8,0) coordinate (B);
+            \draw [dotted] (2,0) coordinate (C) --  node [midway,right]{4} (2,2) coordinate (D);
+            \draw [dotted] (A) -- (1,2) coordinate (E) -- (2,0) coordinate (O)-- (1,-2) coordinate (F)--(A);
+            \draw [dotted] (E)--(5,2) coordinate (G)--(O);
+            \draw [dotted] (G)--(B)--(5,-2) coordinate (I)--(O);
+            \draw [dotted] (3,-0.6666)coordinate (J)--(2,-2.6666)coordinate (K)--(F);
+            \draw [dotted] (E)--(F);
+            \draw [dotted] (G)--(I);
+            \draw [dotted] (1.5,-1) coordinate (L)--node [midway, above] {2} ($(J)!(L)!(K)$);
+            \draw (A)--(E)--node [midway, above] {8} (G)--(B)--(I)-- (J)--(K)--(F)-- node [midway, below left] {6} cycle;
+            \draw [gray,right angle quadrant=1,right angle symbol={J}{K}{L}];
+            \draw [gray,right angle quadrant=1,right angle symbol={A}{B}{E}];
+            \draw [gray,right angle quadrant=1,right angle symbol={A}{B}{G}];
+            \draw [gray,right angle quadrant=1,right angle symbol={E}{G}{O}];
+        \end{tikzpicture} \dotlines{4}
+    \end{figure}   
+\end{minipage}
+
+\exo{4}{Chercher} : Les nombres suivants sont-ils des nombres premiers ? Justifier.
+
+\begin{multicols}{2}
+    $$47$$\\[-1cm]
+    \dotlines{4}
+
+    $$49$$\\[-1cm]
+    \dotlines{4}
+\end{multicols}
+
+\exo{4}{Communiquer} Nono a passée 1872 minutes sur son téléphone cette semaine, répartie de la manière suivante :
+\begin{itemize}
+    \item $\dfrac{11}{18}$ sur TikTok
+    \item $\dfrac{5}{12}$ sur Fortnite
+    \item Le reste sur Pronote
+\end{itemize}
+
+Ses parents lui disent que son usage de Pronote est négligeable. Ont-ils raison ?
+\dotlines{6}

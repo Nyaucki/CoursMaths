@@ -1,0 +1,10 @@
+\begin{tikzpicture}[scale=0.6]
+            \draw (-2,0) coordinate (A1) -- (0,0) coordinate (I) --(2,0) coordinate (A2) ;
+            \draw (I) -- (1,-1) coordinate (D);
+            \draw (I) -- (1,1) coordinate (C);
+            \draw (I) -- (-1,1) coordinate (B);
+            \draw (I) -- (-1,-1) coordinate (E);
+            \draw pic["27",draw=orange,fill=orange!20,angle eccentricity=1.3, angle radius=0.8cm]{angle=A2--I--C};
+            \draw pic["?",draw=blue,fill=blue!20,angle eccentricity=1.3, angle radius=0.9cm]{angle=B--I--A1};
+            \draw pic["74",draw=red,fill=red!20,angle eccentricity=1.3, angle radius=0.9cm]{angle=E--I--D};
+        \end{tikzpicture}

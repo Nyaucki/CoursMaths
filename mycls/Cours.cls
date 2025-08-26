@@ -5,8 +5,17 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\author{}
-\date{ }
+\setlength{\columnseprule}{1pt} % Pour avoir le séparateur dans le multicols
+
+% Changement du bloc titre
+\makeatletter
+\def\@maketitle{%
+  \vskip -1em%
+  \begin{center}%
+    {\LARGE \@title ~-~Cours \par}%
+  \end{center}%
+  \vskip 0.5em}
+\makeatother
 
 \AtBeginDocument{\renewcommand\labelitemi{$\bullet$}}%Itemize avec des bullet !
 
@@ -39,7 +48,7 @@
     \newtcolorbox{propriete}[1]{colback=white,colframe=gray,fonttitle=\bfseries,title=\stepcounter{propcntr} Propriété~\arabic{propcntr}~: \MakeUppercase#1}%Boite propriétés
 
 \newcounter{defcntr}%Définition
-    \newtcolorbox{definition}[1]{colback=white,colframe=lightgray,fonttitle=\bfseries,title=\stepcounter{propcntr} Définition~\arabic{propcntr}~: \MakeUppercase#1}%Boite definition
+\newtcolorbox{definition}{colback=white,colframe=lightgray,fonttitle=\bfseries,title=\stepcounter{propcntr} Définitions : }
 
 \newif\ifshowcours%Pour cacher le cours
     \showcoursfalse
@@ -58,8 +67,8 @@
         \end{propriete}
         }
    
-\newcommand*{\dfnt}[2]{
-    \begin{definition}{#1}
-        #2
+\newcommand*{\dfnt}[1]{
+    \begin{definition}
+        #1
     \end{definition}
     }

@@ -1,0 +1,14 @@
+\documentclass{article}
+\usepackage{pdfpages}
+\begin{document}
+\def\malfile{part1.pdf}
+\pdfximage{\malfile}
+\newcount\malc \malc=0
+\loop
+\advance\malc by 1%
+\ifnum\malc<\pdflastximagepages
+    \ifodd\malc
+    \includepdf[fitpaper,pages={\the\malc},angle=-90,reflect]{\malfile}
+    \fi
+\repeat
+\end{document}

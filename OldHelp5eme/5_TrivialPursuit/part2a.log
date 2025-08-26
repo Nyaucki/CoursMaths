@@ -1,0 +1,1704 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.7)  23 JUN 2025 09:34
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_TrivialPursuit/part2a.tex
+(/home/nyaucki/Documents/Prof/CoursMaths/5eme/5_TrivialPursuit/part2a.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count195
+\calc@Bcount=\count196
+\calc@Adimen=\dimen141
+\calc@Bdimen=\dimen142
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count197
+\calc@Cskip=\skip52
+) (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen143
+\ESO@tempdimb=\dimen144
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen145
+\Gin@req@width=\dimen146
+)
+\AM@pagewidth=\dimen147
+\AM@pageheight=\dimen148
+\AM@fboxrule=\dimen149
+ (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count198
+\AM@pagebox=\box51
+\AM@global@opts=\toks18
+\AM@pagecnt=\count199
+\AM@toc@title=\toks19
+\AM@lof@heading=\toks20
+\c@AM@survey=\count266
+\AM@templatesizebox=\box52
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count267
+\l__pdf_internal_box=\box53
+) (./part2a.aux)
+\openout1 = `part2a.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count268
+\scratchdimen=\dimen150
+\scratchbox=\box54
+\nofMPsegments=\count269
+\nofMParguments=\count270
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count271
+\MPscratchDim=\dimen151
+\MPnumerator=\count272
+\makeMPintoPDFobject=\count273
+\everyMPtoPDFconversion=\toks22
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+\malc=\count274
+<part1.pdf, id=2, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=5, page=1, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 1>
+Package pdftex.def Info: part1.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 1>
+Package pdftex.def Info: part1.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 1>
+Package pdftex.def Info: part1.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 1>
+Package pdftex.def Info: part1.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 1>
+Package pdftex.def Info: part1.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [1
+
+
+ <./part1.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=38, page=3, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 3>
+Package pdftex.def Info: part1.pdf , page3 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 3>
+Package pdftex.def Info: part1.pdf , page3 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 3>
+Package pdftex.def Info: part1.pdf , page3 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 3>
+Package pdftex.def Info: part1.pdf , page3 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 3>
+Package pdftex.def Info: part1.pdf , page3 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [2
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=44, page=5, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 5>
+Package pdftex.def Info: part1.pdf , page5 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 5>
+Package pdftex.def Info: part1.pdf , page5 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 5>
+Package pdftex.def Info: part1.pdf , page5 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 5>
+Package pdftex.def Info: part1.pdf , page5 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 5>
+Package pdftex.def Info: part1.pdf , page5 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [3
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=50, page=7, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 7>
+Package pdftex.def Info: part1.pdf , page7 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 7>
+Package pdftex.def Info: part1.pdf , page7 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 7>
+Package pdftex.def Info: part1.pdf , page7 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 7>
+Package pdftex.def Info: part1.pdf , page7 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 7>
+Package pdftex.def Info: part1.pdf , page7 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [4
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=56, page=9, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 9>
+Package pdftex.def Info: part1.pdf , page9 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 9>
+Package pdftex.def Info: part1.pdf , page9 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 9>
+Package pdftex.def Info: part1.pdf , page9 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 9>
+Package pdftex.def Info: part1.pdf , page9 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 9>
+Package pdftex.def Info: part1.pdf , page9 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [5
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=62, page=11, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 11>
+Package pdftex.def Info: part1.pdf , page11 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 11>
+Package pdftex.def Info: part1.pdf , page11 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 11>
+Package pdftex.def Info: part1.pdf , page11 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 11>
+Package pdftex.def Info: part1.pdf , page11 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 11>
+Package pdftex.def Info: part1.pdf , page11 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [6
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=68, page=13, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 13>
+Package pdftex.def Info: part1.pdf , page13 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 13>
+Package pdftex.def Info: part1.pdf , page13 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 13>
+Package pdftex.def Info: part1.pdf , page13 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 13>
+Package pdftex.def Info: part1.pdf , page13 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 13>
+Package pdftex.def Info: part1.pdf , page13 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [7
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=75, page=15, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 15>
+Package pdftex.def Info: part1.pdf , page15 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 15>
+Package pdftex.def Info: part1.pdf , page15 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 15>
+Package pdftex.def Info: part1.pdf , page15 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 15>
+Package pdftex.def Info: part1.pdf , page15 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 15>
+Package pdftex.def Info: part1.pdf , page15 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [8
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=81, page=17, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 17>
+Package pdftex.def Info: part1.pdf , page17 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 17>
+Package pdftex.def Info: part1.pdf , page17 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 17>
+Package pdftex.def Info: part1.pdf , page17 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 17>
+Package pdftex.def Info: part1.pdf , page17 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 17>
+Package pdftex.def Info: part1.pdf , page17 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [9
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=87, page=19, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 19>
+Package pdftex.def Info: part1.pdf , page19 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 19>
+Package pdftex.def Info: part1.pdf , page19 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 19>
+Package pdftex.def Info: part1.pdf , page19 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 19>
+Package pdftex.def Info: part1.pdf , page19 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 19>
+Package pdftex.def Info: part1.pdf , page19 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [10
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=93, page=21, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 21>
+Package pdftex.def Info: part1.pdf , page21 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 21>
+Package pdftex.def Info: part1.pdf , page21 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 21>
+Package pdftex.def Info: part1.pdf , page21 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 21>
+Package pdftex.def Info: part1.pdf , page21 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 21>
+Package pdftex.def Info: part1.pdf , page21 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [11
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=99, page=23, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 23>
+Package pdftex.def Info: part1.pdf , page23 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 23>
+Package pdftex.def Info: part1.pdf , page23 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 23>
+Package pdftex.def Info: part1.pdf , page23 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 23>
+Package pdftex.def Info: part1.pdf , page23 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 23>
+Package pdftex.def Info: part1.pdf , page23 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [12
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=105, page=25, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 25>
+Package pdftex.def Info: part1.pdf , page25 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 25>
+Package pdftex.def Info: part1.pdf , page25 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 25>
+Package pdftex.def Info: part1.pdf , page25 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 25>
+Package pdftex.def Info: part1.pdf , page25 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 25>
+Package pdftex.def Info: part1.pdf , page25 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [13
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=112, page=27, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 27>
+Package pdftex.def Info: part1.pdf , page27 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 27>
+Package pdftex.def Info: part1.pdf , page27 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 27>
+Package pdftex.def Info: part1.pdf , page27 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 27>
+Package pdftex.def Info: part1.pdf , page27 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 27>
+Package pdftex.def Info: part1.pdf , page27 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [14
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=118, page=29, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 29>
+Package pdftex.def Info: part1.pdf , page29 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 29>
+Package pdftex.def Info: part1.pdf , page29 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 29>
+Package pdftex.def Info: part1.pdf , page29 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 29>
+Package pdftex.def Info: part1.pdf , page29 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 29>
+Package pdftex.def Info: part1.pdf , page29 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [15
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=124, page=31, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 31>
+Package pdftex.def Info: part1.pdf , page31 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 31>
+Package pdftex.def Info: part1.pdf , page31 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 31>
+Package pdftex.def Info: part1.pdf , page31 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 31>
+Package pdftex.def Info: part1.pdf , page31 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 31>
+Package pdftex.def Info: part1.pdf , page31 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [16
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=130, page=33, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 33>
+Package pdftex.def Info: part1.pdf , page33 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 33>
+Package pdftex.def Info: part1.pdf , page33 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 33>
+Package pdftex.def Info: part1.pdf , page33 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 33>
+Package pdftex.def Info: part1.pdf , page33 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 33>
+Package pdftex.def Info: part1.pdf , page33 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [17
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=136, page=35, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 35>
+Package pdftex.def Info: part1.pdf , page35 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 35>
+Package pdftex.def Info: part1.pdf , page35 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 35>
+Package pdftex.def Info: part1.pdf , page35 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 35>
+Package pdftex.def Info: part1.pdf , page35 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 35>
+Package pdftex.def Info: part1.pdf , page35 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [18
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=142, page=37, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 37>
+Package pdftex.def Info: part1.pdf , page37 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 37>
+Package pdftex.def Info: part1.pdf , page37 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 37>
+Package pdftex.def Info: part1.pdf , page37 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 37>
+Package pdftex.def Info: part1.pdf , page37 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 37>
+Package pdftex.def Info: part1.pdf , page37 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [19
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=149, page=39, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 39>
+Package pdftex.def Info: part1.pdf , page39 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 39>
+Package pdftex.def Info: part1.pdf , page39 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 39>
+Package pdftex.def Info: part1.pdf , page39 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 39>
+Package pdftex.def Info: part1.pdf , page39 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 39>
+Package pdftex.def Info: part1.pdf , page39 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [20
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=155, page=41, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 41>
+Package pdftex.def Info: part1.pdf , page41 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 41>
+Package pdftex.def Info: part1.pdf , page41 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 41>
+Package pdftex.def Info: part1.pdf , page41 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 41>
+Package pdftex.def Info: part1.pdf , page41 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 41>
+Package pdftex.def Info: part1.pdf , page41 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [21
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=161, page=43, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 43>
+Package pdftex.def Info: part1.pdf , page43 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 43>
+Package pdftex.def Info: part1.pdf , page43 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 43>
+Package pdftex.def Info: part1.pdf , page43 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 43>
+Package pdftex.def Info: part1.pdf , page43 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 43>
+Package pdftex.def Info: part1.pdf , page43 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [22
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=179, page=45, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 45>
+Package pdftex.def Info: part1.pdf , page45 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 45>
+Package pdftex.def Info: part1.pdf , page45 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 45>
+Package pdftex.def Info: part1.pdf , page45 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 45>
+Package pdftex.def Info: part1.pdf , page45 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 45>
+Package pdftex.def Info: part1.pdf , page45 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [23
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=185, page=47, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 47>
+Package pdftex.def Info: part1.pdf , page47 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 47>
+Package pdftex.def Info: part1.pdf , page47 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 47>
+Package pdftex.def Info: part1.pdf , page47 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 47>
+Package pdftex.def Info: part1.pdf , page47 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 47>
+Package pdftex.def Info: part1.pdf , page47 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [24
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=191, page=49, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 49>
+Package pdftex.def Info: part1.pdf , page49 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 49>
+Package pdftex.def Info: part1.pdf , page49 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 49>
+Package pdftex.def Info: part1.pdf , page49 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 49>
+Package pdftex.def Info: part1.pdf , page49 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 49>
+Package pdftex.def Info: part1.pdf , page49 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [25
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=198, page=51, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 51>
+Package pdftex.def Info: part1.pdf , page51 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 51>
+Package pdftex.def Info: part1.pdf , page51 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 51>
+Package pdftex.def Info: part1.pdf , page51 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 51>
+Package pdftex.def Info: part1.pdf , page51 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 51>
+Package pdftex.def Info: part1.pdf , page51 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [26
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=204, page=53, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 53>
+Package pdftex.def Info: part1.pdf , page53 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 53>
+Package pdftex.def Info: part1.pdf , page53 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 53>
+Package pdftex.def Info: part1.pdf , page53 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 53>
+Package pdftex.def Info: part1.pdf , page53 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 53>
+Package pdftex.def Info: part1.pdf , page53 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [27
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=210, page=55, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 55>
+Package pdftex.def Info: part1.pdf , page55 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 55>
+Package pdftex.def Info: part1.pdf , page55 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 55>
+Package pdftex.def Info: part1.pdf , page55 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 55>
+Package pdftex.def Info: part1.pdf , page55 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 55>
+Package pdftex.def Info: part1.pdf , page55 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [28
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=216, page=57, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 57>
+Package pdftex.def Info: part1.pdf , page57 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 57>
+Package pdftex.def Info: part1.pdf , page57 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 57>
+Package pdftex.def Info: part1.pdf , page57 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 57>
+Package pdftex.def Info: part1.pdf , page57 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 57>
+Package pdftex.def Info: part1.pdf , page57 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [29
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=222, page=59, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 59>
+Package pdftex.def Info: part1.pdf , page59 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 59>
+Package pdftex.def Info: part1.pdf , page59 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 59>
+Package pdftex.def Info: part1.pdf , page59 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 59>
+Package pdftex.def Info: part1.pdf , page59 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 59>
+Package pdftex.def Info: part1.pdf , page59 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [30
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=234, page=61, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 61>
+Package pdftex.def Info: part1.pdf , page61 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 61>
+Package pdftex.def Info: part1.pdf , page61 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 61>
+Package pdftex.def Info: part1.pdf , page61 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 61>
+Package pdftex.def Info: part1.pdf , page61 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 61>
+Package pdftex.def Info: part1.pdf , page61 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [31
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=241, page=63, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 63>
+Package pdftex.def Info: part1.pdf , page63 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 63>
+Package pdftex.def Info: part1.pdf , page63 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 63>
+Package pdftex.def Info: part1.pdf , page63 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 63>
+Package pdftex.def Info: part1.pdf , page63 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 63>
+Package pdftex.def Info: part1.pdf , page63 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [32
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=247, page=65, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 65>
+Package pdftex.def Info: part1.pdf , page65 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 65>
+Package pdftex.def Info: part1.pdf , page65 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 65>
+Package pdftex.def Info: part1.pdf , page65 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 65>
+Package pdftex.def Info: part1.pdf , page65 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 65>
+Package pdftex.def Info: part1.pdf , page65 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [33
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=253, page=67, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 67>
+Package pdftex.def Info: part1.pdf , page67 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 67>
+Package pdftex.def Info: part1.pdf , page67 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 67>
+Package pdftex.def Info: part1.pdf , page67 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 67>
+Package pdftex.def Info: part1.pdf , page67 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 67>
+Package pdftex.def Info: part1.pdf , page67 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [34
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=259, page=69, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 69>
+Package pdftex.def Info: part1.pdf , page69 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 69>
+Package pdftex.def Info: part1.pdf , page69 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 69>
+Package pdftex.def Info: part1.pdf , page69 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 69>
+Package pdftex.def Info: part1.pdf , page69 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 69>
+Package pdftex.def Info: part1.pdf , page69 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [35
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=265, page=71, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 71>
+Package pdftex.def Info: part1.pdf , page71 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 71>
+Package pdftex.def Info: part1.pdf , page71 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 71>
+Package pdftex.def Info: part1.pdf , page71 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 71>
+Package pdftex.def Info: part1.pdf , page71 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 71>
+Package pdftex.def Info: part1.pdf , page71 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [36
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=271, page=73, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 73>
+Package pdftex.def Info: part1.pdf , page73 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 73>
+Package pdftex.def Info: part1.pdf , page73 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 73>
+Package pdftex.def Info: part1.pdf , page73 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 73>
+Package pdftex.def Info: part1.pdf , page73 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 73>
+Package pdftex.def Info: part1.pdf , page73 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [37
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=278, page=75, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 75>
+Package pdftex.def Info: part1.pdf , page75 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 75>
+Package pdftex.def Info: part1.pdf , page75 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 75>
+Package pdftex.def Info: part1.pdf , page75 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 75>
+Package pdftex.def Info: part1.pdf , page75 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 75>
+Package pdftex.def Info: part1.pdf , page75 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [38
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=284, page=77, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 77>
+Package pdftex.def Info: part1.pdf , page77 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 77>
+Package pdftex.def Info: part1.pdf , page77 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 77>
+Package pdftex.def Info: part1.pdf , page77 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 77>
+Package pdftex.def Info: part1.pdf , page77 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 77>
+Package pdftex.def Info: part1.pdf , page77 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [39
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=290, page=79, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 79>
+Package pdftex.def Info: part1.pdf , page79 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 79>
+Package pdftex.def Info: part1.pdf , page79 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 79>
+Package pdftex.def Info: part1.pdf , page79 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 79>
+Package pdftex.def Info: part1.pdf , page79 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 79>
+Package pdftex.def Info: part1.pdf , page79 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [40
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=297, page=81, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 81>
+Package pdftex.def Info: part1.pdf , page81 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 81>
+Package pdftex.def Info: part1.pdf , page81 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 81>
+Package pdftex.def Info: part1.pdf , page81 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 81>
+Package pdftex.def Info: part1.pdf , page81 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 81>
+Package pdftex.def Info: part1.pdf , page81 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [41
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=303, page=83, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 83>
+Package pdftex.def Info: part1.pdf , page83 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 83>
+Package pdftex.def Info: part1.pdf , page83 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 83>
+Package pdftex.def Info: part1.pdf , page83 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 83>
+Package pdftex.def Info: part1.pdf , page83 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 83>
+Package pdftex.def Info: part1.pdf , page83 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [42
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=309, page=85, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 85>
+Package pdftex.def Info: part1.pdf , page85 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 85>
+Package pdftex.def Info: part1.pdf , page85 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 85>
+Package pdftex.def Info: part1.pdf , page85 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 85>
+Package pdftex.def Info: part1.pdf , page85 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 85>
+Package pdftex.def Info: part1.pdf , page85 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [43
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=316, page=87, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 87>
+Package pdftex.def Info: part1.pdf , page87 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 87>
+Package pdftex.def Info: part1.pdf , page87 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 87>
+Package pdftex.def Info: part1.pdf , page87 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 87>
+Package pdftex.def Info: part1.pdf , page87 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 87>
+Package pdftex.def Info: part1.pdf , page87 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [44
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=322, page=89, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 89>
+Package pdftex.def Info: part1.pdf , page89 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 89>
+Package pdftex.def Info: part1.pdf , page89 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 89>
+Package pdftex.def Info: part1.pdf , page89 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 89>
+Package pdftex.def Info: part1.pdf , page89 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 89>
+Package pdftex.def Info: part1.pdf , page89 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [45
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=328, page=91, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 91>
+Package pdftex.def Info: part1.pdf , page91 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 91>
+Package pdftex.def Info: part1.pdf , page91 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 91>
+Package pdftex.def Info: part1.pdf , page91 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 91>
+Package pdftex.def Info: part1.pdf , page91 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 91>
+Package pdftex.def Info: part1.pdf , page91 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [46
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=334, page=93, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 93>
+Package pdftex.def Info: part1.pdf , page93 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 93>
+Package pdftex.def Info: part1.pdf , page93 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 93>
+Package pdftex.def Info: part1.pdf , page93 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 93>
+Package pdftex.def Info: part1.pdf , page93 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 93>
+Package pdftex.def Info: part1.pdf , page93 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [47
+
+ <./part1.pdf>]
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf>
+Package pdftex.def Info: part1.pdf  used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+<part1.pdf, id=346, page=95, 211.26128pt x 149.37708pt>
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 95>
+Package pdftex.def Info: part1.pdf , page95 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 95>
+Package pdftex.def Info: part1.pdf , page95 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 95>
+Package pdftex.def Info: part1.pdf , page95 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 95>
+Package pdftex.def Info: part1.pdf , page95 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+File: part1.pdf Graphic file (type pdf)
+<use part1.pdf, page 95>
+Package pdftex.def Info: part1.pdf , page95 used on input line 13.
+(pdftex.def)             Requested size: 211.26074pt x 149.3767pt.
+ [48
+
+ <./part1.pdf>] (./part2a.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 2854 strings out of 474222
+ 47877 string characters out of 5748733
+ 1923975 words of memory out of 5000000
+ 25113 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 72i,19n,79p,301b,454s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb>
+Output written on part2a.pdf (48 pages, 130979 bytes).
+PDF statistics:
+ 363 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 731 words of extra memory for PDF output out of 10000 (max. 10000000)
+

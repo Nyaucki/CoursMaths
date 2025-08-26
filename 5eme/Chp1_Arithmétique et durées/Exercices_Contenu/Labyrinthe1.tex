@@ -1,0 +1,65 @@
+\exo{Labyrinthe1} Traverser le labyrinthe en franchissant les cases dans l'ordre croissant 
+
+\begin{center}
+\tikzmath{\sizex = 7 ;\sizexm=\sizex-1 ; \sizey=7 ; \sizeym=\sizey-1;}
+\begin{tikzpicture}[scale=1.5]
+	\foreach \i in {0,...,\sizex}
+ 		{\foreach \j in {0,...,\sizey}
+ 			{\draw ({max(\i-0.2,0)},\j)--({min(\sizex,\i+0.2)},\j);
+			\draw (\i,{max(0,\j-0.2)})--(\i,{min(\sizey,\j+0.2)}); }}
+	\draw (0,0) rectangle (\sizex,\sizey) ;
+	\draw[thick,white] (0,\sizey-0.1)--(0,\sizeym+0.2) ;
+ 	\draw[thick,white] (\sizex,0.2)--(\sizex,0.8) ;
+	\draw[-{Latex[length=3mm,width=5mm]}] (-0.5,\sizey-0.5)--(0,\sizey-0.5) ;
+	\draw[-{Latex[length=3mm,width=5mm]}] (\sizex,0.5)--(\sizex+0.5,0.5) ;
+	\node at (0.5,6.5) {92s};
+	\node at (1.5,6.5) {1.23min};
+	\node at (2.5,6.5) {245s};
+	\node at (3.5,6.5) {3.95min};
+	\node at (4.5,6.5) {272s};
+	\node at (5.5,6.5) {4.81min};
+	\node at (6.5,6.5) {291s};
+	\node at (0.5,5.5) {1.56min};
+	\node at (1.5,5.5) {74s};
+	\node at (2.5,5.5) {4.16min};
+	\node at (3.5,5.5) {259s};
+	\node at (4.5,5.5) {4.4min};
+	\node at (5.5,5.5) {248s};
+	\node at (6.5,5.5) {5.18min};
+	\node at (0.5,4.5) {98s};
+	\node at (1.5,4.5) {1.48min};
+	\node at (2.5,4.5) {238s};
+	\node at (3.5,4.5) {3.76min};
+	\node at (4.5,4.5) {262s};
+	\node at (5.5,4.5) {5.6min};
+	\node at (6.5,4.5) {323s};
+	\node at (0.5,3.5) {2.0min};
+	\node at (1.5,3.5) {100s};
+	\node at (2.5,3.5) {3.93min};
+	\node at (3.5,3.5) {228s};
+	\node at (4.5,3.5) {3.45min};
+	\node at (5.5,3.5) {350s};
+	\node at (6.5,3.5) {5.21min};
+	\node at (0.5,2.5) {137s};
+	\node at (1.5,2.5) {2.63min};
+	\node at (2.5,2.5) {142s};
+	\node at (3.5,2.5) {3.76min};
+	\node at (4.5,2.5) {216s};
+	\node at (5.5,2.5) {6.1min};
+	\node at (6.5,2.5) {347s};
+	\node at (0.5,1.5) {1.9min};
+	\node at (1.5,1.5) {176s};
+	\node at (2.5,1.5) {3.3min};
+	\node at (3.5,1.5) {204s};
+	\node at (4.5,1.5) {3.03min};
+	\node at (5.5,1.5) {380s};
+	\node at (6.5,1.5) {6.7min};
+	\node at (0.5,0.5) {93s};
+	\node at (1.5,0.5) {2.55min};
+	\node at (2.5,0.5) {187s};
+	\node at (3.5,0.5) {3.06min};
+	\node at (4.5,0.5) {177s};
+	\node at (5.5,0.5) {6.13min};
+	\node at (6.5,0.5) {412s};
+\end{tikzpicture}
+\end{center}

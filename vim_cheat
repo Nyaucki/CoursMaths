@@ -1,0 +1,5 @@
+:tabe <file name> # Ouvre un fichier dans une atre tab
+gt # Passe à la tab suivante
+gT # Passe à la tab précédente
+
+:UltiSnipsEdit # Ouvre l'éditeur de snips

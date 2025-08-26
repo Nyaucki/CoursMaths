@@ -1,0 +1,13 @@
+\documentclass{article}
+\usepackage{pdfpages}
+\begin{document}
+\def\malfile{part2b.pdf}
+\pdfximage{\malfile}
+\newcount\malc %
+\malc=0
+\loop
+\advance\malc by 1%
+\includepdf[fitpaper,pages={\the\malc},scale=1]{part2b.pdf}%a finir
+\includepdf[fitpaper,pages={\the\malc},reflect,scale=1]{part3b.pdf}%a finir
+\ifnum\malc<\pdflastximagepages\repeat
+\end{document}

@@ -1,0 +1,87 @@
+\begin{pycode}
+from random import *
+from sympy import *
+x = Symbol('x')
+n = Symbol('n')
+
+#FONCTIONS AFFINES
+def randex(a,b,sign=True):
+	'''
+	Renvoie un entier aléatoire n tel que |n| soit compris entre a et b
+	'''
+	r = randint(a,b)
+	if sign :		
+		r = (-1)**randint(1,2)*r
+	return r
+
+a1=randint(1,6)
+b1=randint(2,7)
+c1=randint(5,10)
+d1=randint(1,5)
+cnt1=randint(0,3)
+
+if cnt1==0:
+	r1=a1+b1*c1-d1
+elif cnt1==1:
+	r1=(a1+b1)*c1-d1
+elif cnt1==2:
+	r1=(a1+b1)*(c1-d1)
+else :
+	r1=a1+b1*(c1-d1)
+
+a2=randint(1,5)
+b2=randint(3,8)
+d2=randint(2,7)
+c2=d2*randint(2,4)
+cnt2=randint(0,3)
+
+if cnt2==0:
+	r2=a2+2*c2//d2
+elif cnt2==1:
+	r2=(a2+b2)*c2//d2
+elif cnt2==2:
+	r2=(a2+b2)*(c2//d2)
+else :
+	r2=a2+b2*(c2//d2)
+
+b3=randint(3,8)
+c3=randint(2,9)
+a3=randint(2,6)
+d3=randint(2,7)
+
+b4=randint(2,5)
+c4=randint(3,9)
+a4=randint(6,10)
+d4=randint(1,7)
+
+b5=randint(3,6)
+c5=randint(1,6)
+d5=randint(1,5)
+e5=randint(2,5)
+a5=randint(1,6)
+
+\end{pycode}
+
+\hrulefill
+\begin{figure}[H]
+\centering
+\begin{tabularx}{0.9\textwidth}{p{2cm}p{8cm}X}
+5eme B & \textbf{Devoir Maison  - Pour le 11/10/2023} & Nom : \nom
+\end{tabularx}
+\end{figure}
+\hrulefill
+
+\subsection*{Exercice 1}  Placer les parenthèses (si nécessaire) pour rendre les égalités vraies.
+\begin{enumerate}
+	\item $\py{a1}+\py{b1}\times \py{c1}-\py{d1}=\py{r1}$
+	\item $\py{a2}+\py{b2}\times \py{c2}:\py{d2}=\py{r2}$
+\end{enumerate}
+
+\subsection*{Exercice 2}  Effectuer les calculs suivant en détaillant les calculs.
+\begin{enumerate}
+	\item $\py{a3}\times\py{b3}- \py{c3}+\py{d3}$
+	\item $(\py{a4}-\py{b4})\times \py{c4}+\py{d4}$
+	\item $((\py{a5}+\py{b5}\times \py{c5})-\py{d5})\times\py{e5}$
+\end{enumerate}
+
+

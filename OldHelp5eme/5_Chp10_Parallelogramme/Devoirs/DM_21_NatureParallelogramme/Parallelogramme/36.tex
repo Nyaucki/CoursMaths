@@ -1,0 +1,21 @@
+%Parallélogramme 
+
+\begin{center}
+   \begin{tikzpicture}[pencildraw/.style={
+    black!75,
+    decorate,
+    decoration={random steps,segment length=10pt,amplitude=1.5pt}
+}
+]
+        \draw[pencildraw] (0,0) coordinate (A) node[below left]{\cnt} --node[sloped, rotate=-30] {} (2,0) coordinate (B) node[below right]{\cnt}--node[sloped, rotate=-30] {} (3,2) coordinate (C) node[above right]{\cnt} --node[sloped, rotate=-30] {}(1,2) coordinate (D) node[above left]{\cnt}--node[sloped, rotate=-30] {}cycle ;
+        \draw[pencildraw] (A)--(C);
+        \draw[pencildraw] (B)--(D);
+        \draw [gray,right angle quadrant=1,right angle symbol={A}{C}{B}];
+    \end{tikzpicture} 
+
+    \addtocounter{letter}{-4}
+    $(\cnt\cnt)$ et $(\cnt\cnt)$ sont parallèles.
+    \\\addtocounter{letter}{-3}
+    $(\cnt\cnt)$ et $(\cnt\addtocounter{letter}{-4}\cnt)$\addtocounter{letter}{3} sont parallèles.
+    
+\end{center}

@@ -1,1 +1,0 @@
-{"rule":"FRENCH_WORD_REPEAT_RULE","sentence":"^\\QType Brevet Brevet Long On considère le programme de calucl suivant : Choisir un nombre Lui ajouter 1 Calculer le carré de cette somme Enlever 16 au résultat obtenu\\E$"}

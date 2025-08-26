@@ -1,5 +1,0 @@
-randex
-randint
-return
-sign
-def

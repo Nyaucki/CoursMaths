@@ -1,0 +1,141 @@
+%! TEX root = ../Cours..
+
+\section{Exercices types}
+	\subsection{Un nombre est-il un diviseur ?}
+
+\begin{minipage}[t]{0.45\textwidth}
+	\underbar{Montrons que 23 est un diviseur de 11776.}
+
+	Pour cela, posons la division euclidienne de 11776 par 23.
+	$$\opdiv[displayintermediary=all]{11776}{23}$$	
+
+	Le reste est égal à zéro, donc 23 est bien un diviseur de 11776.
+
+	\rmq {On vient aussi de montrer que 11776 est un multiple de 23.}
+
+\end{minipage}
+\hfil
+\vrule
+\hfil
+\begin{minipage}[t]{0.45\textwidth}
+	\underbar{Montrons que 13 n'est pas diviseur de 11776.}
+
+	Pour cela, posons la division euclidienne de 11776 par 13.
+	$$\opidiv[displayintermediary=all]{11776}{13}$$
+
+	Le reste n'est pas égal à zéro, donc 13 n'est pas un diviseur de 11776.
+
+	\rmq{On vient aussi de montrer que 11776 n'est pas un multiple de 13.}
+\end{minipage}
+
+\subsection{Trouver tous les diviseurs d'un nombre}
+
+\underbar{On cherche tous les diviseurs de 117}
+
+On teste donc les diviseurs potentiels : 
+\begin{multicols}{4}
+	117 n'est pas pair. Donc 2 n'est pas un diviseur de 117.
+	\columnbreak
+
+	1+1+7=9. Donc 3 est un diviseur de 117, et on a $117\div3=39$.
+	\columnbreak
+
+	4 est un multiple de 2 qui n'est pas un diviseur de 117, 4 n'est pas un diviseur de 117.(Idem pour 6 ; 8 ; 10 et 12).
+	\columnbreak
+
+	117 ne finit pas par 5. Donc 5 n'est pas un diviseur de 117.	
+\end{multicols}
+\begin{multicols}{4}
+	\divreste{117}{7} Donc 117 n'est pas divisible par 7.
+	\columnbreak
+
+	$117\div9=13$ donc 9 est un diviseur de 7.
+	\columnbreak
+
+	\divreste{117}{11} Donc 117 n'est pas divisible par 11.
+	\columnbreak
+
+	$117\div13=9$ donc 13 est un diviseur de 117.
+\end{multicols}
+
+\rmq{Il est inutile d'aller plus loin, on retrouve déjà des diviseurs qui étaient quotients aux étapes précédentes.}
+
+Les diviseurs de 117 sont donc : 1 ; 3 ; 9 ; 13 ; 39 et 117.
+
+\rmq{On fera bien attention à ne pas oublier 1 et 117.}
+
+
+\subsection{Un nombre est il-premier ?}
+\underbar{Montrons que 539 n'est pas premier.}
+
+Pour cela, il suffit de trouver un seul diviseur de 539 qui ne soit ni 1, ni 539. En suivant la même méthode que pour l'exercice précédent, on trouve : $539\div11=49$. Donc 539 a au moins deux autres diviseurs : 11 et 49.
+
+Ainsi, 539 n'est pas un nombre premier.
+
+\underbar{Montrons que 151 est un nombre premier.}
+
+Pour cela, testons si 151 admet des diviseurs autre que 1 et lui même.
+
+\rmq{Il suffit de tester avec les nombres premiers dans l'ordre, jusqu'à trouver un diviseur, ou jusqu'à ce que le quotient devienne inférieur au diviseur (ici 13).}
+
+\begin{multicols}{4}
+\foreach \x in {2,5,11,3,7,13}
+{
+	\underbar{Essayons avec \x :}
+	\opidiv[style=text,equalsymbol=$\div$,mulsymbol={$=$},addsymbol=~reste~]{151}{\x}
+	Donc 151 n'est pas divisible par \x
+
+}
+\end{multicols}
+
+A partir de 13, le quotient est supérieur au reste. Il n'est donc pas nécessaire de continuer. Ainsi, 151 est bien un nombre premier.
+
+\subsection{Décomposition en produit de facteurs premiers}
+\underbar{Décomposons 210 en produit de facteurs premiers.}
+
+Cherchons les diviseurs premier de 210 :
+\begin{itemize}
+	\item $210\div2=105$
+	\item $105\div5=21$
+	\item 21\div3=7$
+\end{itemize}
+
+Comme 7 est un nombre premier, on s'arrête ici. La décomposition est donc $210=2 \times3 \times5 \times7$
+
+\subsection{Conversion de durée}
+\begin{minipage}[t]{0.45\textwidth}
+	\underbar{5406 secondes en heures.}
+	
+	Il y a 60 secondes dans une minutes. On divise donc par 60. $5406\div60=90$ reste 6. Ainsi, 5406s=90min+6s.
+
+	Il y a 60 minutes dans une heure. On divise donc par 60. $90\div60=1$ reste 30. Ainsi, 5406s=90min+6s=1h+30min+6s.
+\end{minipage}
+\hfil
+\vrule
+\hfil
+\begin{minipage}[t]{0.45\textwidth}
+	\underbar{2,3 jours en minutes.}
+
+	Il y a 24 heures par jour. On multiplie donc par 24. $2,3j=2,3 \times24=55,2h$
+
+	Il y a 60 minutes dans une heure. On multiplie donc par 60. $55,2 \times60=3312$.
+
+	Donc, 2,3j=55,2h=3312min.
+\end{minipage}
+
+\subsection{Additionner des durées}
+\underbar{Ajouter 37 minutes à 15h42.}
+
+On ajoute les minutes avec les minutes : 37+42=79.
+
+On divise par 60 pour convertir le résultat en heures : $79\div60=1$ reste 19.
+
+On ajoute aux heures.
+\begin{align*}
+	&15h42+37min\\
+	=&15h+79min\\
+	=&15h+1h+19min\\
+	=&16h19min
+\end{align*}
+
+

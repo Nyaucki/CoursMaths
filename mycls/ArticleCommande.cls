@@ -31,19 +31,31 @@
 \RequirePackage{refcount}
 \RequirePackage{fourier}
 \RequirePackage{enumitem}
+\RequirePackage{cancel} % Pour rayer des mots dans maths modes
 \RequirePackage{pgffor} %Pour bouclke loop
+\RequirePackage{xlop} % Pour les opérations.
+\RequirePackage{array} % Pour le m dans les tableaux
 
 \usetikzlibrary{positioning}
 \usetikzlibrary{calc}%Pour extend line
 \usetikzlibrary{math}%Pour définir variables dans Tikz
 \usetikzlibrary{arrows.meta} %pour faire des flèches
 \usetikzlibrary{babel} % permet d'éviter d'utiliser \shorthandoff{:!}
+\usetikzlibrary{decorations.pathmorphing} % Permetr le style fait main sur les figures
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SETTING %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \hyphenpenalty=10000 %Pas couper les mots
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES TIKZ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \tikzset[pencildraw/.style={
+%     black!75,
+%     decorate,
+%     decoration={random steps,segment length=10pt,amplitude=2pt}
+% }
+% ] % Pour effet fait main
+
 
 \tikzset{ %Pour marquer les perpendiculaires
     right angle quadrant/.code={
@@ -69,6 +81,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% AUTRES COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+    \newcommand{\divreste}[2]
+    {
+	\opidiv[style=text,equalsymbol=$\div$,mulsymbol={$=$},addsymbol=~reste~]{#1}{#2}
+	}
+
 \newcommand{\dotlines}[2][0.3]{
     \foreach \n in {0,...,#2}
     {
@@ -76,7 +93,9 @@
 
     \dotfill
     }
+    \vspace*{1em}
 }
+
 
 \newcommand{\makeAlph}[1]{\@Alph{#1}}%Transforme nombre en lettre
 

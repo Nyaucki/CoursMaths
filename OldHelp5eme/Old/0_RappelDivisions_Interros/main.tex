@@ -1,0 +1,145 @@
+\documentclass[12pt,a4paper,french]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{babel}
+\usepackage[T1]{fontenc}
+\usepackage{dsfont}
+\usepackage{amsmath}
+\usepackage[top=2cm,bottom=2cm,left=1.5cm, right=1.5cm]{geometry}
+\usepackage{tcolorbox}
+\usepackage{parskip}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{tikz}
+\usepackage{appendix}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{rotating}
+\usepackage{esvect}
+\usepackage{cancel}
+\usetikzlibrary{positioning}
+\usepackage{pgfpages}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{tkz-euclide}
+\usepackage{esvect}
+\usepackage{lipsum}
+\usepackage{comment}
+%\pgfpagesuselayout{2 on 1}[a4paper,landscape]\pgfpageslogicalpageoptions{1}{border code=\pgfusepath{stroke}}\pgfpageslogicalpageoptions{2}{border code=\pgfusepath{stroke}} %2 en 1
+
+\AtBeginDocument{\renewcommand\labelitemi{$\bullet$}}%Itemize avec des bullet !
+
+\pagestyle{fancy} %Pour le header
+\pagenumbering{gobble} %Pas de numéro de page
+
+\graphicspath{ {./Images/} }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    AIDE    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\refstepcounter{propcntr}\label{chgtdnmntr}\addtocounter{propcntr}{-1} %Ref to counter
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% COMMANDES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+
+\newcommand{\rmq}{\textbf{Remarque~:~}}%Remarque
+
+\newcounter{propcntr}%PROPRIETE
+    \newtcolorbox{prop}[1]{colback=white,colframe=gray,fonttitle=\bfseries,title=\stepcounter{propcntr} Propriété~\arabic{propcntr}~: \MakeUppercase#1}%Boite propriétés
+
+\newcounter{defcntr}%Définition
+    \newtcolorbox{dfnt}[1]{colback=white,colframe=lightgray,fonttitle=\bfseries,title=\stepcounter{defcntr} Définition~\arabic{defcntr}~: \MakeUppercase#1}%Boite definition
+
+\newtcolorbox{mybox}[1]{colback=white,colframe=lightgray,fonttitle=\bfseries,title=\stepcounter{defcntr} #1}
+
+
+\newcounter{exmplcntr}%Exemple
+    \newcommand*{\exmplist}[3]{\stepcounter{exmplcntr}{\textbf{Exemple~\arabic{exmplcntr}~:~\medskip}
+        \begin{itemize}
+            \item [$\bullet$] #1\medskip
+            \item [$\bullet$] #2\medskip
+            \item [$\bullet$] #3
+        \end{itemize}\medskip}}%Avec liste
+    \newcommand*{\exmpl}{\stepcounter{exmplcntr}{\textbf{Exemple~\arabic{exmplcntr}~:~}}}%sans liste
+
+\newcounter{excntr}%(a)
+    \newcommand*{\cnt}{\stepcounter{excntr}{(\alph{excntr})~~}}
+\newcounter{excntrb}%(1)
+    \newcommand*{\cntb}{\stepcounter{excntrb}{(\arabic{excntrb})~~}\setcounter{excntr}{0}}
+\newcounter{exrcntr}%counter d'exo
+    \newcommand*{\exrc}{\bigskip \stepcounter{exrcntr}{\textbf{Exercice~\arabic{exrcntr}~:~}}\setcounter{excntr}{0}\setcounter{excntrb}{0}}
+
+
+\newif\ifshowcours%Pour cacher le cours
+    \showcoursfalse
+    \newcommand{\cours}[1]{\ifshowcours #1 \fi}
+%\showcourstrue%Montre le cours
+
+
+\newif\ifshowdemo%Pour cacher le cours
+    \showdemofalse
+    \newcommand{\demo}[1]{\ifshowdemo \ifshowcours \textbf{Démonstration:}
+    
+    #1 \fi \fi}
+%\sohwdemotrue%Montre les demos
+
+\newif\ifshowsolutions%Pour cacher les solutions
+    \showsolutionsfalse
+    \newcommand{\solution}[1]{\setcounter{excntr}{0}\setcounter{excntrb}{0}{\color{red}\ifshowsolutions Solution~:~ 
+    
+   \begin{turn}{180} #1 \end{turn}\fi}}
+%\showsolutionstrue%Montre les solutions
+
+
+\ExplSyntaxOn
+\newcommand\testsolution[1]
+  { \tl_if_empty:nTF {#1} {} {\\ \solution{#1} } }
+\ExplSyntaxOff %Une solution si remplie, rien sinon
+
+\newif\ifshowexo%Pour cacher les exercices
+    \showexofalse
+    \newcommand{\exo}[2][]{\ifshowexo \exrc #2 \testsolution{#1} \fi}
+%\showexotrue%Montre les exercices
+
+\newcommand*{\exrl}[3][]{\bigskip {\setcounter{excntr}{0}\setcounter{excntrb}{0} \ifshowexo \textbf{Exercice~#2~page~#3~:~}}\testsolution{#1} \fi}
+
+\newif\ifshowcounter%Pour cacher le cours
+    \showcounterfalse
+
+\newcommand*{\propriete}[3][]{
+    \cours{
+        \begin{prop}{#2}
+            #3
+            \end{prop}
+        #1}
+   \ifshowcours  \else \ifshowcounter\stepcounter{propcntr} \textbf{Propriété~\arabic{propcntr}~:}~#2 \fi\fi}
+   
+\newcommand*{\definition}[3][]{
+    \cours{
+        \begin{dfnt}{#2}
+            #3
+            \end{dfnt}
+        #1}
+   \ifshowcours  \else \ifshowcounter\stepcounter{defcntr} \textbf{Définition~\arabic{defcntr}~:}~#2 \fi\fi}
+
+\newcommand*{\methode}[2]{
+    \cours{
+        \begin{mybox}{\textbf{Méthode : }#1}
+            #2
+            \end{mybox}
+        }}
+
+\newcommand*{\vcoord}[2]
+    {\begin{pmatrix}
+        #1 \\ #2
+    \end{pmatrix}}
+
+\begin{document}
+
+\input{Switches}
+
+\include{Texte}
+
+\end{document}

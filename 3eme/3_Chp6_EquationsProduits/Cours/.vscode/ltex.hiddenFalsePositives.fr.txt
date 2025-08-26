@@ -1,2 +1,0 @@
-{"rule":"AGREEMENT_POSTPONED_ADJ","sentence":"^\\QChapitre 6 : Les équations produits\\E$"}
-{"rule":"ACCORD_R_PERS_VERBE","sentence":"^\\QEntre deux lignes de calcul, on ne peut pas mettre de signe égal puisqu'on risquerai de confondre avec celui de l'équation.\\E$"}

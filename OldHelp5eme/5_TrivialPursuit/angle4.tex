@@ -1,0 +1,6 @@
+\begin{tikzpicture}[scale=0.6]
+            \draw (-2,0) coordinate (A) -- (2,0) coordinate (B)--(0,3) coordinate (C)--cycle;
+            \draw pic["?",draw=blue,fill=blue!20,angle eccentricity=1.2, angle radius=0.8cm]{angle=C--B--A};
+            \draw pic["\tiny{56}",draw=orange,fill=orange!20,angle eccentricity=1.2, angle radius=0.9cm]{angle=B--A--C};
+            \draw pic["\tiny{13}",draw=green,fill=green!20,angle eccentricity=1.2, angle radius=0.9cm]{angle=A--C--B};
+        \end{tikzpicture}

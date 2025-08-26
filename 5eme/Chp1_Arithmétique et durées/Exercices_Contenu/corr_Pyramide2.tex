@@ -1,0 +1,16 @@
+\begin{center}
+	\begin{tikzpicture}[scale=1.5]
+ 		\foreach \j [count=\xi]  in {2h 1s}
+ 				{\draw (-3+2*\xi,0) rectangle (-1+2*\xi,1);
+ 				\node at (-2+2*\xi,0.5) {\j};}
+ 		\foreach \j [count=\xi]  in {1h 4min 2s, 55min 59s}
+ 				{\draw (-4+2*\xi,-1) rectangle (-2+2*\xi,0);
+ 				\node at (-3+2*\xi,-0.5) {\j};}
+ 		\foreach \j [count=\xi]  in {25min 1s, 39min 1s, 16min 58s}
+ 				{\draw (-5+2*\xi,-2) rectangle (-3+2*\xi,-1);
+ 				\node at (-4+2*\xi,-1.5) {\j};}
+ 		\foreach \j [count=\xi]  in {15min 2s, 9min 59s, 29min 2s, 10min 59s}
+ 				{\draw (-6+2*\xi,-3) rectangle (-4+2*\xi,-2);
+ 				\node at (-5+2*\xi,-2.5) {\j};}
+\end{tikzpicture}
+	\end{center}

@@ -1,3 +1,0 @@
-\beamer@sectionintoc {1}{Retour sur les équations produits}{2}{0}{1}
-\beamer@sectionintoc {2}{Vocabulaire}{3}{0}{2}
-\beamer@sectionintoc {3}{Propriété : la trigonométrie}{5}{0}{3}

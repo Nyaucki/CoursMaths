@@ -1,0 +1,120 @@
+\begin{pycode}
+from random import *
+from sympy import *
+
+
+x = Symbol('x')
+n = Symbol('n')
+
+#FONCTIONS AFFINES
+def randex(a,b,sign=True):
+	'''
+	Renvoie un entier aléatoire n tel que |n| soit compris entre a et b
+	'''
+	r = randint(a,b)
+	if sign :		
+		r = (-1)**randint(1,2)*r
+	return r
+
+a1=randint(101,199)
+b1=randint(1,2)
+
+a2=randint(101,199)
+b2=randint(1,2)
+
+
+a3=randint(1001,9999)
+b3=randint(2,3)
+
+
+b4=randint(2,3)
+a4=randint(1,9)*10**(b4-1)+randint(1,9)
+
+a5=randint(1231,1239)
+b5=randint(2,3)
+
+a6=randint(9991,9999)
+b6=randint(2,3)
+
+a7=randint(871,879)
+b7=randint(4,5)
+
+a8=randint(1,9)
+b8=randint(2,3)
+
+
+\end{pycode}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hrulefill
+\begin{figure}[H]
+\centering
+\begin{tabularx}{0.9\textwidth}{p{2cm}p{8cm}X}
+5eme H & \textbf{Devoir Maison 2 - Pour le 26/09/2024} & Nom : \nom
+\end{tabularx}
+\end{figure}
+\vspace{-1em}
+\hrulefill
+
+\begin{center}
+	Si vous voulez aider \prenom , merci de ne pas juste lui donner la solution. 
+
+	En prenant le temps de lui expliquer, vous l'aiderez beaucoup plus.
+\end{center}
+
+
+\medskip
+
+Ecrire les fractions suivantes sous forme de nombres à virgules.
+\begin{multicols}{4}
+	\begin{enumerate}[label=\Alph*.]
+		\item  $\dfrac{\py{a1}}{\py{10**b1}}$
+		\item  $\dfrac{\py{a2}}{\py{10**b2}}$
+		\item  $\dfrac{\py{a3}}{\py{10**b3}}$
+		\item  $\dfrac{\py{a4}}{\py{10**b4}}$
+	\end{enumerate}
+\end{multicols}
+
+Ecrire les nombres suivants sous forme de fractions décimales.
+\begin{multicols}{4}
+	\begin{enumerate}[label=\Alph*.]
+		\setcounter{enumi}{4}
+		\item  $\py{a5/10**b5}$
+		\item  $\py{a6/10**b6}$
+		\item  $\py{a7/10**b7}$
+		\item  $\py{a8/10**b8}$
+	\end{enumerate}
+\end{multicols}
+
+\vfill
+
+\hrulefill
+\begin{figure}[H]
+\centering
+\begin{tabularx}{0.9\textwidth}{p{2cm}p{8cm}X}
+5eme H & \textbf{Devoir Maison 1 - Correction} & Nom : \nom
+\end{tabularx}
+\end{figure}
+\vspace{-1em}
+\hrulefill
+
+
+\begin{multicols}{4}
+	\begin{enumerate}[label=\Alph*.]
+		\item  $\py{a1/10**b1}$
+		\item  $\py{a2/10**b2}$
+		\item  $\py{a3/10**b3}$
+		\item  $\py{a4/10**b4}$
+	\end{enumerate}	
+\end{multicols}
+
+\begin{multicols}{4}
+	\begin{enumerate}[label=\Alph*.]
+		\setcounter{enumi}{4}
+		\item  $\dfrac{\py{a5}}{\py{10**b5}}$
+		\item  $\dfrac{\py{a6}}{\py{10**b6}}$
+		\item  $\dfrac{\py{a7}}{\py{10**b7}}$
+		\item  $\dfrac{\py{a8}}{\py{10**b8}}$
+	\end{enumerate}
+\end{multicols}

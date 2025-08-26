@@ -1,0 +1,14 @@
+% Carré
+
+\begin{center}
+   \begin{tikzpicture}[pencildraw/.style={
+    black!75,
+    decorate,
+    decoration={random steps,segment length=10pt,amplitude=1.5pt}
+}
+]
+        \draw[pencildraw] (0,0) coordinate (A) node[below left]{\cnt} --node[sloped, rotate=-30] {$|||$} (3,0) coordinate (B) node[below right]{\cnt}--node[sloped, rotate=-30] {$|||$} (2.7,2) coordinate (C) node[above right]{\cnt} --node[sloped, rotate=-30] {}(0/3,2) coordinate (D) node[above left]{\cnt}--node[sloped, rotate=-30] {}cycle ;
+        \draw[pencildraw] (A)--node[sloped, rotate=-30] {$\parallel$} ($(A)!0.5!(C)$)--node[sloped, rotate=-30] {$\parallel$} (C);
+        \draw[pencildraw] (B)--node[sloped, rotate=30] {$\parallel$} ($(B)!0.5!(D)$)--node[sloped, rotate=30] {$\parallel$} (D);
+    \end{tikzpicture} 
+\end{center}
